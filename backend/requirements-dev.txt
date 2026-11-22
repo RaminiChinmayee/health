@@ -1,0 +1,9 @@
+# Tests, model training and evaluation scripts (not needed to run the app).
+-r requirements.txt
+pytest==9.2.0
+httpx==0.28.1
+aiosmtpd==1.4.6
+scipy==1.18.1
+jiwer==4.0.0
+matplotlib==3.11.2
+libarchive-c==5.3

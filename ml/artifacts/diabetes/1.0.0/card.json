@@ -1,0 +1,269 @@
+{
+  "key": "diabetes",
+  "version": "1.0.0",
+  "title": "Diabetes risk (lab values)",
+  "task": "binary_classification",
+  "positive_label": "Diabetes within 5 years of examination (WHO criteria)",
+  "trained_at": "2026-11-21T06:36:26+00:00",
+  "algorithm": "logistic_regression",
+  "calibration": "Platt scaling (sigmoid), 5-fold, fit on development data",
+  "features": [
+    {
+      "name": "preg",
+      "kind": "number",
+      "required": false,
+      "min": 0,
+      "max": 20,
+      "step": 1
+    },
+    {
+      "name": "plas",
+      "kind": "number",
+      "required": true,
+      "min": 40,
+      "max": 300,
+      "step": 1,
+      "unit": "mg/dL"
+    },
+    {
+      "name": "pres",
+      "kind": "number",
+      "required": true,
+      "min": 30,
+      "max": 140,
+      "step": 1,
+      "unit": "mm Hg"
+    },
+    {
+      "name": "skin",
+      "kind": "number",
+      "required": false,
+      "min": 5,
+      "max": 100,
+      "step": 1,
+      "unit": "mm"
+    },
+    {
+      "name": "insu",
+      "kind": "number",
+      "required": false,
+      "min": 10,
+      "max": 900,
+      "step": 1,
+      "unit": "µU/mL"
+    },
+    {
+      "name": "mass",
+      "kind": "number",
+      "required": true,
+      "min": 12,
+      "max": 70,
+      "step": 0.1,
+      "unit": "kg/m²",
+      "profile_source": "bmi"
+    },
+    {
+      "name": "pedi",
+      "kind": "number",
+      "required": false,
+      "min": 0.05,
+      "max": 2.5,
+      "step": 0.001
+    },
+    {
+      "name": "age",
+      "kind": "number",
+      "required": true,
+      "min": 21,
+      "max": 100,
+      "step": 1,
+      "unit": "years",
+      "profile_source": "age"
+    }
+  ],
+  "reference_values": {
+    "preg": 3.0,
+    "plas": 117.0,
+    "pres": 72.0,
+    "skin": 29.0,
+    "insu": 125.0,
+    "mass": 32.4,
+    "pedi": 0.384,
+    "age": 30.0
+  },
+  "dataset": {
+    "name": "Pima Indians Diabetes Database (NIDDK), via OpenML #37",
+    "source": "https://www.openml.org/d/37",
+    "citation": "Smith JW, Everhart JE, Dickson WC, Knowler WC, Johannes RS. Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. Proc Annu Symp Comput Appl Med Care. 1988:261–265.",
+    "license": "Public domain (CC0) as distributed by OpenML",
+    "population": "768 women aged 21+ of Pima Native American heritage, near Phoenix, Arizona, USA",
+    "files": {
+      "pima.arff": "de2e5ee67a97714d8cabfad8abe892375fc621feed7e9bf76c11a4ee43f403f6"
+    },
+    "rows_after_dedup": 768,
+    "duplicates_removed": 0
+  },
+  "evaluation": {
+    "protocol": "stratified random 75/25 split",
+    "dev_rows": 576,
+    "test_rows": 192,
+    "model_selection_cv": {
+      "logistic_regression": {
+        "cv_roc_auc": 0.8358,
+        "best_params": {
+          "clf__C": 0.1
+        }
+      },
+      "random_forest": {
+        "cv_roc_auc": 0.8314,
+        "best_params": {
+          "clf__max_depth": 5,
+          "clf__min_samples_leaf": 5
+        }
+      },
+      "gradient_boosting": {
+        "cv_roc_auc": 0.824,
+        "best_params": {
+          "clf__learning_rate": 0.03,
+          "clf__max_depth": 2,
+          "clf__max_iter": 100
+        }
+      }
+    },
+    "test": {
+      "n": 192,
+      "positives": 67,
+      "accuracy": 0.7188,
+      "precision": 0.614,
+      "recall_sensitivity": 0.5224,
+      "specificity": 0.824,
+      "f1": 0.5645,
+      "roc_auc": 0.8219,
+      "pr_auc": 0.6845,
+      "brier": 0.1679,
+      "confusion_matrix": {
+        "tn": 103,
+        "fp": 22,
+        "fn": 32,
+        "tp": 35
+      },
+      "threshold": 0.5,
+      "ci95": {
+        "accuracy": [
+          0.651,
+          0.7812
+        ],
+        "roc_auc": [
+          0.7609,
+          0.8763
+        ],
+        "recall_sensitivity": [
+          0.4074,
+          0.6462
+        ],
+        "specificity": [
+          0.7541,
+          0.8935
+        ]
+      },
+      "calibration": [
+        {
+          "mean_predicted": 0.0583,
+          "observed_rate": 0.0256
+        },
+        {
+          "mean_predicted": 0.1402,
+          "observed_rate": 0.0789
+        },
+        {
+          "mean_predicted": 0.2747,
+          "observed_rate": 0.4474
+        },
+        {
+          "mean_predicted": 0.4759,
+          "observed_rate": 0.5
+        },
+        {
+          "mean_predicted": 0.785,
+          "observed_rate": 0.6923
+        }
+      ]
+    },
+    "cross_validation_all_data": {
+      "accuracy": {
+        "mean": 0.7656,
+        "std": 0.0285
+      },
+      "roc_auc": {
+        "mean": 0.8363,
+        "std": 0.0298
+      },
+      "recall_sensitivity": {
+        "mean": 0.556,
+        "std": 0.0701
+      },
+      "specificity": {
+        "mean": 0.878,
+        "std": 0.0404
+      },
+      "f1": {
+        "mean": 0.622,
+        "std": 0.0522
+      }
+    },
+    "external_validation": {},
+    "permutation_importance_test": [
+      {
+        "feature": "plas",
+        "importance": 0.1615,
+        "std": 0.0375
+      },
+      {
+        "feature": "mass",
+        "importance": 0.0398,
+        "std": 0.0171
+      },
+      {
+        "feature": "preg",
+        "importance": 0.0245,
+        "std": 0.0114
+      },
+      {
+        "feature": "pedi",
+        "importance": 0.0087,
+        "std": 0.0055
+      },
+      {
+        "feature": "age",
+        "importance": 0.0041,
+        "std": 0.0046
+      },
+      {
+        "feature": "pres",
+        "importance": 0.0002,
+        "std": 0.0002
+      },
+      {
+        "feature": "skin",
+        "importance": -0.0,
+        "std": 0.0004
+      },
+      {
+        "feature": "insu",
+        "importance": -0.0009,
+        "std": 0.0016
+      }
+    ]
+  },
+  "limitations": [
+    "Trained only on women of Pima heritage aged 21 or older, a population with very high diabetes prevalence. Results for men, younger people, and Indian populations are extrapolations and may be inaccurate.",
+    "The glucose input is the 2-hour value from an oral glucose tolerance test, not a fasting or random reading.",
+    "Many insulin and skin-fold values are missing in the source data; when you leave optional inputs blank they are filled with typical values.",
+    "Not a diagnosis. Diabetes is diagnosed with laboratory tests such as HbA1c or fasting glucose, interpreted by a clinician."
+  ],
+  "notes": [],
+  "environment": {
+    "python": "3.12.3",
+    "sklearn": "1.9.1"
+  }
+}

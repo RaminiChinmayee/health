@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Design tokens: medical blue, teal, white, subtle green. */
+@theme {
+  --color-brand-50: #eef6ff;
+  --color-brand-100: #d9eaff;
+  --color-brand-200: #b6d6fb;
+  --color-brand-300: #84b9f3;
+  --color-brand-400: #4b94e6;
+  --color-brand-500: #1f74d3;
+  --color-brand-600: #0b5cab;
+  --color-brand-700: #0a4b8c;
+  --color-brand-800: #0c3f72;
+  --color-brand-900: #0d335c;
+
+  --color-teal-50: #effcf9;
+  --color-teal-100: #c9f5ec;
+  --color-teal-500: #14b8a6;
+  --color-teal-600: #0d9488;
+  --color-teal-700: #0f766e;
+
+  --color-mint-50: #f0fdf4;
+  --color-mint-100: #dcfce7;
+  --color-mint-500: #22c55e;
+  --color-mint-600: #16a34a;
+
+  --font-sans: "Inter", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Telugu",
+    "Noto Sans Tamil", "Noto Sans Gujarati", "Noto Sans Kannada", "Noto Sans Oriya",
+    "Noto Sans Malayalam", ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.03), 0 6px 24px -6px rgb(15 23 42 / 0.08), 0 18px 40px -24px rgb(11 92 171 / 0.12);
+  --color-coral-50: #fff4f1;
+  --color-coral-100: #ffe3dc;
+  --color-coral-500: #f97362;
+  --color-coral-600: #e85a48;
+  --shadow-lift: 0 8px 30px rgb(11 92 171 / 0.12);
+
+  --animate-fade-up: fade-up 0.6s ease-out both;
+  --animate-pop: pop 0.15s ease-out both;
+  @keyframes pop {
+    from { opacity: 0; transform: translateY(-4px) scale(0.98); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+html { scroll-behavior: smooth; }
+/* Nastaliq has tall ascenders/descenders: give every text block generous leading,
+   overriding tight heading utilities, or lines collide. */
+html[lang="ur"] body { font-family: "Noto Nastaliq Urdu", var(--font-sans); line-height: 2; }
+html[lang="ur"] :is(h1, h2, h3, h4, p, li, summary, label, dd, dt) { line-height: 2.1 !important; letter-spacing: normal !important; }
+html[lang="ur"] :is(h1, h2) { padding-block: 0.15em; }
+/* Latin-only fragments (brand name, emails) stay in Inter. */
+html[lang="ur"] [dir="ltr"] { font-family: "Inter", ui-sans-serif, system-ui, sans-serif; line-height: 1.5; }
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+/* Soft dotted texture for app backgrounds. */
+.bg-dots { background-image: radial-gradient(rgb(11 92 171 / 0.07) 1px, transparent 1px); background-size: 22px 22px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Visible keyboard focus everywhere */
+:focus-visible { @apply outline-2 outline-offset-2 outline-brand-500; }

@@ -1,0 +1,830 @@
+{
+  "key": "symptoms",
+  "version": "1.0.0",
+  "title": "Symptom checker",
+  "task": "multiclass_matching",
+  "trained_at": "2026-11-21T07:15:15+00:00",
+  "algorithm": "bernoulli_nb+augment",
+  "symptoms": [
+    "itching",
+    "skin_rash",
+    "nodal_skin_eruptions",
+    "continuous_sneezing",
+    "shivering",
+    "chills",
+    "joint_pain",
+    "stomach_pain",
+    "acidity",
+    "ulcers_on_tongue",
+    "muscle_wasting",
+    "vomiting",
+    "burning_micturition",
+    "spotting_urination",
+    "fatigue",
+    "weight_gain",
+    "anxiety",
+    "cold_hands_and_feets",
+    "mood_swings",
+    "weight_loss",
+    "restlessness",
+    "lethargy",
+    "patches_in_throat",
+    "irregular_sugar_level",
+    "cough",
+    "high_fever",
+    "sunken_eyes",
+    "breathlessness",
+    "sweating",
+    "dehydration",
+    "indigestion",
+    "headache",
+    "yellowish_skin",
+    "dark_urine",
+    "nausea",
+    "loss_of_appetite",
+    "pain_behind_the_eyes",
+    "back_pain",
+    "constipation",
+    "abdominal_pain",
+    "diarrhoea",
+    "mild_fever",
+    "yellow_urine",
+    "yellowing_of_eyes",
+    "acute_liver_failure",
+    "swelling_of_stomach",
+    "swelled_lymph_nodes",
+    "malaise",
+    "blurred_and_distorted_vision",
+    "phlegm",
+    "throat_irritation",
+    "redness_of_eyes",
+    "sinus_pressure",
+    "runny_nose",
+    "congestion",
+    "chest_pain",
+    "weakness_in_limbs",
+    "fast_heart_rate",
+    "pain_during_bowel_movements",
+    "pain_in_anal_region",
+    "bloody_stool",
+    "irritation_in_anus",
+    "neck_pain",
+    "dizziness",
+    "cramps",
+    "bruising",
+    "obesity",
+    "swollen_legs",
+    "swollen_blood_vessels",
+    "puffy_face_and_eyes",
+    "enlarged_thyroid",
+    "brittle_nails",
+    "swollen_extremeties",
+    "excessive_hunger",
+    "extra_marital_contacts",
+    "drying_and_tingling_lips",
+    "slurred_speech",
+    "knee_pain",
+    "hip_joint_pain",
+    "muscle_weakness",
+    "stiff_neck",
+    "swelling_joints",
+    "movement_stiffness",
+    "spinning_movements",
+    "loss_of_balance",
+    "unsteadiness",
+    "weakness_of_one_body_side",
+    "loss_of_smell",
+    "bladder_discomfort",
+    "foul_smell_of_urine",
+    "continuous_feel_of_urine",
+    "passage_of_gases",
+    "internal_itching",
+    "toxic_look_typhos",
+    "depression",
+    "irritability",
+    "muscle_pain",
+    "altered_sensorium",
+    "red_spots_over_body",
+    "belly_pain",
+    "abnormal_menstruation",
+    "dischromic_patches",
+    "watering_from_eyes",
+    "increased_appetite",
+    "polyuria",
+    "family_history",
+    "mucoid_sputum",
+    "rusty_sputum",
+    "lack_of_concentration",
+    "visual_disturbances",
+    "receiving_blood_transfusion",
+    "receiving_unsterile_injections",
+    "coma",
+    "stomach_bleeding",
+    "distention_of_abdomen",
+    "history_of_alcohol_consumption",
+    "fluid_overload",
+    "blood_in_sputum",
+    "prominent_veins_on_calf",
+    "palpitations",
+    "painful_walking",
+    "pus_filled_pimples",
+    "blackheads",
+    "scurring",
+    "skin_peeling",
+    "silver_like_dusting",
+    "small_dents_in_nails",
+    "inflammatory_nails",
+    "blister",
+    "red_sore_around_nose",
+    "yellow_crust_ooze"
+  ],
+  "diseases": {
+    "bppv": "Benign paroxysmal positional vertigo",
+    "aids": "HIV/AIDS",
+    "acne": "Acne",
+    "alcoholic_hepatitis": "Alcoholic hepatitis",
+    "allergy": "Allergy",
+    "arthritis": "Arthritis",
+    "asthma": "Bronchial asthma",
+    "cervical_spondylosis": "Cervical spondylosis",
+    "chicken_pox": "Chickenpox",
+    "chronic_cholestasis": "Chronic cholestasis",
+    "common_cold": "Common cold",
+    "dengue": "Dengue",
+    "diabetes": "Diabetes",
+    "hemorrhoids": "Haemorrhoids (piles)",
+    "drug_reaction": "Drug reaction",
+    "fungal_infection": "Fungal infection",
+    "gerd": "Gastro-oesophageal reflux disease (GERD)",
+    "gastroenteritis": "Gastroenteritis",
+    "heart_attack": "Heart attack",
+    "hepatitis_b": "Hepatitis B",
+    "hepatitis_c": "Hepatitis C",
+    "hepatitis_d": "Hepatitis D",
+    "hepatitis_e": "Hepatitis E",
+    "hypertension": "Hypertension",
+    "hyperthyroidism": "Hyperthyroidism",
+    "hypoglycemia": "Hypoglycaemia",
+    "hypothyroidism": "Hypothyroidism",
+    "impetigo": "Impetigo",
+    "jaundice": "Jaundice",
+    "malaria": "Malaria",
+    "migraine": "Migraine",
+    "osteoarthritis": "Osteoarthritis",
+    "brain_hemorrhage": "Paralysis (brain haemorrhage)",
+    "peptic_ulcer": "Peptic ulcer disease",
+    "pneumonia": "Pneumonia",
+    "psoriasis": "Psoriasis",
+    "tuberculosis": "Tuberculosis",
+    "typhoid": "Typhoid",
+    "uti": "Urinary tract infection",
+    "varicose_veins": "Varicose veins",
+    "hepatitis_a": "Hepatitis A"
+  },
+  "typical_symptoms": {
+    "acne": [
+      "blackheads",
+      "pus_filled_pimples",
+      "scurring",
+      "skin_rash"
+    ],
+    "aids": [
+      "extra_marital_contacts",
+      "high_fever",
+      "muscle_wasting",
+      "patches_in_throat"
+    ],
+    "alcoholic_hepatitis": [
+      "abdominal_pain",
+      "distention_of_abdomen",
+      "fluid_overload",
+      "history_of_alcohol_consumption",
+      "swelling_of_stomach",
+      "vomiting",
+      "yellowish_skin"
+    ],
+    "allergy": [
+      "chills",
+      "continuous_sneezing",
+      "shivering",
+      "watering_from_eyes"
+    ],
+    "arthritis": [
+      "movement_stiffness",
+      "muscle_weakness",
+      "painful_walking",
+      "stiff_neck",
+      "swelling_joints"
+    ],
+    "asthma": [
+      "breathlessness",
+      "cough",
+      "family_history",
+      "fatigue",
+      "high_fever",
+      "mucoid_sputum"
+    ],
+    "bppv": [
+      "headache",
+      "loss_of_balance",
+      "nausea",
+      "spinning_movements",
+      "unsteadiness",
+      "vomiting"
+    ],
+    "brain_hemorrhage": [
+      "altered_sensorium",
+      "headache",
+      "vomiting",
+      "weakness_of_one_body_side"
+    ],
+    "cervical_spondylosis": [
+      "back_pain",
+      "dizziness",
+      "loss_of_balance",
+      "neck_pain",
+      "weakness_in_limbs"
+    ],
+    "chicken_pox": [
+      "fatigue",
+      "headache",
+      "high_fever",
+      "itching",
+      "lethargy",
+      "loss_of_appetite",
+      "malaise",
+      "mild_fever",
+      "red_spots_over_body",
+      "skin_rash",
+      "swelled_lymph_nodes"
+    ],
+    "chronic_cholestasis": [
+      "abdominal_pain",
+      "itching",
+      "loss_of_appetite",
+      "nausea",
+      "vomiting",
+      "yellowing_of_eyes",
+      "yellowish_skin"
+    ],
+    "common_cold": [
+      "chest_pain",
+      "chills",
+      "congestion",
+      "continuous_sneezing",
+      "cough",
+      "fatigue",
+      "headache",
+      "high_fever",
+      "loss_of_smell",
+      "malaise",
+      "muscle_pain",
+      "phlegm",
+      "redness_of_eyes",
+      "runny_nose",
+      "sinus_pressure",
+      "swelled_lymph_nodes",
+      "throat_irritation"
+    ],
+    "dengue": [
+      "back_pain",
+      "chills",
+      "fatigue",
+      "headache",
+      "high_fever",
+      "joint_pain",
+      "loss_of_appetite",
+      "malaise",
+      "muscle_pain",
+      "nausea",
+      "pain_behind_the_eyes",
+      "red_spots_over_body",
+      "skin_rash",
+      "vomiting"
+    ],
+    "diabetes": [
+      "blurred_and_distorted_vision",
+      "excessive_hunger",
+      "fatigue",
+      "increased_appetite",
+      "irregular_sugar_level",
+      "lethargy",
+      "obesity",
+      "polyuria",
+      "restlessness",
+      "weight_loss"
+    ],
+    "drug_reaction": [
+      "burning_micturition",
+      "itching",
+      "skin_rash",
+      "spotting_urination",
+      "stomach_pain"
+    ],
+    "fungal_infection": [
+      "dischromic_patches",
+      "itching",
+      "nodal_skin_eruptions",
+      "skin_rash"
+    ],
+    "gastroenteritis": [
+      "dehydration",
+      "diarrhoea",
+      "sunken_eyes",
+      "vomiting"
+    ],
+    "gerd": [
+      "acidity",
+      "chest_pain",
+      "cough",
+      "stomach_pain",
+      "ulcers_on_tongue",
+      "vomiting"
+    ],
+    "heart_attack": [
+      "breathlessness",
+      "chest_pain",
+      "sweating",
+      "vomiting"
+    ],
+    "hemorrhoids": [
+      "bloody_stool",
+      "constipation",
+      "irritation_in_anus",
+      "pain_during_bowel_movements",
+      "pain_in_anal_region"
+    ],
+    "hepatitis_a": [
+      "abdominal_pain",
+      "dark_urine",
+      "diarrhoea",
+      "joint_pain",
+      "loss_of_appetite",
+      "mild_fever",
+      "muscle_pain",
+      "nausea",
+      "vomiting",
+      "yellowing_of_eyes",
+      "yellowish_skin"
+    ],
+    "hepatitis_b": [
+      "abdominal_pain",
+      "dark_urine",
+      "fatigue",
+      "itching",
+      "lethargy",
+      "loss_of_appetite",
+      "malaise",
+      "receiving_blood_transfusion",
+      "receiving_unsterile_injections",
+      "yellow_urine",
+      "yellowing_of_eyes",
+      "yellowish_skin"
+    ],
+    "hepatitis_c": [
+      "family_history",
+      "fatigue",
+      "loss_of_appetite",
+      "nausea",
+      "yellowing_of_eyes",
+      "yellowish_skin"
+    ],
+    "hepatitis_d": [
+      "abdominal_pain",
+      "dark_urine",
+      "fatigue",
+      "joint_pain",
+      "loss_of_appetite",
+      "nausea",
+      "vomiting",
+      "yellowing_of_eyes",
+      "yellowish_skin"
+    ],
+    "hepatitis_e": [
+      "abdominal_pain",
+      "acute_liver_failure",
+      "coma",
+      "dark_urine",
+      "fatigue",
+      "high_fever",
+      "joint_pain",
+      "loss_of_appetite",
+      "nausea",
+      "stomach_bleeding",
+      "vomiting",
+      "yellowing_of_eyes",
+      "yellowish_skin"
+    ],
+    "hypertension": [
+      "chest_pain",
+      "dizziness",
+      "headache",
+      "lack_of_concentration",
+      "loss_of_balance"
+    ],
+    "hyperthyroidism": [
+      "abnormal_menstruation",
+      "diarrhoea",
+      "excessive_hunger",
+      "fast_heart_rate",
+      "fatigue",
+      "irritability",
+      "mood_swings",
+      "muscle_weakness",
+      "restlessness",
+      "sweating",
+      "weight_loss"
+    ],
+    "hypoglycemia": [
+      "anxiety",
+      "blurred_and_distorted_vision",
+      "drying_and_tingling_lips",
+      "excessive_hunger",
+      "fatigue",
+      "headache",
+      "irritability",
+      "nausea",
+      "palpitations",
+      "slurred_speech",
+      "sweating",
+      "vomiting"
+    ],
+    "hypothyroidism": [
+      "abnormal_menstruation",
+      "brittle_nails",
+      "cold_hands_and_feets",
+      "depression",
+      "dizziness",
+      "enlarged_thyroid",
+      "fatigue",
+      "irritability",
+      "lethargy",
+      "mood_swings",
+      "puffy_face_and_eyes",
+      "swollen_extremeties",
+      "weight_gain"
+    ],
+    "impetigo": [
+      "blister",
+      "high_fever",
+      "red_sore_around_nose",
+      "skin_rash",
+      "yellow_crust_ooze"
+    ],
+    "jaundice": [
+      "abdominal_pain",
+      "dark_urine",
+      "fatigue",
+      "high_fever",
+      "itching",
+      "vomiting",
+      "weight_loss",
+      "yellowish_skin"
+    ],
+    "malaria": [
+      "chills",
+      "diarrhoea",
+      "headache",
+      "high_fever",
+      "muscle_pain",
+      "nausea",
+      "sweating",
+      "vomiting"
+    ],
+    "migraine": [
+      "acidity",
+      "blurred_and_distorted_vision",
+      "depression",
+      "excessive_hunger",
+      "headache",
+      "indigestion",
+      "irritability",
+      "stiff_neck",
+      "visual_disturbances"
+    ],
+    "osteoarthritis": [
+      "hip_joint_pain",
+      "joint_pain",
+      "knee_pain",
+      "neck_pain",
+      "painful_walking",
+      "swelling_joints"
+    ],
+    "peptic_ulcer": [
+      "abdominal_pain",
+      "indigestion",
+      "internal_itching",
+      "loss_of_appetite",
+      "passage_of_gases",
+      "vomiting"
+    ],
+    "pneumonia": [
+      "breathlessness",
+      "chest_pain",
+      "chills",
+      "cough",
+      "fast_heart_rate",
+      "fatigue",
+      "high_fever",
+      "malaise",
+      "phlegm",
+      "rusty_sputum",
+      "sweating"
+    ],
+    "psoriasis": [
+      "inflammatory_nails",
+      "joint_pain",
+      "silver_like_dusting",
+      "skin_peeling",
+      "skin_rash",
+      "small_dents_in_nails"
+    ],
+    "tuberculosis": [
+      "blood_in_sputum",
+      "breathlessness",
+      "chest_pain",
+      "chills",
+      "cough",
+      "fatigue",
+      "high_fever",
+      "loss_of_appetite",
+      "malaise",
+      "mild_fever",
+      "phlegm",
+      "sweating",
+      "swelled_lymph_nodes",
+      "vomiting",
+      "weight_loss",
+      "yellowing_of_eyes"
+    ],
+    "typhoid": [
+      "abdominal_pain",
+      "belly_pain",
+      "chills",
+      "constipation",
+      "diarrhoea",
+      "fatigue",
+      "headache",
+      "high_fever",
+      "nausea",
+      "toxic_look_typhos",
+      "vomiting"
+    ],
+    "uti": [
+      "bladder_discomfort",
+      "burning_micturition",
+      "continuous_feel_of_urine",
+      "foul_smell_of_urine"
+    ],
+    "varicose_veins": [
+      "bruising",
+      "cramps",
+      "fatigue",
+      "obesity",
+      "prominent_veins_on_calf",
+      "swollen_blood_vessels",
+      "swollen_legs"
+    ]
+  },
+  "urgent_diseases": [
+    "alcoholic_hepatitis",
+    "brain_hemorrhage",
+    "dengue",
+    "heart_attack",
+    "hepatitis_b",
+    "hepatitis_c",
+    "hepatitis_d",
+    "hepatitis_e",
+    "hypoglycemia",
+    "malaria",
+    "pneumonia",
+    "tuberculosis",
+    "typhoid"
+  ],
+  "red_flag_symptoms": [
+    "acute_liver_failure",
+    "altered_sensorium",
+    "blood_in_sputum",
+    "bloody_stool",
+    "breathlessness",
+    "chest_pain",
+    "coma",
+    "fast_heart_rate",
+    "loss_of_balance",
+    "palpitations",
+    "slurred_speech",
+    "spinning_movements",
+    "stomach_bleeding",
+    "unsteadiness",
+    "weakness_of_one_body_side"
+  ],
+  "dataset": {
+    "name": "Disease Prediction Using Machine Learning (41 diseases, 132 symptoms)",
+    "source": "https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning (copy from https://github.com/anujdutt9/Disease-Prediction-from-Symptoms)",
+    "license": "Not clearly stated by the original publisher — verify before commercial use",
+    "population": "Synthetic: generated from a fixed disease–symptom table, not real patient records",
+    "rows_raw": 4962,
+    "unique_patterns": 305,
+    "patterns_per_disease_min": 5,
+    "files": {
+      "symptoms_training.csv": "ed0017701c9ed78f8342871e743f1ce39351f30612f620aefdccc398ee1c4f27",
+      "symptoms_test.csv": "3b9d0dda2a870e7cf6273c41e40ebd2a7f5634434a120840e96223a1dd80b0b7"
+    }
+  },
+  "evaluation": {
+    "protocol": "Repeated stratified 5-fold CV ×3 over unique symptom patterns; 'partial' keeps a random 50% of each test pattern's symptoms.",
+    "candidates": {
+      "bernoulli_nb": {
+        "full_top1": {
+          "mean": 0.9803,
+          "std": 0.0137
+        },
+        "full_top3": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "full_macro_f1": {
+          "mean": 0.9713,
+          "std": 0.0209
+        },
+        "partial_top1": {
+          "mean": 0.824,
+          "std": 0.0446
+        },
+        "partial_top3": {
+          "mean": 0.9661,
+          "std": 0.0243
+        },
+        "partial_macro_f1": {
+          "mean": 0.7823,
+          "std": 0.0522
+        }
+      },
+      "bernoulli_nb+augment": {
+        "full_top1": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "full_top3": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "full_macro_f1": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "partial_top1": {
+          "mean": 0.9825,
+          "std": 0.0164
+        },
+        "partial_top3": {
+          "mean": 0.9978,
+          "std": 0.0056
+        },
+        "partial_macro_f1": {
+          "mean": 0.9794,
+          "std": 0.0209
+        }
+      },
+      "logistic_regression": {
+        "full_top1": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "full_top3": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "full_macro_f1": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "partial_top1": {
+          "mean": 0.9355,
+          "std": 0.033
+        },
+        "partial_top3": {
+          "mean": 0.9967,
+          "std": 0.0066
+        },
+        "partial_macro_f1": {
+          "mean": 0.9343,
+          "std": 0.0371
+        }
+      },
+      "logistic_regression+augment": {
+        "full_top1": {
+          "mean": 0.9978,
+          "std": 0.0056
+        },
+        "full_top3": {
+          "mean": 0.9989,
+          "std": 0.0041
+        },
+        "full_macro_f1": {
+          "mean": 0.9961,
+          "std": 0.0099
+        },
+        "partial_top1": {
+          "mean": 0.9683,
+          "std": 0.0211
+        },
+        "partial_top3": {
+          "mean": 0.9978,
+          "std": 0.0056
+        },
+        "partial_macro_f1": {
+          "mean": 0.9656,
+          "std": 0.0257
+        }
+      },
+      "random_forest": {
+        "full_top1": {
+          "mean": 0.9989,
+          "std": 0.0041
+        },
+        "full_top3": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "full_macro_f1": {
+          "mean": 0.9978,
+          "std": 0.0081
+        },
+        "partial_top1": {
+          "mean": 0.9158,
+          "std": 0.0316
+        },
+        "partial_top3": {
+          "mean": 0.9869,
+          "std": 0.0149
+        },
+        "partial_macro_f1": {
+          "mean": 0.9113,
+          "std": 0.0365
+        }
+      },
+      "random_forest+augment": {
+        "full_top1": {
+          "mean": 0.9934,
+          "std": 0.008
+        },
+        "full_top3": {
+          "mean": 0.9967,
+          "std": 0.0066
+        },
+        "full_macro_f1": {
+          "mean": 0.9913,
+          "std": 0.012
+        },
+        "partial_top1": {
+          "mean": 0.9541,
+          "std": 0.02
+        },
+        "partial_top3": {
+          "mean": 0.9945,
+          "std": 0.0077
+        },
+        "partial_macro_f1": {
+          "mean": 0.9509,
+          "std": 0.027
+        }
+      }
+    },
+    "selected": {
+      "full_top1": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "full_top3": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "full_macro_f1": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "partial_top1": {
+        "mean": 0.9825,
+        "std": 0.0164
+      },
+      "partial_top3": {
+        "mean": 0.9978,
+        "std": 0.0056
+      },
+      "partial_macro_f1": {
+        "mean": 0.9794,
+        "std": 0.0209
+      }
+    }
+  },
+  "limitations": [
+    "The training data is synthetic, generated from a fixed table of diseases and symptoms. Scores show how well the model reproduces that table, not how accurately it identifies illness in real people.",
+    "Only 41 conditions are covered. Your illness may be something not on the list, and the closest match will still be shown.",
+    "Match scores are relative to these 41 conditions and are not the probability that you have a disease.",
+    "Not a diagnosis. Many conditions share symptoms; a doctor's examination and tests are needed."
+  ],
+  "environment": {
+    "sklearn": "1.9.1"
+  }
+}

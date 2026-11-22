@@ -1,0 +1,272 @@
+{
+  "key": "skin",
+  "version": "1.0.0",
+  "title": "Skin lesion image classifier",
+  "task": "image_classification",
+  "trained_at": "2026-11-21T14:49:33+00:00",
+  "architecture": "EfficientNet-B0 (ImageNet-pretrained, fully fine-tuned)",
+  "input": {
+    "size": 224,
+    "resize": 256,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "classes": [
+    "akiec",
+    "bcc",
+    "bkl",
+    "df",
+    "mel",
+    "nv",
+    "vasc"
+  ],
+  "class_names": {
+    "akiec": "Actinic keratosis / intraepithelial carcinoma (Bowen's disease)",
+    "bcc": "Basal cell carcinoma",
+    "bkl": "Benign keratosis-like lesion",
+    "df": "Dermatofibroma",
+    "mel": "Melanoma",
+    "nv": "Melanocytic naevus (mole)",
+    "vasc": "Vascular lesion"
+  },
+  "concern_classes": [
+    "akiec",
+    "bcc",
+    "mel"
+  ],
+  "temperature": 0.7309572100639343,
+  "ood": {
+    "method": "mean cosine distance to 5 nearest training-image features",
+    "threshold": 0.6095992922782898,
+    "bank_size": 2500,
+    "val_rejected": 0.010482180293501049,
+    "test_rejected": 0.006289308176100629,
+    "synthetic_non_skin_rejected": 1.0
+  },
+  "dataset": {
+    "name": "HAM10000 (Human Against Machine with 10000 training images)",
+    "source": "https://doi.org/10.7910/DVN/DBW86T",
+    "citation": "Tschandl P, Rosendahl C, Kittler H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci Data 5, 180161 (2018). doi:10.1038/sdata.2018.161",
+    "license": "CC BY-NC 4.0 (non-commercial use only)",
+    "population": "10,015 dermatoscopic images of 7,470 pigmented skin lesions from patients in Austria and Australia; mostly lighter skin types",
+    "rows_after_dedup": 10015,
+    "class_counts": {
+      "akiec": 327,
+      "bcc": 514,
+      "bkl": 1099,
+      "df": 115,
+      "mel": 1113,
+      "nv": 6705,
+      "vasc": 142
+    },
+    "files": {
+      "part_3172584.zip": "9677f30118c21ecc667a147de369d89acb25efab046fd32f6b13ad677ce2d6d0",
+      "part_3172585.zip": "6202a599129c2efe81c25aea8586d422eeda8a4fae5df49dd7b7bbf956d419db"
+    }
+  },
+  "evaluation": {
+    "protocol": "Lesion-grouped stratified split (no lesion in more than one split): 7153 train / 1431 validation / 1431 test images. Best of 5 epochs by validation macro-F1; temperature scaling on validation; horizontal-flip test-time augmentation.",
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.5925354843160935,
+        "val_macro_f1": 0.5099344668863953,
+        "val_balanced_acc": 0.5629122842907067,
+        "minutes": 7.4592321197191875
+      },
+      {
+        "epoch": 2,
+        "train_loss": 1.1815811754869563,
+        "val_macro_f1": 0.6459605924750275,
+        "val_balanced_acc": 0.6808898479335967,
+        "minutes": 9.410994203885396
+      },
+      {
+        "epoch": 3,
+        "train_loss": 1.0427279663937432,
+        "val_macro_f1": 0.7082988706904872,
+        "val_balanced_acc": 0.7467506193890826,
+        "minutes": 10.27903807957967
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.9520110916346312,
+        "val_macro_f1": 0.7119439749377957,
+        "val_balanced_acc": 0.7428892774449858,
+        "minutes": 10.882645018895467
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.9248708334884473,
+        "val_macro_f1": 0.7187577389026292,
+        "val_balanced_acc": 0.753828797930226,
+        "minutes": 9.754482400417327
+      }
+    ],
+    "test": {
+      "n_test": 1431,
+      "accuracy": 0.8162124388539483,
+      "balanced_accuracy": 0.6471662382748832,
+      "macro_f1": 0.6590486039508219,
+      "macro_roc_auc_ovr": 0.940492239910388,
+      "ece_before_calibration": 0.08831631602064705,
+      "ece_after_calibration": 0.043257730437024855,
+      "temperature": 0.7309572100639343,
+      "per_class": {
+        "akiec": {
+          "n_test": 46,
+          "precision": 0.5769230769230769,
+          "recall_sensitivity": 0.32608695652173914,
+          "specificity": 0.992057761732852,
+          "f1": 0.4166666666666667,
+          "roc_auc": 0.9033746664573851
+        },
+        "bcc": {
+          "n_test": 74,
+          "precision": 0.6704545454545454,
+          "recall_sensitivity": 0.7972972972972973,
+          "specificity": 0.9786293294030951,
+          "f1": 0.7283950617283951,
+          "roc_auc": 0.9877910334800535
+        },
+        "bkl": {
+          "n_test": 157,
+          "precision": 0.5806451612903226,
+          "recall_sensitivity": 0.6878980891719745,
+          "specificity": 0.9387755102040817,
+          "f1": 0.6297376093294461,
+          "roc_auc": 0.9260766531012209
+        },
+        "df": {
+          "n_test": 17,
+          "precision": 0.7272727272727273,
+          "recall_sensitivity": 0.47058823529411764,
+          "specificity": 0.9978783592644979,
+          "f1": 0.5714285714285714,
+          "roc_auc": 0.9155503785672685
+        },
+        "mel": {
+          "n_test": 159,
+          "precision": 0.5696969696969697,
+          "recall_sensitivity": 0.5911949685534591,
+          "specificity": 0.9441823899371069,
+          "f1": 0.5802469135802469,
+          "roc_auc": 0.915064673074641
+        },
+        "nv": {
+          "n_test": 958,
+          "precision": 0.9284188034188035,
+          "recall_sensitivity": 0.907098121085595,
+          "specificity": 0.8583509513742071,
+          "f1": 0.9176346356916578,
+          "roc_auc": 0.955503228625528
+        },
+        "vasc": {
+          "n_test": 20,
+          "precision": 0.7894736842105263,
+          "recall_sensitivity": 0.75,
+          "specificity": 0.997165131112686,
+          "f1": 0.7692307692307693,
+          "roc_auc": 0.9800850460666194
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "akiec",
+          "bcc",
+          "bkl",
+          "df",
+          "mel",
+          "nv",
+          "vasc"
+        ],
+        "matrix": [
+          [
+            15,
+            8,
+            12,
+            1,
+            8,
+            2,
+            0
+          ],
+          [
+            2,
+            59,
+            6,
+            0,
+            1,
+            5,
+            1
+          ],
+          [
+            5,
+            6,
+            108,
+            1,
+            21,
+            16,
+            0
+          ],
+          [
+            1,
+            6,
+            0,
+            8,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            4,
+            18,
+            0,
+            94,
+            40,
+            1
+          ],
+          [
+            1,
+            2,
+            42,
+            1,
+            41,
+            869,
+            2
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            2,
+            15
+          ]
+        ]
+      },
+      "majority_class_baseline_accuracy": 0.6694619147449337
+    }
+  },
+  "limitations": [
+    "Trained on dermatoscopic images (taken with a skin-surface microscope), mostly of lighter skin types from Europe and Australia. Ordinary phone photos and darker skin tones are different from the training data, so results on them are much less reliable.",
+    "Covers only 7 kinds of pigmented skin lesions. Rashes, infections, wounds and other skin conditions are outside what the model knows; it will still pick one of the 7 categories.",
+    "It is not a cancer diagnosis. Only a doctor's examination, often with a biopsy, can diagnose skin cancer. Any changing, bleeding or unusual spot should be checked by a dermatologist regardless of this result.",
+    "The dataset contains far more ordinary moles than other lesion types; the rarer categories are recognised less reliably (see per-category results).",
+    "Licence is non-commercial (CC BY-NC 4.0)."
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2+cpu"
+  }
+}

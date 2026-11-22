@@ -1,0 +1,2034 @@
+{
+ "generated_at": "2026-11-21T10:39:00+00:00",
+ "generator": "gemini-3.5-flash-lite",
+ "questions": [
+  {
+   "topic": "Diabetes",
+   "url": "https://medlineplus.gov/diabetes.html",
+   "lang": "en",
+   "q": "What are the early signs of high blood sugar?",
+   "split": "tune"
+  },
+  {
+   "topic": "Diabetes",
+   "url": "https://medlineplus.gov/diabetes.html",
+   "lang": "hi",
+   "q": "शुगर बढ़ने के शुरुआती लक्षण क्या हैं?",
+   "split": "tune"
+  },
+  {
+   "topic": "Diabetes",
+   "url": "https://medlineplus.gov/diabetes.html",
+   "lang": "te",
+   "q": "బ్లడ్ షుగర్ పెరిగితే మొదట వచ్చే లక్షణాలు ఏమిటి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Diabetes",
+   "url": "https://medlineplus.gov/diabetes.html",
+   "lang": "ta",
+   "q": "இரத்த சர்க்கரை அளவு அதிகரிப்பதற்கான ஆரம்ப அறிகுறிகள் என்ன?",
+   "split": "tune"
+  },
+  {
+   "topic": "Diabetes",
+   "url": "https://medlineplus.gov/diabetes.html",
+   "lang": "bn",
+   "q": "রক্তে শর্করার মাত্রা বেড়ে যাওয়ার প্রাথমিক লক্ষণগুলো কী কী?",
+   "split": "tune"
+  },
+  {
+   "topic": "Diabetes",
+   "url": "https://medlineplus.gov/diabetes.html",
+   "lang": "ur",
+   "q": "شوگر بڑھنے کی ابتدائی علامات کیا ہیں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Soft Tissue Sarcoma",
+   "url": "https://medlineplus.gov/softtissuesarcoma.html",
+   "lang": "en",
+   "q": "What are the early signs of a muscle or fat tumor?",
+   "split": "test"
+  },
+  {
+   "topic": "Soft Tissue Sarcoma",
+   "url": "https://medlineplus.gov/softtissuesarcoma.html",
+   "lang": "hi",
+   "q": "मांसपेशियों या चर्बी के ट्यूमर के शुरुआती लक्षण क्या हैं?",
+   "split": "test"
+  },
+  {
+   "topic": "Soft Tissue Sarcoma",
+   "url": "https://medlineplus.gov/softtissuesarcoma.html",
+   "lang": "te",
+   "q": "కండరాలు లేదా కొవ్వు కణితి యొక్క తొలి లక్షణాలు ఏమిటి?",
+   "split": "test"
+  },
+  {
+   "topic": "Soft Tissue Sarcoma",
+   "url": "https://medlineplus.gov/softtissuesarcoma.html",
+   "lang": "ta",
+   "q": "தசை அல்லது கொழுப்பு கட்டியின் ஆரம்ப அறிகுறிகள் என்ன?",
+   "split": "test"
+  },
+  {
+   "topic": "Soft Tissue Sarcoma",
+   "url": "https://medlineplus.gov/softtissuesarcoma.html",
+   "lang": "bn",
+   "q": "পেশী বা চর্বির টিউমারের প্রাথমিক লক্ষণগুলি কী কী?",
+   "split": "test"
+  },
+  {
+   "topic": "Soft Tissue Sarcoma",
+   "url": "https://medlineplus.gov/softtissuesarcoma.html",
+   "lang": "ur",
+   "q": "پٹھوں یا چربی کے ٹিউمر کی ابتدائی علامات کیا ہیں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Tinnitus",
+   "url": "https://medlineplus.gov/tinnitus.html",
+   "lang": "en",
+   "q": "Why do I hear a constant ringing sound in my ears?",
+   "split": "tune"
+  },
+  {
+   "topic": "Tinnitus",
+   "url": "https://medlineplus.gov/tinnitus.html",
+   "lang": "hi",
+   "q": "मेरे कानों में लगातार घंटी बजने की आवाज़ क्यों आती है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Tinnitus",
+   "url": "https://medlineplus.gov/tinnitus.html",
+   "lang": "te",
+   "q": "నా చెవులలో నిరంతరం రింగుమనే శబ్దం ఎందుకు వస్తుంది?",
+   "split": "tune"
+  },
+  {
+   "topic": "Tinnitus",
+   "url": "https://medlineplus.gov/tinnitus.html",
+   "lang": "ta",
+   "q": "என் காதுகளில் தொடர்ந்து ரீங்காரம் கேட்கக் காரணம் என்ன?",
+   "split": "tune"
+  },
+  {
+   "topic": "Tinnitus",
+   "url": "https://medlineplus.gov/tinnitus.html",
+   "lang": "bn",
+   "q": "আমার কানে অবিরাম ঘণ্টি বাজার মতো শব্দ হয় কেন?",
+   "split": "tune"
+  },
+  {
+   "topic": "Tinnitus",
+   "url": "https://medlineplus.gov/tinnitus.html",
+   "lang": "ur",
+   "q": "میرے کانوں میں مسلسل گھنٹی کیسی آواز کیوں آتی ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Fetal Health and Development",
+   "url": "https://medlineplus.gov/fetalhealthanddevelopment.html",
+   "lang": "en",
+   "q": "How does my baby grow during pregnancy?",
+   "split": "test"
+  },
+  {
+   "topic": "Fetal Health and Development",
+   "url": "https://medlineplus.gov/fetalhealthanddevelopment.html",
+   "lang": "hi",
+   "q": "गर्भावस्था के दौरान मेरे बच्चे का विकास कैसे होता है?",
+   "split": "test"
+  },
+  {
+   "topic": "Fetal Health and Development",
+   "url": "https://medlineplus.gov/fetalhealthanddevelopment.html",
+   "lang": "te",
+   "q": "గర్భధారణ సమయంలో నా బిడ్డ ఎలా ఎదుగుతుంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Fetal Health and Development",
+   "url": "https://medlineplus.gov/fetalhealthanddevelopment.html",
+   "lang": "ta",
+   "q": "கர்ப்ப காலத்தில் எனது குழந்தை எவ்வாறு வளர்கிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Fetal Health and Development",
+   "url": "https://medlineplus.gov/fetalhealthanddevelopment.html",
+   "lang": "bn",
+   "q": "গর্ভাধানের সময় আমার শিশু কীভাবে বৃদ্ধি পায়?",
+   "split": "test"
+  },
+  {
+   "topic": "Fetal Health and Development",
+   "url": "https://medlineplus.gov/fetalhealthanddevelopment.html",
+   "lang": "ur",
+   "q": "حمل کے دوران میرا بچہ کیسے نشوونما پاتا ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Whooping Cough",
+   "url": "https://medlineplus.gov/whoopingcough.html",
+   "lang": "en",
+   "q": "Why won't my child's severe coughing fit stop, and could it be something serious?",
+   "split": "tune"
+  },
+  {
+   "topic": "Whooping Cough",
+   "url": "https://medlineplus.gov/whoopingcough.html",
+   "lang": "hi",
+   "q": "मेरे बच्चे की तेज खाँसी क्यों नहीं रुक रही है, और क्या यह कोई गंभीर बात है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Whooping Cough",
+   "url": "https://medlineplus.gov/whoopingcough.html",
+   "lang": "te",
+   "q": "మా పాపకి దగ్గు విపరీతంగా వస్తుంది, అసలు ఇది ఏంటి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Whooping Cough",
+   "url": "https://medlineplus.gov/whoopingcough.html",
+   "lang": "ta",
+   "q": "என் குழந்தைக்கு தொடர் இருமல் நிற்கவே இல்லை, இது எதனால் வருகிறது?",
+   "split": "tune"
+  },
+  {
+   "topic": "Whooping Cough",
+   "url": "https://medlineplus.gov/whoopingcough.html",
+   "lang": "bn",
+   "q": "আমার বাচ্চার প্রচণ্ড কাশি কেন কমছে না, এটা কি কোনো গুরুতর সমস্যা?",
+   "split": "tune"
+  },
+  {
+   "topic": "Whooping Cough",
+   "url": "https://medlineplus.gov/whoopingcough.html",
+   "lang": "ur",
+   "q": "میرے بچے کی شدید کھانسی کیوں نہیں رک رہی، کیا یہ کوئی خطرناک بات ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Dietary Fiber",
+   "url": "https://medlineplus.gov/dietaryfiber.html",
+   "lang": "en",
+   "q": "Which foods should I eat to improve my digestion and avoid constipation?",
+   "split": "test"
+  },
+  {
+   "topic": "Dietary Fiber",
+   "url": "https://medlineplus.gov/dietaryfiber.html",
+   "lang": "hi",
+   "q": "पाचन ठीक रखने और कब्ज से बचने के लिए मुझे क्या खाना चाहिए?",
+   "split": "test"
+  },
+  {
+   "topic": "Dietary Fiber",
+   "url": "https://medlineplus.gov/dietaryfiber.html",
+   "lang": "te",
+   "q": "జీర్ణక్రియ మెరుగుపడటానికి మరియు మలబద్ధకం పోవడానికి నేను ఏ ఆహారాలు తినాలి?",
+   "split": "test"
+  },
+  {
+   "topic": "Dietary Fiber",
+   "url": "https://medlineplus.gov/dietaryfiber.html",
+   "lang": "ta",
+   "q": "செரிமானத்தை மேம்படுத்தவும் மலச்சிக்கலைத் தவிர்க்கவும் நான் என்ன உணவுகளைச் சாப்பிட வேண்டும்?",
+   "split": "test"
+  },
+  {
+   "topic": "Dietary Fiber",
+   "url": "https://medlineplus.gov/dietaryfiber.html",
+   "lang": "bn",
+   "q": "হজমশক্তি ভালো রাখতে এবং কোষ্ঠকাঠিন্য দূর করতে আমার কী ধরনের খাবার খাওয়া উচিত?",
+   "split": "test"
+  },
+  {
+   "topic": "Dietary Fiber",
+   "url": "https://medlineplus.gov/dietaryfiber.html",
+   "lang": "ur",
+   "q": "ہاضمہ بہتر بنانے اور قبض سے بچنے کے لیے مجھے کیا کھانا چاہیے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Radiation Therapy",
+   "url": "https://medlineplus.gov/radiationtherapy.html",
+   "lang": "en",
+   "q": "Will cancer treatment using targeted energy rays cause me to lose my hair?",
+   "split": "tune"
+  },
+  {
+   "topic": "Radiation Therapy",
+   "url": "https://medlineplus.gov/radiationtherapy.html",
+   "lang": "hi",
+   "q": "क्या कैंसर के इलाज के लिए दी जाने वाली किरणों से मेरे बाल झड़ जाएंगे?",
+   "split": "tune"
+  },
+  {
+   "topic": "Radiation Therapy",
+   "url": "https://medlineplus.gov/radiationtherapy.html",
+   "lang": "te",
+   "q": "క్యాన్సర్ చికిత్సలో ఉపయోగించే రేడియేషన్ వల్ల నా జుట్టు రాలిపోతుందా?",
+   "split": "tune"
+  },
+  {
+   "topic": "Radiation Therapy",
+   "url": "https://medlineplus.gov/radiationtherapy.html",
+   "lang": "bn",
+   "q": "ক্যান্সার চিকিৎসায় ব্যবহৃত রশ্মির প্রভাবে কি আমার চুল পড়ে যাবে?",
+   "split": "tune"
+  },
+  {
+   "topic": "Radiation Therapy",
+   "url": "https://medlineplus.gov/radiationtherapy.html",
+   "lang": "ur",
+   "q": "کیا کینسر کے علاج کے لیے استعمال ہونے والی شعاعوں سے میرے بال گر جائیں گے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Chronic Lymphocytic Leukemia",
+   "url": "https://medlineplus.gov/chroniclymphocyticleukemia.html",
+   "lang": "en",
+   "q": "What are the early signs of blood cancer that affects older adults?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Lymphocytic Leukemia",
+   "url": "https://medlineplus.gov/chroniclymphocyticleukemia.html",
+   "lang": "hi",
+   "q": "बुजुर्गों में होने वाले ब्लड कैंसर के शुरुआती लक्षण क्या हैं?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Lymphocytic Leukemia",
+   "url": "https://medlineplus.gov/chroniclymphocyticleukemia.html",
+   "lang": "te",
+   "q": "వృద్ధులలో వచ్చే రక్త క్యాన్సర్ యొక్క ప్రారంభ లక్షణాలు ఏమిటి?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Lymphocytic Leukemia",
+   "url": "https://medlineplus.gov/chroniclymphocyticleukemia.html",
+   "lang": "ta",
+   "q": "முதுமை வயதினரை தாக்கும் இரத்த புற்றுநோயின் ஆரம்ப அறிகுறிகள் என்ன?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Lymphocytic Leukemia",
+   "url": "https://medlineplus.gov/chroniclymphocyticleukemia.html",
+   "lang": "bn",
+   "q": "বয়স্কদের রক্তে যে ক্যান্সার হয়, তার প্রাথমিক লক্ষণগুলো কী কী?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Lymphocytic Leukemia",
+   "url": "https://medlineplus.gov/chroniclymphocyticleukemia.html",
+   "lang": "ur",
+   "q": "بزرگوں میں ہونے والے خون کے کینسر کی ابتدائی علامات کیا ہیں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Living with HIV",
+   "url": "https://medlineplus.gov/livingwithhiv.html",
+   "lang": "en",
+   "q": "Can I lead a normal, healthy life after testing positive?",
+   "split": "tune"
+  },
+  {
+   "topic": "Living with HIV",
+   "url": "https://medlineplus.gov/livingwithhiv.html",
+   "lang": "hi",
+   "q": "क्या इस बीमारी के साथ एक सामान्य जीवन जीना संभव है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Living with HIV",
+   "url": "https://medlineplus.gov/livingwithhiv.html",
+   "lang": "te",
+   "q": "ఈ ఆరోగ్య సమస్యతో నేను సాధారణ జీవితాన్ని గడపగలనా?",
+   "split": "tune"
+  },
+  {
+   "topic": "Living with HIV",
+   "url": "https://medlineplus.gov/livingwithhiv.html",
+   "lang": "ta",
+   "q": "இந்த மருத்துவ நிலையுடன் என்னால் இயல்பான வாழ்க்கை வாழ முடியுமா?",
+   "split": "tune"
+  },
+  {
+   "topic": "Living with HIV",
+   "url": "https://medlineplus.gov/livingwithhiv.html",
+   "lang": "bn",
+   "q": "আমি কি এই অসুস্থতা নিয়েও স্বাভাবিক জীবনযাপন করতে পারব?",
+   "split": "tune"
+  },
+  {
+   "topic": "Living with HIV",
+   "url": "https://medlineplus.gov/livingwithhiv.html",
+   "lang": "ur",
+   "q": "کیا میں اس بیماری کے ساتھ ایک عام زندگی گزار سکتا ہوں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Quitting Smoking",
+   "url": "https://medlineplus.gov/quittingsmoking.html",
+   "lang": "en",
+   "q": "How can I successfully stop smoking cigarettes?",
+   "split": "test"
+  },
+  {
+   "topic": "Quitting Smoking",
+   "url": "https://medlineplus.gov/quittingsmoking.html",
+   "lang": "hi",
+   "q": "मैं सिगरेट पीना कैसे छोड़ सकता हूँ?",
+   "split": "test"
+  },
+  {
+   "topic": "Quitting Smoking",
+   "url": "https://medlineplus.gov/quittingsmoking.html",
+   "lang": "te",
+   "q": "నేను సిగరెట్ తాగడం మానేయడం ఎలా?",
+   "split": "test"
+  },
+  {
+   "topic": "Quitting Smoking",
+   "url": "https://medlineplus.gov/quittingsmoking.html",
+   "lang": "ta",
+   "q": "நான் சிகரெட் குடிப்பதை எப்படி நிறுத்துவது?",
+   "split": "test"
+  },
+  {
+   "topic": "Quitting Smoking",
+   "url": "https://medlineplus.gov/quittingsmoking.html",
+   "lang": "bn",
+   "q": "আমি কীভাবে ধূমপান ছেড়ে দিতে পারি?",
+   "split": "test"
+  },
+  {
+   "topic": "Quitting Smoking",
+   "url": "https://medlineplus.gov/quittingsmoking.html",
+   "lang": "ur",
+   "q": "میں سگریٹ نوشی کیسے چھوڑ سکتا ہوں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Air Pollution",
+   "url": "https://medlineplus.gov/airpollution.html",
+   "lang": "en",
+   "q": "How can I protect my lungs when the outside air quality is very poor?",
+   "split": "tune"
+  },
+  {
+   "topic": "Air Pollution",
+   "url": "https://medlineplus.gov/airpollution.html",
+   "lang": "hi",
+   "q": "बाहर हवा की गुणवत्ता बहुत खराब होने पर मैं अपने फेफड़ों की रक्षा कैसे कर सकता हूँ?",
+   "split": "tune"
+  },
+  {
+   "topic": "Air Pollution",
+   "url": "https://medlineplus.gov/airpollution.html",
+   "lang": "te",
+   "q": "బయట గాలి నాణ్యత చాలా తక్కువగా ఉన్నప్పుడు నా ఊపిరితిత్తులను ఎలా కాపాడుకోవాలి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Air Pollution",
+   "url": "https://medlineplus.gov/airpollution.html",
+   "lang": "ta",
+   "q": "வெளியே காற்றின் தரம் மிகவும் மோசமாக இருக்கும்போது என் நுரையீரலை எவ்வாறு பாதுகாப்பது?",
+   "split": "tune"
+  },
+  {
+   "topic": "Air Pollution",
+   "url": "https://medlineplus.gov/airpollution.html",
+   "lang": "bn",
+   "q": "বাইরের বাতাসের মান খুব খারাপ হলে আমি কীভাবে আমার ফুসফুস রক্ষা করতে পারি?",
+   "split": "tune"
+  },
+  {
+   "topic": "Air Pollution",
+   "url": "https://medlineplus.gov/airpollution.html",
+   "lang": "ur",
+   "q": "جب باہر کی ہوا کا معیار بہت خراب ہو تو میں اپنے پھیپھڑوں کی حفاظت کیسے کر سکتا ہوں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "DASH Eating Plan",
+   "url": "https://medlineplus.gov/dasheatingplan.html",
+   "lang": "en",
+   "q": "How can I lower my high blood pressure through my daily diet?",
+   "split": "test"
+  },
+  {
+   "topic": "DASH Eating Plan",
+   "url": "https://medlineplus.gov/dasheatingplan.html",
+   "lang": "hi",
+   "q": "मैं अपने खान-पान में बदलाव करके हाई ब्लड प्रेशर को कैसे कंट्रोल कर सकता हूँ?",
+   "split": "test"
+  },
+  {
+   "topic": "DASH Eating Plan",
+   "url": "https://medlineplus.gov/dasheatingplan.html",
+   "lang": "te",
+   "q": "నేను నా రోజువారీ ఆహారం ద్వారా హై బీపీని ఎలా తగ్గించుకోవాలి?",
+   "split": "test"
+  },
+  {
+   "topic": "DASH Eating Plan",
+   "url": "https://medlineplus.gov/dasheatingplan.html",
+   "lang": "ta",
+   "q": "எனது உயர் இரத்த அழுத்தத்தைக் கட்டுப்படுத்த நான் என்ன வகையான உணவுகளைச் சாப்பிட வேண்டும்?",
+   "split": "test"
+  },
+  {
+   "topic": "DASH Eating Plan",
+   "url": "https://medlineplus.gov/dasheatingplan.html",
+   "lang": "bn",
+   "q": "আমি আমার প্রতিদিনের খাবার খেয়ে উচ্চ রক্তচাপ কীভাবে কমাতে পারি?",
+   "split": "test"
+  },
+  {
+   "topic": "DASH Eating Plan",
+   "url": "https://medlineplus.gov/dasheatingplan.html",
+   "lang": "ur",
+   "q": "میں اپنے روزمرہ کے کھانے سے ہائی بلڈ پریشر کو کیسے کم کر سکتا ہوں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Anxiety",
+   "url": "https://medlineplus.gov/anxiety.html",
+   "lang": "en",
+   "q": "How can I calm my constant nervous worrying and racing heart?",
+   "split": "tune"
+  },
+  {
+   "topic": "Anxiety",
+   "url": "https://medlineplus.gov/anxiety.html",
+   "lang": "hi",
+   "q": "मैं अपनी लगातार घबराहट और बेचैनी को कैसे दूर कर सकता हूँ?",
+   "split": "tune"
+  },
+  {
+   "topic": "Anxiety",
+   "url": "https://medlineplus.gov/anxiety.html",
+   "lang": "te",
+   "q": "నాలో నిరంతరం ఉండే ఆందోళన మరియు భయాన్ని నేను ఎలా తగ్గించుకోవాలి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Anxiety",
+   "url": "https://medlineplus.gov/anxiety.html",
+   "lang": "ta",
+   "q": "எனது தொடர்ச்சியான பயம் மற்றும் மன அழுத்தத்தை நான் எவ்வாறு குறைப்பது?",
+   "split": "tune"
+  },
+  {
+   "topic": "Anxiety",
+   "url": "https://medlineplus.gov/anxiety.html",
+   "lang": "bn",
+   "q": "আমি আমার অতিরিক্ত দুশ্চিন্তা এবং মানসিক অস্থিরতা কীভাবে দূর করতে পারি?",
+   "split": "tune"
+  },
+  {
+   "topic": "Anxiety",
+   "url": "https://medlineplus.gov/anxiety.html",
+   "lang": "ur",
+   "q": "میں اپنے مسلسل خوف اور بے چینی کو کیسے کم کر سکتا ہوں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Sexual Problems in Men",
+   "url": "https://medlineplus.gov/sexualproblemsinmen.html",
+   "lang": "en",
+   "q": "Why am I losing interest in intimacy lately?",
+   "split": "test"
+  },
+  {
+   "topic": "Sexual Problems in Men",
+   "url": "https://medlineplus.gov/sexualproblemsinmen.html",
+   "lang": "hi",
+   "q": "मुझे आजकल अंतरंगता में रुचि क्यों कम हो रही है?",
+   "split": "test"
+  },
+  {
+   "topic": "Sexual Problems in Men",
+   "url": "https://medlineplus.gov/sexualproblemsinmen.html",
+   "lang": "te",
+   "q": "ఈమధ్య నాకు శారీరక సంబంధాలపై ఆసక్తి ఎందుకు తగ్గిపోతోంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Sexual Problems in Men",
+   "url": "https://medlineplus.gov/sexualproblemsinmen.html",
+   "lang": "ta",
+   "q": "இப்போதெல்லாம் நெருக்கமான உறவில் எனக்கு ஏன் நாட்டம் குறைகிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Sexual Problems in Men",
+   "url": "https://medlineplus.gov/sexualproblemsinmen.html",
+   "lang": "bn",
+   "q": "ইদানিং আমার শারীরিক মিলনে আগ্রহ কমে যাচ্ছে কেন?",
+   "split": "test"
+  },
+  {
+   "topic": "Sexual Problems in Men",
+   "url": "https://medlineplus.gov/sexualproblemsinmen.html",
+   "lang": "ur",
+   "q": "آج کل مباشرت میں میری دلچسپی کیوں کم ہو رہی ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "High Blood Pressure in Pregnancy",
+   "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+   "lang": "en",
+   "q": "Can high blood pressure during pregnancy harm my baby?",
+   "split": "tune"
+  },
+  {
+   "topic": "High Blood Pressure in Pregnancy",
+   "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+   "lang": "hi",
+   "q": "क्या गर्भावस्था के दौरान उच्च रक्तचाप से मेरे बच्चे को नुकसान हो सकता है?",
+   "split": "tune"
+  },
+  {
+   "topic": "High Blood Pressure in Pregnancy",
+   "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+   "lang": "te",
+   "q": "గర్భధారణ సమయంలో హై బ్లడ్ ప్రెషర్ నా బిడ్డకు హాని చేస్తుందా?",
+   "split": "tune"
+  },
+  {
+   "topic": "High Blood Pressure in Pregnancy",
+   "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+   "lang": "ta",
+   "q": "கர்ப்ப காலத்தில் ஏற்படும் உயர் இரத்த அழுத்தம் என் குழந்தைக்கு தீங்கு விளைவிக்குமா?",
+   "split": "tune"
+  },
+  {
+   "topic": "High Blood Pressure in Pregnancy",
+   "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+   "lang": "bn",
+   "q": "গর্ভকালীন উচ্চ রক্তচাপ কি আমার বাচ্চার ক্ষতি করতে পারে?",
+   "split": "tune"
+  },
+  {
+   "topic": "High Blood Pressure in Pregnancy",
+   "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+   "lang": "ur",
+   "q": "کیا حمل کے دوران ہائی بلڈ پریشر میرے بچے کو نقصان پہنچا سکتا ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Preterm Labor",
+   "url": "https://medlineplus.gov/pretermlabor.html",
+   "lang": "en",
+   "q": "What are the early warning signs of going into labor too early?",
+   "split": "test"
+  },
+  {
+   "topic": "Preterm Labor",
+   "url": "https://medlineplus.gov/pretermlabor.html",
+   "lang": "hi",
+   "q": "समय से पहले प्रसव शुरू होने के शुरुआती लक्षण क्या हैं?",
+   "split": "test"
+  },
+  {
+   "topic": "Preterm Labor",
+   "url": "https://medlineplus.gov/pretermlabor.html",
+   "lang": "te",
+   "q": "సమయం కంటే ముందే ప్రసవ నొప్పులు రావడానికి ప్రారంభ సంకేతాలు ఏమిటి?",
+   "split": "test"
+  },
+  {
+   "topic": "Preterm Labor",
+   "url": "https://medlineplus.gov/pretermlabor.html",
+   "lang": "ta",
+   "q": "பிரசவ காலம் வருவதற்கு முன்பே ஏற்படுவதற்கான ஆரம்ப அறிகுறிகள் என்ன?",
+   "split": "test"
+  },
+  {
+   "topic": "Preterm Labor",
+   "url": "https://medlineplus.gov/pretermlabor.html",
+   "lang": "bn",
+   "q": "সময়ের আগে প্রসববেদনা শুরু হওয়ার প্রাথমিক লক্ষণগুলো কী কী?",
+   "split": "test"
+  },
+  {
+   "topic": "Preterm Labor",
+   "url": "https://medlineplus.gov/pretermlabor.html",
+   "lang": "ur",
+   "q": "وقت سے پہلے زچگی شروع ہونے کی ابتدائی علامات کیا ہیں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Eye Movement Disorders",
+   "url": "https://medlineplus.gov/eyemovementdisorders.html",
+   "lang": "en",
+   "q": "Why do my eyes keep twitching and jumping uncontrollably?",
+   "split": "tune"
+  },
+  {
+   "topic": "Eye Movement Disorders",
+   "url": "https://medlineplus.gov/eyemovementdisorders.html",
+   "lang": "hi",
+   "q": "मेरी आँखें बार-बार क्यों हिलती हैं और नियंत्रण से बाहर हो जाती हैं?",
+   "split": "tune"
+  },
+  {
+   "topic": "Eye Movement Disorders",
+   "url": "https://medlineplus.gov/eyemovementdisorders.html",
+   "lang": "te",
+   "q": "నా కళ్ళు నియంత్రణ లేకుండా ఎందుకు అకస్మాత్తుగా కదులుతున్నాయి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Eye Movement Disorders",
+   "url": "https://medlineplus.gov/eyemovementdisorders.html",
+   "lang": "ta",
+   "q": "என் கண்கள் ஏன் கட்டுப்பாடில்லாமல் அடிக்கடி அசைந்து கொண்டே இருக்கின்றன?",
+   "split": "tune"
+  },
+  {
+   "topic": "Eye Movement Disorders",
+   "url": "https://medlineplus.gov/eyemovementdisorders.html",
+   "lang": "bn",
+   "q": "আমার চোখগুলো কেন বারবার অনিয়ন্ত্রিতভাবে নড়াচড়া করছে?",
+   "split": "tune"
+  },
+  {
+   "topic": "Eye Movement Disorders",
+   "url": "https://medlineplus.gov/eyemovementdisorders.html",
+   "lang": "ur",
+   "q": "میری آنکھیں قابو سے باہر ہو کر بار بار کیوں ہلتی ہیں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Piercing and Tattoos",
+   "url": "https://medlineplus.gov/piercingandtattoos.html",
+   "lang": "en",
+   "q": "How can I prevent infections after getting body art done?",
+   "split": "test"
+  },
+  {
+   "topic": "Piercing and Tattoos",
+   "url": "https://medlineplus.gov/piercingandtattoos.html",
+   "lang": "hi",
+   "q": "शरीर पर टैटू बनवाने या छेदवाने के बाद संक्रमण से कैसे बचें?",
+   "split": "test"
+  },
+  {
+   "topic": "Piercing and Tattoos",
+   "url": "https://medlineplus.gov/piercingandtattoos.html",
+   "lang": "te",
+   "q": "టాటూ లేదా కుట్లు వేయించుకున్న తర్వాత ఇన్ఫెక్షన్లను ఎలా నివారించాలి?",
+   "split": "test"
+  },
+  {
+   "topic": "Piercing and Tattoos",
+   "url": "https://medlineplus.gov/piercingandtattoos.html",
+   "lang": "ta",
+   "q": "பச்சை குத்திக்கொண்ட பிறகு தொற்றுகளை எவ்வாறு தவிர்ப்பது?",
+   "split": "test"
+  },
+  {
+   "topic": "Piercing and Tattoos",
+   "url": "https://medlineplus.gov/piercingandtattoos.html",
+   "lang": "bn",
+   "q": "শরীরে ট্যাটু বা ফোঁড়ানোর পরে কীভাবে সংক্রমণ এড়ানো যায়?",
+   "split": "test"
+  },
+  {
+   "topic": "Piercing and Tattoos",
+   "url": "https://medlineplus.gov/piercingandtattoos.html",
+   "lang": "ur",
+   "q": "جسم پر ٹیٹو یا چھید کروانے کے بعد انفیکشن سے کیسے بچا جائے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Coronary Artery Bypass Surgery",
+   "url": "https://medlineplus.gov/coronaryarterybypasssurgery.html",
+   "lang": "en",
+   "q": "How long does it take to recover after heart bypass surgery?",
+   "split": "tune"
+  },
+  {
+   "topic": "Coronary Artery Bypass Surgery",
+   "url": "https://medlineplus.gov/coronaryarterybypasssurgery.html",
+   "lang": "hi",
+   "q": "हार्ट की बाईपास सर्जरी के बाद ठीक होने में कितना समय लगता है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Coronary Artery Bypass Surgery",
+   "url": "https://medlineplus.gov/coronaryarterybypasssurgery.html",
+   "lang": "te",
+   "q": "గుండె బైపాస్ సర్జరీ తర్వాత కోలుకోవడానికి ఎంత సమయం పడుతుంది?",
+   "split": "tune"
+  },
+  {
+   "topic": "Coronary Artery Bypass Surgery",
+   "url": "https://medlineplus.gov/coronaryarterybypasssurgery.html",
+   "lang": "ta",
+   "q": "இதய பைபாஸ் அறுவை சிகிச்சைக்குப் பிறகு குணமடைய எவ்வளவு காலம் ஆகும்?",
+   "split": "tune"
+  },
+  {
+   "topic": "Coronary Artery Bypass Surgery",
+   "url": "https://medlineplus.gov/coronaryarterybypasssurgery.html",
+   "lang": "bn",
+   "q": "হার্ট বাইপাস সার্জারির পরে সুস্থ হতে কত সময় লাগে?",
+   "split": "tune"
+  },
+  {
+   "topic": "Coronary Artery Bypass Surgery",
+   "url": "https://medlineplus.gov/coronaryarterybypasssurgery.html",
+   "lang": "ur",
+   "q": "دل کی بائی پاس سرجری کے بعد صحت یاب ہونے میں کتنا وقت لگتا ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Hip Injuries and Disorders",
+   "url": "https://medlineplus.gov/hipinjuriesanddisorders.html",
+   "lang": "en",
+   "q": "Why does my hip hurt when I walk?",
+   "split": "test"
+  },
+  {
+   "topic": "Hip Injuries and Disorders",
+   "url": "https://medlineplus.gov/hipinjuriesanddisorders.html",
+   "lang": "hi",
+   "q": "चलते समय मेरे कूल्हे में दर्द क्यों होता है?",
+   "split": "test"
+  },
+  {
+   "topic": "Hip Injuries and Disorders",
+   "url": "https://medlineplus.gov/hipinjuriesanddisorders.html",
+   "lang": "te",
+   "q": "నడుస్తున్నప్పుడు నా తుంటి ఎందుకు నొస్తుంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Hip Injuries and Disorders",
+   "url": "https://medlineplus.gov/hipinjuriesanddisorders.html",
+   "lang": "ta",
+   "q": "நடக்கும்போது என் இடுப்பு ஏன் வலிக்கிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Hip Injuries and Disorders",
+   "url": "https://medlineplus.gov/hipinjuriesanddisorders.html",
+   "lang": "bn",
+   "q": "হাঁটার সময় আমার কোমরে ব্যথা কেন করে?",
+   "split": "test"
+  },
+  {
+   "topic": "Hip Injuries and Disorders",
+   "url": "https://medlineplus.gov/hipinjuriesanddisorders.html",
+   "lang": "ur",
+   "q": "چلتے وقت میرے کولھے میں درد کیوں ہوتا ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Jaundice",
+   "url": "https://medlineplus.gov/jaundice.html",
+   "lang": "en",
+   "q": "Why are my eyes and skin turning yellow?",
+   "split": "tune"
+  },
+  {
+   "topic": "Jaundice",
+   "url": "https://medlineplus.gov/jaundice.html",
+   "lang": "hi",
+   "q": "मेरी आँखें और त्वचा पीली क्यों पड़ रही हैं?",
+   "split": "tune"
+  },
+  {
+   "topic": "Jaundice",
+   "url": "https://medlineplus.gov/jaundice.html",
+   "lang": "te",
+   "q": "నా కళ్ళు మరియు చర్మం ఎందుకు పసుపు రంగులోకి మారుతున్నాయి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Jaundice",
+   "url": "https://medlineplus.gov/jaundice.html",
+   "lang": "ta",
+   "q": "என் கண்களும் தோசையும் ஏன் மஞ்சள் நிறமாக மாறுகின்றன?",
+   "split": "tune"
+  },
+  {
+   "topic": "Jaundice",
+   "url": "https://medlineplus.gov/jaundice.html",
+   "lang": "bn",
+   "q": "আমার চোখ ও ত্বক কেন হলুদ হয়ে যাচ্ছে?",
+   "split": "tune"
+  },
+  {
+   "topic": "Jaundice",
+   "url": "https://medlineplus.gov/jaundice.html",
+   "lang": "ur",
+   "q": "میری آنکھیں اور جلد پیلی کیوں ہو رہی ہیں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Heart Health Tests",
+   "url": "https://medlineplus.gov/hearthealthtests.html",
+   "lang": "en",
+   "q": "What tests do I need to check if my heart is healthy?",
+   "split": "test"
+  },
+  {
+   "topic": "Heart Health Tests",
+   "url": "https://medlineplus.gov/hearthealthtests.html",
+   "lang": "hi",
+   "q": "दिल को स्वस्थ रखने के लिए मुझे कौन से टेस्ट करवाने चाहिए?",
+   "split": "test"
+  },
+  {
+   "topic": "Heart Health Tests",
+   "url": "https://medlineplus.gov/hearthealthtests.html",
+   "lang": "te",
+   "q": "నా గుండె ఆరోగ్యంగా ఉందో లేదో తెలుసుకోవడానికి ఏ పరీక్షలు చేయించుకోవాలి?",
+   "split": "test"
+  },
+  {
+   "topic": "Heart Health Tests",
+   "url": "https://medlineplus.gov/hearthealthtests.html",
+   "lang": "bn",
+   "q": "আমার হার্ট সুস্থ আছে কিনা তা জানতে কোন পরীক্ষাগুলো করা দরকার?",
+   "split": "test"
+  },
+  {
+   "topic": "Heart Health Tests",
+   "url": "https://medlineplus.gov/hearthealthtests.html",
+   "lang": "ur",
+   "q": "دل کی صحت کی جانچ کے لیے مجھے کون سے ٹیسٹ کروانے چاہئیں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Down Syndrome",
+   "url": "https://medlineplus.gov/downsyndrome.html",
+   "lang": "en",
+   "q": "Can routine tests during pregnancy detect if my baby has trisomy 21?",
+   "split": "tune"
+  },
+  {
+   "topic": "Down Syndrome",
+   "url": "https://medlineplus.gov/downsyndrome.html",
+   "lang": "hi",
+   "q": "क्या गर्भावस्था के दौरान रूटीन जांच से यह पता चल सकता है कि बच्चे को क्रोमोसोम से जुड़ी यह जन्मजात स्थिति है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Down Syndrome",
+   "url": "https://medlineplus.gov/downsyndrome.html",
+   "lang": "te",
+   "q": "గర్భధారణ సమయంలో సాధారణ పరీక్షల ద్వారా పుట్టబోయే బిడ్డకు ఈ జన్యుపరమైన సమస్య ఉందో లేదో తెలుసుకోవచ్చా?",
+   "split": "tune"
+  },
+  {
+   "topic": "Down Syndrome",
+   "url": "https://medlineplus.gov/downsyndrome.html",
+   "lang": "ta",
+   "q": "கர்ப்ப காலத்தில் செய்யும் வழக்கமான பரிசோதனைகள் மூலம் குழந்தைக்கு இந்த குரோமோசோம் குறைபாடு உள்ளதா என கண்டறிய முடியுமா?",
+   "split": "tune"
+  },
+  {
+   "topic": "Down Syndrome",
+   "url": "https://medlineplus.gov/downsyndrome.html",
+   "lang": "bn",
+   "q": "গর্ভকালীন সাধারণ পরীক্ষার মাধ্যমে কি বোঝা সম্ভব যে অনাগত সন্তানের ক্রোমোজোমজনিত এই সমস্যাটি আছে কি না?",
+   "split": "tune"
+  },
+  {
+   "topic": "Down Syndrome",
+   "url": "https://medlineplus.gov/downsyndrome.html",
+   "lang": "ur",
+   "q": "کیا حمل کے دوران ہونے والے معمول کے ٹیسٹ سے پتہ چل سکتا ہے کہ بچے میں یہ جینیاتی مسئلہ ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Understanding Medical Research",
+   "url": "https://medlineplus.gov/understandingmedicalresearch.html",
+   "lang": "en",
+   "q": "How do I know if a health news story is actually true?",
+   "split": "test"
+  },
+  {
+   "topic": "Understanding Medical Research",
+   "url": "https://medlineplus.gov/understandingmedicalresearch.html",
+   "lang": "hi",
+   "q": "मुझे कैसे पता चलेगा कि स्वास्थ्य से जुड़ी कोई खबर सच है या नहीं?",
+   "split": "test"
+  },
+  {
+   "topic": "Understanding Medical Research",
+   "url": "https://medlineplus.gov/understandingmedicalresearch.html",
+   "lang": "te",
+   "q": "ఆరోగ్య వార్తలు నిజమేనా అని నేను ఎలా తెలుసుకోవాలి?",
+   "split": "test"
+  },
+  {
+   "topic": "Understanding Medical Research",
+   "url": "https://medlineplus.gov/understandingmedicalresearch.html",
+   "lang": "ta",
+   "q": "உடல்நலம் பற்றிய செய்தி உண்மையானதா என்பதை நான் எப்படி கண்டுபிடிப்பது?",
+   "split": "test"
+  },
+  {
+   "topic": "Understanding Medical Research",
+   "url": "https://medlineplus.gov/understandingmedicalresearch.html",
+   "lang": "bn",
+   "q": "স্বাস্থ্য সম্পর্কিত খবরটি আসল না নকল, তা কীভাবে বুঝব?",
+   "split": "test"
+  },
+  {
+   "topic": "Understanding Medical Research",
+   "url": "https://medlineplus.gov/understandingmedicalresearch.html",
+   "lang": "ur",
+   "q": "مجھے کیسے پتہ چلے گا کہ صحت سے متعلق خبر سچی ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Childhood Leukemia",
+   "url": "https://medlineplus.gov/childhoodleukemia.html",
+   "lang": "en",
+   "q": "What are the early signs of blood cancer in kids?",
+   "split": "tune"
+  },
+  {
+   "topic": "Childhood Leukemia",
+   "url": "https://medlineplus.gov/childhoodleukemia.html",
+   "lang": "hi",
+   "q": "बच्चों में ब्लड कैंसर के शुरुआती लक्षण क्या होते हैं?",
+   "split": "tune"
+  },
+  {
+   "topic": "Childhood Leukemia",
+   "url": "https://medlineplus.gov/childhoodleukemia.html",
+   "lang": "te",
+   "q": "పిల్లలలో రక్త క్యాన్సర్ యొక్క ప్రారంభ లక్షణాలు ఏమిటి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Childhood Leukemia",
+   "url": "https://medlineplus.gov/childhoodleukemia.html",
+   "lang": "ta",
+   "q": "குழந்தைகளிடம் இரத்தப் புற்றுநோயின் ஆரம்ப அறிகுறிகள் என்ன?",
+   "split": "tune"
+  },
+  {
+   "topic": "Childhood Leukemia",
+   "url": "https://medlineplus.gov/childhoodleukemia.html",
+   "lang": "bn",
+   "q": "শিশুদের রক্তে ক্যান্সারের প্রাথমিক লক্ষণগুলি কী কী?",
+   "split": "tune"
+  },
+  {
+   "topic": "Childhood Leukemia",
+   "url": "https://medlineplus.gov/childhoodleukemia.html",
+   "lang": "ur",
+   "q": "بچوں میں بلڈ کینسر کی ابتدائی علامات کیا ہوتی ہیں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "HIV and Infections",
+   "url": "https://medlineplus.gov/hivandinfections.html",
+   "lang": "en",
+   "q": "Why do people with HIV easily catch other illnesses?",
+   "split": "test"
+  },
+  {
+   "topic": "HIV and Infections",
+   "url": "https://medlineplus.gov/hivandinfections.html",
+   "lang": "hi",
+   "q": "HIV से पीड़ित लोगों को बार-बार दूसरी बीमारियाँ क्यों हो जाती हैं?",
+   "split": "test"
+  },
+  {
+   "topic": "HIV and Infections",
+   "url": "https://medlineplus.gov/hivandinfections.html",
+   "lang": "te",
+   "q": "HIV ఉన్నవారికి ఇతర ఇన్‌ఫెక్షన్‌లు ఎందుకు త్వరగా వస్తాయి?",
+   "split": "test"
+  },
+  {
+   "topic": "HIV and Infections",
+   "url": "https://medlineplus.gov/hivandinfections.html",
+   "lang": "ta",
+   "q": "HIV உள்ளவர்களுக்கு மற்ற நோய்த்தொற்றுகள் ஏன் எளிதில் ஏற்படுகின்றன?",
+   "split": "test"
+  },
+  {
+   "topic": "HIV and Infections",
+   "url": "https://medlineplus.gov/hivandinfections.html",
+   "lang": "bn",
+   "q": "এইচআইভি (HIV)-তে আক্রান্তদের কেন খুব সহজে অন্য রোগ হয়?",
+   "split": "test"
+  },
+  {
+   "topic": "HIV and Infections",
+   "url": "https://medlineplus.gov/hivandinfections.html",
+   "lang": "ur",
+   "q": "ایچ آئی وی کے مریضوں کو دوسری بیماریاں اتنی جلدی کیوں لگ جاتی ہیں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Older Adult Mental Health",
+   "url": "https://medlineplus.gov/olderadultmentalhealth.html",
+   "lang": "en",
+   "q": "How can I help my elderly parents deal with loneliness and sadness?",
+   "split": "tune"
+  },
+  {
+   "topic": "Older Adult Mental Health",
+   "url": "https://medlineplus.gov/olderadultmentalhealth.html",
+   "lang": "hi",
+   "q": "मैं अपने बुजुर्ग माता-पिता को अकेलेपन से निपटने में कैसे मदद कर सकता हूँ?",
+   "split": "tune"
+  },
+  {
+   "topic": "Older Adult Mental Health",
+   "url": "https://medlineplus.gov/olderadultmentalhealth.html",
+   "lang": "te",
+   "q": "నా వృద్ధ తల్లిదండ్రులు ఒంటరితనాన్ని అధిగమിക്കാൻ నేను ఎలా సహాయపడగలను?",
+   "split": "tune"
+  },
+  {
+   "topic": "Older Adult Mental Health",
+   "url": "https://medlineplus.gov/olderadultmentalhealth.html",
+   "lang": "ta",
+   "q": "என் வயது முதிர்ந்த பெற்றோருக்கு தனிமை மற்றும் சோகத்திலிருந்து விடுபட நான் எப்படி உதவலாம்?",
+   "split": "tune"
+  },
+  {
+   "topic": "Older Adult Mental Health",
+   "url": "https://medlineplus.gov/olderadultmentalhealth.html",
+   "lang": "bn",
+   "q": "আমি কীভাবে আমার বয়স্ক বাবা-মাকে একাকীত্ব কাটিয়ে উঠতে সাহায্য করতে পারি?",
+   "split": "tune"
+  },
+  {
+   "topic": "Older Adult Mental Health",
+   "url": "https://medlineplus.gov/olderadultmentalhealth.html",
+   "lang": "ur",
+   "q": "میں اپنے بزرگ والدین کو اکیلے پن سے نمٹنے میں کیسے مدد کر سکتا ہوں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Reflux in Infants",
+   "url": "https://medlineplus.gov/refluxininfants.html",
+   "lang": "en",
+   "q": "Why does my baby spit up milk after every feeding?",
+   "split": "test"
+  },
+  {
+   "topic": "Reflux in Infants",
+   "url": "https://medlineplus.gov/refluxininfants.html",
+   "lang": "hi",
+   "q": "मेरा बच्चा दूध पीने के बाद बार-बार उल्टी क्यों कर देता है?",
+   "split": "test"
+  },
+  {
+   "topic": "Reflux in Infants",
+   "url": "https://medlineplus.gov/refluxininfants.html",
+   "lang": "te",
+   "q": "నా పాప పాలు తాగాక ప్రతిసారీ ఎందుకు ఉమ్ముతోంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Reflux in Infants",
+   "url": "https://medlineplus.gov/refluxininfants.html",
+   "lang": "ta",
+   "q": "என் குழந்தை பால் குடித்தவுடன் ஏன் வாந்தி எடுக்கிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Reflux in Infants",
+   "url": "https://medlineplus.gov/refluxininfants.html",
+   "lang": "bn",
+   "q": "আমার শিশুটি দুধ খাওয়ার পরেই কেন বারবার তুলে ফেলছে?",
+   "split": "test"
+  },
+  {
+   "topic": "Reflux in Infants",
+   "url": "https://medlineplus.gov/refluxininfants.html",
+   "lang": "ur",
+   "q": "میرا بچہ دودھ پینے کے بعد بار بار الٹی کیوں کر دیتا ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Campylobacter Infections",
+   "url": "https://medlineplus.gov/campylobacterinfections.html",
+   "lang": "en",
+   "q": "How can I catch a foodborne bacterial infection from undercooked chicken?",
+   "split": "tune"
+  },
+  {
+   "topic": "Campylobacter Infections",
+   "url": "https://medlineplus.gov/campylobacterinfections.html",
+   "lang": "hi",
+   "q": "कम पकी हुई चिकन खाने से पेट में होने वाले संक्रमण से कैसे बचें?",
+   "split": "tune"
+  },
+  {
+   "topic": "Campylobacter Infections",
+   "url": "https://medlineplus.gov/campylobacterinfections.html",
+   "lang": "te",
+   "q": "సరిగ్గా ఉడికించని కోడికూర తినడం వల్ల వచ్చే కడుపునొప్పి ఇన్‌ఫెక్షన్ ఎలా వస్తుంది?",
+   "split": "tune"
+  },
+  {
+   "topic": "Campylobacter Infections",
+   "url": "https://medlineplus.gov/campylobacterinfections.html",
+   "lang": "ta",
+   "q": "சரியாக வேகவைக்காத கோழிக்கறி சாப்பிடுவதால் ஏற்படும் வயிற்றுப்போக்குத் தொற்று எவ்வாறு ஏற்படுகிறது?",
+   "split": "tune"
+  },
+  {
+   "topic": "Campylobacter Infections",
+   "url": "https://medlineplus.gov/campylobacterinfections.html",
+   "lang": "bn",
+   "q": "কম সেদ্ধ মুরগির মাংস খেলে পেটে যে সংক্রমণ হয়, তা কীভাবে ছড়ায়?",
+   "split": "tune"
+  },
+  {
+   "topic": "Campylobacter Infections",
+   "url": "https://medlineplus.gov/campylobacterinfections.html",
+   "lang": "ur",
+   "q": "کم پکا ہوا مرغ کھانے سے پیٹ کا انفیکشن کیسے ہو سکتا ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Movement Disorders",
+   "url": "https://medlineplus.gov/movementdisorders.html",
+   "lang": "en",
+   "q": "Why does my hand keep shaking uncontrollably when I try to hold a cup?",
+   "split": "test"
+  },
+  {
+   "topic": "Movement Disorders",
+   "url": "https://medlineplus.gov/movementdisorders.html",
+   "lang": "hi",
+   "q": "चाय का कप उठाते समय मेरा हाथ लगातार क्यों कांपता है?",
+   "split": "test"
+  },
+  {
+   "topic": "Movement Disorders",
+   "url": "https://medlineplus.gov/movementdisorders.html",
+   "lang": "te",
+   "q": "టీ కప్ పట్టుకోవడానికి ప్రయత్నిస్తున్నప్పుడు నా చెయ్యి ఎందుకు వణుకుతోంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Movement Disorders",
+   "url": "https://medlineplus.gov/movementdisorders.html",
+   "lang": "ta",
+   "q": "தேநீர் கோப்பையைப் பிடிக்கும் போது என் கை ஏன் தொடர்ந்து நடுங்குகிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Movement Disorders",
+   "url": "https://medlineplus.gov/movementdisorders.html",
+   "lang": "bn",
+   "q": "চা খাওয়ার কাপ ধরার সময় আমার হাত বারবার কেঁপে ওঠে কেন?",
+   "split": "test"
+  },
+  {
+   "topic": "Movement Disorders",
+   "url": "https://medlineplus.gov/movementdisorders.html",
+   "lang": "ur",
+   "q": "چائے کا کپ پکڑتے وقت میرا ہاتھ مسلسل کیوں کانپتا ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Mitral Valve Prolapse",
+   "url": "https://medlineplus.gov/mitralvalveprolapse.html",
+   "lang": "en",
+   "q": "Why does my heart sometimes feel like it is fluttering or skipping a beat?",
+   "split": "tune"
+  },
+  {
+   "topic": "Mitral Valve Prolapse",
+   "url": "https://medlineplus.gov/mitralvalveprolapse.html",
+   "lang": "hi",
+   "q": "क्या दिल की धड़कन रुकना या फड़फड़ाना माइट्रल वाल्व से जुड़ा है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Mitral Valve Prolapse",
+   "url": "https://medlineplus.gov/mitralvalveprolapse.html",
+   "lang": "te",
+   "q": "నా గుండె అప్పుడప్పుడు కొట్టుకోవడం ఆగిపోయినట్లు ఎందుకు అనిపిస్తుంది?",
+   "split": "tune"
+  },
+  {
+   "topic": "Mitral Valve Prolapse",
+   "url": "https://medlineplus.gov/mitralvalveprolapse.html",
+   "lang": "ta",
+   "q": "என் இதயம் சில நேரம் படபடவென்று அடித்துக் கொள்வது போல் தோன்றுவது ஏன்?",
+   "split": "tune"
+  },
+  {
+   "topic": "Mitral Valve Prolapse",
+   "url": "https://medlineplus.gov/mitralvalveprolapse.html",
+   "lang": "bn",
+   "q": "আমার বুক কেন মাঝে মাঝে হড়কে যায় বা ধড়ফড় করে?",
+   "split": "tune"
+  },
+  {
+   "topic": "Mitral Valve Prolapse",
+   "url": "https://medlineplus.gov/mitralvalveprolapse.html",
+   "lang": "ur",
+   "q": "میرا دل کبھی کبھی کیوں دھڑکنا چھوڑ دیتا ہے یا پھڑپھڑاتا ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Chronic Kidney Disease",
+   "url": "https://medlineplus.gov/chronickidneydisease.html",
+   "lang": "en",
+   "q": "What are the early signs of long-term kidney damage?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Kidney Disease",
+   "url": "https://medlineplus.gov/chronickidneydisease.html",
+   "lang": "hi",
+   "q": "गुर्दे की गंभीर बीमारी के शुरुआती लक्षण क्या हैं?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Kidney Disease",
+   "url": "https://medlineplus.gov/chronickidneydisease.html",
+   "lang": "te",
+   "q": "దీర్ఘకాలిక మూత్రపిండ వ్యాధి యొక్క ప్రారంభ లక్షణాలు ఏమిటి?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Kidney Disease",
+   "url": "https://medlineplus.gov/chronickidneydisease.html",
+   "lang": "ta",
+   "q": "நீண்டகால சிறுநீரக நோயின் ஆரம்ப அறிகுறிகள் என்ன?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Kidney Disease",
+   "url": "https://medlineplus.gov/chronickidneydisease.html",
+   "lang": "bn",
+   "q": "দীর্ঘমেয়াদী কিডনি সমস্যার প্রাথমিক লক্ষণগুলো কী কী?",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Kidney Disease",
+   "url": "https://medlineplus.gov/chronickidneydisease.html",
+   "lang": "ur",
+   "q": "گردے کی طویل مدتی بیماری کی ابتدائی علامات کیا ہیں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Vasculitis",
+   "url": "https://medlineplus.gov/vasculitis.html",
+   "lang": "en",
+   "q": "Why are my blood vessels becoming inflamed and swollen?",
+   "split": "tune"
+  },
+  {
+   "topic": "Vasculitis",
+   "url": "https://medlineplus.gov/vasculitis.html",
+   "lang": "hi",
+   "q": "मेरी रक्त वाहिनियों में सूजन और जलन क्यों हो रही है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Vasculitis",
+   "url": "https://medlineplus.gov/vasculitis.html",
+   "lang": "te",
+   "q": "నా రక్తనాళాలు ఎందుకు వాపుకు గురవుతున్నాయి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Vasculitis",
+   "url": "https://medlineplus.gov/vasculitis.html",
+   "lang": "ta",
+   "q": "என் இரத்த நாளங்களில் ஏன் வீக்கம் ஏற்படுகிறது?",
+   "split": "tune"
+  },
+  {
+   "topic": "Vasculitis",
+   "url": "https://medlineplus.gov/vasculitis.html",
+   "lang": "bn",
+   "q": "আমার রক্তনালীগুলোতে কেন প্রদাহ ও ফুলে যাচ্ছে?",
+   "split": "tune"
+  },
+  {
+   "topic": "Vasculitis",
+   "url": "https://medlineplus.gov/vasculitis.html",
+   "lang": "ur",
+   "q": "میری خون کی نالیوں میں سوجن اور سوزش کیوں ہو رہی ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Mental Health",
+   "url": "https://medlineplus.gov/mentalhealth.html",
+   "lang": "en",
+   "q": "How can I deal with everyday stress and anxiety?",
+   "split": "test"
+  },
+  {
+   "topic": "Mental Health",
+   "url": "https://medlineplus.gov/mentalhealth.html",
+   "lang": "hi",
+   "q": "मैं रोज के तनाव और चिंता से कैसे निपट सकता हूँ?",
+   "split": "test"
+  },
+  {
+   "topic": "Mental Health",
+   "url": "https://medlineplus.gov/mentalhealth.html",
+   "lang": "te",
+   "q": "నేను రోజూ ఉండే ఒత్తిడి మరియు ఆందోళనను ఎలా ఎదుర్కోవాలి?",
+   "split": "test"
+  },
+  {
+   "topic": "Mental Health",
+   "url": "https://medlineplus.gov/mentalhealth.html",
+   "lang": "ta",
+   "q": "தினசரி அழுத்தம் மற்றும் கவலையை நான் எவ்வாறு சமாளிப்பது?",
+   "split": "test"
+  },
+  {
+   "topic": "Mental Health",
+   "url": "https://medlineplus.gov/mentalhealth.html",
+   "lang": "bn",
+   "q": "আমি কীভাবে প্রতিদিনের মানসিক চাপ এবং উদ্বেগ মোকাবেলা করতে পারি?",
+   "split": "test"
+  },
+  {
+   "topic": "Mental Health",
+   "url": "https://medlineplus.gov/mentalhealth.html",
+   "lang": "ur",
+   "q": "میں روزمرہ کے تناؤ اور پریشانی سے کیسے نمٹ سکتا ہوں؟",
+   "split": "test"
+  },
+  {
+   "topic": "Chronic Pain",
+   "url": "https://medlineplus.gov/chronicpain.html",
+   "lang": "en",
+   "q": "How can I manage long-lasting body aches every day?",
+   "split": "tune"
+  },
+  {
+   "topic": "Chronic Pain",
+   "url": "https://medlineplus.gov/chronicpain.html",
+   "lang": "hi",
+   "q": "मैं अपने शरीर के लंबे समय से चले आ रहे दर्द से कैसे राहत पा सकता हूँ?",
+   "split": "tune"
+  },
+  {
+   "topic": "Chronic Pain",
+   "url": "https://medlineplus.gov/chronicpain.html",
+   "lang": "te",
+   "q": "నా శరీરમાં చాలా కాలంగా ఉన్న నొప్పులను ఎలా తగ్గించుకోవాలి?",
+   "split": "tune"
+  },
+  {
+   "topic": "Chronic Pain",
+   "url": "https://medlineplus.gov/chronicpain.html",
+   "lang": "ta",
+   "q": "என் உடலில் நீண்ட நாட்களாக இருக்கும் வலியை எவ்வாறு குணப்படுத்துவது?",
+   "split": "tune"
+  },
+  {
+   "topic": "Chronic Pain",
+   "url": "https://medlineplus.gov/chronicpain.html",
+   "lang": "bn",
+   "q": "আমার শরীরের দীর্ঘদিনের ব্যথা কীভাবে কমানো সম্ভব?",
+   "split": "tune"
+  },
+  {
+   "topic": "Chronic Pain",
+   "url": "https://medlineplus.gov/chronicpain.html",
+   "lang": "ur",
+   "q": "میں اپنے جسم کے طویل عرصے سے چلے آ رہے درد کو کیسے کم کر سکتا ہوں؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Cervix Disorders",
+   "url": "https://medlineplus.gov/cervixdisorders.html",
+   "lang": "en",
+   "q": "Why am I experiencing unusual bleeding between my periods?",
+   "split": "test"
+  },
+  {
+   "topic": "Cervix Disorders",
+   "url": "https://medlineplus.gov/cervixdisorders.html",
+   "lang": "hi",
+   "q": "मुझे पीरियड्स کے دوران یا اس کے بیچ میں غیر معمولی خون کیوں آ رہا ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Cervix Disorders",
+   "url": "https://medlineplus.gov/cervixdisorders.html",
+   "lang": "te",
+   "q": "నా పీరియడ్స్ మధ్యలో నాకు అసాధారణ రక్తస్రావం ఎందుకు అవుతోంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Cervix Disorders",
+   "url": "https://medlineplus.gov/cervixdisorders.html",
+   "lang": "ta",
+   "q": "என் மாதவிடாய் சுழற்சிக்கு இடையில் வழக்கத்திற்கு மாறாக ஏன் இரத்தம் போக்கு ஏற்படுகிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Cervix Disorders",
+   "url": "https://medlineplus.gov/cervixdisorders.html",
+   "lang": "bn",
+   "q": "আমার মাসিক চক্রের মাঝে কেন অস্বাভাবিক রক্তপাত হচ্ছে?",
+   "split": "test"
+  },
+  {
+   "topic": "Cervix Disorders",
+   "url": "https://medlineplus.gov/cervixdisorders.html",
+   "lang": "ur",
+   "q": "مجھے ماہواری کے درمیان غیر معمولی خون بہنے کی شکایت کیوں ہو رہی ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Ear Infections",
+   "url": "https://medlineplus.gov/earinfections.html",
+   "lang": "en",
+   "q": "Why does my child keep pulling at their painful ear?",
+   "split": "tune"
+  },
+  {
+   "topic": "Ear Infections",
+   "url": "https://medlineplus.gov/earinfections.html",
+   "lang": "hi",
+   "q": "मेरे बच्चे के कान में दर्द क्यों हो रहा है और वह बार-बार उसे क्यों खींच रहा है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Ear Infections",
+   "url": "https://medlineplus.gov/earinfections.html",
+   "lang": "te",
+   "q": "నా పాప చెవిలో విపరీతమైన నొప్పి వస్తుంది, దానికి ఏమైనా ఇంటి చిట్కాలు ఉన్నాయా?",
+   "split": "tune"
+  },
+  {
+   "topic": "Ear Infections",
+   "url": "https://medlineplus.gov/earinfections.html",
+   "lang": "ta",
+   "q": "என் குழந்தைக்கு காது வலி எதனால் வருகிறது, அதற்கான எளிய தீர்வு என்ன?",
+   "split": "tune"
+  },
+  {
+   "topic": "Ear Infections",
+   "url": "https://medlineplus.gov/earinfections.html",
+   "lang": "bn",
+   "q": "আমার কানে খুব ব্যথা করছে, এটি কি কোনো ইনফেকশন?",
+   "split": "tune"
+  },
+  {
+   "topic": "Ear Infections",
+   "url": "https://medlineplus.gov/earinfections.html",
+   "lang": "ur",
+   "q": "میرے کان میں درد کیوں ہو رہا ہے اور اس کا کیا علاج ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Hepatitis A",
+   "url": "https://medlineplus.gov/hepatitisa.html",
+   "lang": "en",
+   "q": "How do adults catch this liver infection?",
+   "split": "test"
+  },
+  {
+   "topic": "Hepatitis A",
+   "url": "https://medlineplus.gov/hepatitisa.html",
+   "lang": "hi",
+   "q": "बड़ों को यह लिवर का संक्रमण कैसे होता है?",
+   "split": "test"
+  },
+  {
+   "topic": "Hepatitis A",
+   "url": "https://medlineplus.gov/hepatitisa.html",
+   "lang": "te",
+   "q": "పెద్దలకు ఈ కాలేయ ఇన్ఫెక్షన్ ఎలా వస్తుంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Hepatitis A",
+   "url": "https://medlineplus.gov/hepatitisa.html",
+   "lang": "ta",
+   "q": "பெரியவர்களுக்கு இந்த கல்லீரல் தொற்று எப்படி வருகிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Hepatitis A",
+   "url": "https://medlineplus.gov/hepatitisa.html",
+   "lang": "bn",
+   "q": "প্রাপ্তবয়স্কদের এই লিভারের সংক্রমণ কীভাবে হয়?",
+   "split": "test"
+  },
+  {
+   "topic": "Hepatitis A",
+   "url": "https://medlineplus.gov/hepatitisa.html",
+   "lang": "ur",
+   "q": "بڑوں کو یہ جگر کا انفیکشن کیسے ہوتا ہے؟",
+   "split": "test"
+  },
+  {
+   "topic": "Appendicitis",
+   "url": "https://medlineplus.gov/appendicitis.html",
+   "lang": "en",
+   "q": "Why is my lower right abdomen hurting so badly all of a sudden?",
+   "split": "tune"
+  },
+  {
+   "topic": "Appendicitis",
+   "url": "https://medlineplus.gov/appendicitis.html",
+   "lang": "hi",
+   "q": "अचानक मेरे पेट के निचले दाहिने हिस्से में इतनी तेज दर्द क्यों हो रहा है?",
+   "split": "tune"
+  },
+  {
+   "topic": "Appendicitis",
+   "url": "https://medlineplus.gov/appendicitis.html",
+   "lang": "te",
+   "q": "నా కడుపులో కుడి వైపు కింద अचानकగా ఎందుకు తీవ్రమైన నొప్పి వస్తోంది?",
+   "split": "tune"
+  },
+  {
+   "topic": "Appendicitis",
+   "url": "https://medlineplus.gov/appendicitis.html",
+   "lang": "ta",
+   "q": "என் வயிற்றின் வலது கீழ் பகுதியில் திடீரென இவ்வளவு கடுமையான வலி எற்படுகிறது ஏன்?",
+   "split": "tune"
+  },
+  {
+   "topic": "Appendicitis",
+   "url": "https://medlineplus.gov/appendicitis.html",
+   "lang": "bn",
+   "q": "হঠাৎ করে আমার পেটের নিচের ডানদিকে এত তীব্র ব্যথা করছে কেন?",
+   "split": "tune"
+  },
+  {
+   "topic": "Appendicitis",
+   "url": "https://medlineplus.gov/appendicitis.html",
+   "lang": "ur",
+   "q": "اچانک میرے پیٹ کے نچلے دائیں حصے میں اتنی شدید درد کیوں ہو رہی ہے؟",
+   "split": "tune"
+  },
+  {
+   "topic": "Voice Disorders",
+   "url": "https://medlineplus.gov/voicedisorders.html",
+   "lang": "en",
+   "q": "Why does my voice keep sounding raspy and hoarse lately?",
+   "split": "test"
+  },
+  {
+   "topic": "Voice Disorders",
+   "url": "https://medlineplus.gov/voicedisorders.html",
+   "lang": "hi",
+   "q": "मेरी आवाज़ आजकल लगातार फटी हुई और भारी क्यों आ रही है?",
+   "split": "test"
+  },
+  {
+   "topic": "Voice Disorders",
+   "url": "https://medlineplus.gov/voicedisorders.html",
+   "lang": "te",
+   "q": "నా గొంతు ఎందుకు ఇటీవల బొంగురుగా మరియు గరుకుగా మారుతోంది?",
+   "split": "test"
+  },
+  {
+   "topic": "Voice Disorders",
+   "url": "https://medlineplus.gov/voicedisorders.html",
+   "lang": "ta",
+   "q": "என் குரல் சமீபத்தில் ஏன் தொடர்ந்து கரகரப்பாக ஒலிக்கிறது?",
+   "split": "test"
+  },
+  {
+   "topic": "Voice Disorders",
+   "url": "https://medlineplus.gov/voicedisorders.html",
+   "lang": "bn",
+   "q": "আমার গলা আজকাল বারবার কেন বসে যাচ্ছে এবং কর্কশ শোনাচ্ছে?",
+   "split": "test"
+  },
+  {
+   "topic": "Voice Disorders",
+   "url": "https://medlineplus.gov/voicedisorders.html",
+   "lang": "ur",
+   "q": "میری آواز آج کل کیوں خراب اور بیٹھ گئی ہے؟",
+   "split": "test"
+  }
+ ],
+ "off_topic": [
+  {
+   "lang": "en",
+   "q": "Who won the football match last night?",
+   "split": "tune"
+  },
+  {
+   "lang": "hi",
+   "q": "कल रात का फुटबॉल मैच किसने जीता?",
+   "split": "tune"
+  },
+  {
+   "lang": "te",
+   "q": "నిన్న రాత్రి ఫుట్‌బాల్ మ్యాచ్ ఎవరు గెలిచారు?",
+   "split": "tune"
+  },
+  {
+   "lang": "ta",
+   "q": "நேற்று இரவு கால்பந்து போட்டியில் வென்றது யார்?",
+   "split": "tune"
+  },
+  {
+   "lang": "bn",
+   "q": "গতকাল রাতে ফুটবলে কে জিতেছে?",
+   "split": "tune"
+  },
+  {
+   "lang": "ur",
+   "q": "کل رات کا فٹ بال میچ کس نے جیتا؟",
+   "split": "tune"
+  },
+  {
+   "lang": "en",
+   "q": "What is the best way to sear a steak?",
+   "split": "test"
+  },
+  {
+   "lang": "hi",
+   "q": "स्टेक को भूनने का सबसे अच्छा तरीका क्या है?",
+   "split": "test"
+  },
+  {
+   "lang": "te",
+   "q": "స్టేక్‌ను వేయించడానికి ఉత్తమమైన మార్గం ఏమిటి?",
+   "split": "test"
+  },
+  {
+   "lang": "ta",
+   "q": "ஸ்டீக்கை வறுக்க சிறந்த வழி எது?",
+   "split": "test"
+  },
+  {
+   "lang": "bn",
+   "q": "স্টেক ভাজার সেরা উপায় কি?",
+   "split": "test"
+  },
+  {
+   "lang": "ur",
+   "q": "اسٹیک کو بھوننے کا بہترین طریقہ کیا ہے؟",
+   "split": "test"
+  },
+  {
+   "lang": "en",
+   "q": "Which country has the largest land area?",
+   "split": "tune"
+  },
+  {
+   "lang": "hi",
+   "q": "किस देश का क्षेत्रफल सबसे अधिक है?",
+   "split": "tune"
+  },
+  {
+   "lang": "te",
+   "q": "ఏ దేశంలో అత్యధిక భూభాగం ఉంది?",
+   "split": "tune"
+  },
+  {
+   "lang": "ta",
+   "q": "எந்த நாட்டில் மிகப்பெரிய நிலப்பரப்பு உள்ளது?",
+   "split": "tune"
+  },
+  {
+   "lang": "bn",
+   "q": "কোন দেশের জমির পরিমাণ সবচেয়ে বেশি?",
+   "split": "tune"
+  },
+  {
+   "lang": "ur",
+   "q": "کس ملک کا رقبہ سب سے زیادہ ہے؟",
+   "split": "tune"
+  },
+  {
+   "lang": "en",
+   "q": "How do I clear the cache on my phone?",
+   "split": "test"
+  },
+  {
+   "lang": "hi",
+   "q": "मैं अपने फोन का कैशे कैसे साफ़ करूं?",
+   "split": "test"
+  },
+  {
+   "lang": "te",
+   "q": "నా ఫోన్‌లో కాష్‌ను ఎలా క్లియర్ చేయాలి?",
+   "split": "test"
+  },
+  {
+   "lang": "ta",
+   "q": "எனது தொலைபேசியில் தற்காலிக சேமிப்பை எவ்வாறு அழிப்பது?",
+   "split": "test"
+  },
+  {
+   "lang": "bn",
+   "q": "আমি কীভাবে আমার ফোনের ক্যাশে পরিষ্কার করব?",
+   "split": "test"
+  },
+  {
+   "lang": "ur",
+   "q": "میں اپنے فون کی کیشے کیسے صاف کروں؟",
+   "split": "test"
+  },
+  {
+   "lang": "en",
+   "q": "Can you recommend a good sci-fi movie?",
+   "split": "tune"
+  },
+  {
+   "lang": "hi",
+   "q": "क्या आप किसी अच्छी sci-fi फिल्म की सिफारिश कर सकते हैं?",
+   "split": "tune"
+  },
+  {
+   "lang": "te",
+   "q": "మీరు మంచి సైన్స్ ఫిక్షన్ చలనచిత్రాన్ని సిఫారసు చేయగలరా?",
+   "split": "tune"
+  },
+  {
+   "lang": "ta",
+   "q": "நல்ல அறிவியல் புனைகதை திரைப்படத்தை பரிந்துரைக்க முடியுமா?",
+   "split": "tune"
+  },
+  {
+   "lang": "bn",
+   "q": "আপনি কি একটি ভালো সাইন্স ফিকশন সিনেমা সুপারিশ করতে পারেন?",
+   "split": "tune"
+  },
+  {
+   "lang": "ur",
+   "q": "کیا آپ کسی اچھی سائنس فکشن فلم کی سفارش کر سکتے ہیں؟",
+   "split": "tune"
+  },
+  {
+   "lang": "en",
+   "q": "How long should I bake the cake?",
+   "split": "test"
+  },
+  {
+   "lang": "hi",
+   "q": "मुझे केक कितने समय तक बेक करना चाहिए?",
+   "split": "test"
+  },
+  {
+   "lang": "te",
+   "q": "నేను కేక్‌ను ఎంతసేపు బేక్ చేయాలి?",
+   "split": "test"
+  },
+  {
+   "lang": "ta",
+   "q": "நான் கேக்கை எவ்வளவு நேரம் பேக் செய்ய வேண்டும்?",
+   "split": "test"
+  },
+  {
+   "lang": "bn",
+   "q": "কেকটি কতক্ষণ বেক করা উচিত?",
+   "split": "test"
+  },
+  {
+   "lang": "ur",
+   "q": "मुझे کیک کتنی دیر تک بیک کرنا چاہیے؟",
+   "split": "test"
+  },
+  {
+   "lang": "en",
+   "q": "What is the capital of Australia?",
+   "split": "tune"
+  },
+  {
+   "lang": "hi",
+   "q": "ऑस्ट्रेलिया की राजधानी क्या है?",
+   "split": "tune"
+  },
+  {
+   "lang": "te",
+   "q": "ఆస్ట్రేలియా రాజధాని ఏమిటి?",
+   "split": "tune"
+  },
+  {
+   "lang": "ta",
+   "q": "ஆஸ்திரேலியாவின் தலைநகரம் எது?",
+   "split": "tune"
+  },
+  {
+   "lang": "bn",
+   "q": "অস্ট্রেলিয়ার রাজধানী কি?",
+   "split": "tune"
+  },
+  {
+   "lang": "ur",
+   "q": "آسٹریلیا کا دارالحکومت کیا ہے؟",
+   "split": "tune"
+  },
+  {
+   "lang": "en",
+   "q": "Why is my Wi-Fi connection so slow today?",
+   "split": "test"
+  },
+  {
+   "lang": "hi",
+   "q": "आज मेरा वाई-फाई कनेक्शन इतना धीमा क्यों है?",
+   "split": "test"
+  },
+  {
+   "lang": "te",
+   "q": "ఈరోజు నా వై-ఫై కనెక్షన్ ఎందుకు అంత నెమ్మదిగా ఉంది?",
+   "split": "test"
+  },
+  {
+   "lang": "ta",
+   "q": "இன்று எனது வைஃபை இணைப்பு ஏன் மிகவும் மெதுவாக உள்ளது?",
+   "split": "test"
+  },
+  {
+   "lang": "bn",
+   "q": "আজ আমার ওয়াইফাই সংযোগ এত ধীরগতির কেন?",
+   "split": "test"
+  },
+  {
+   "lang": "ur",
+   "q": "آج میرا وائی فائی کنکشن اتنا سست کیوں ہے؟",
+   "split": "test"
+  },
+  {
+   "lang": "en",
+   "q": "Which team is playing in the finals?",
+   "split": "tune"
+  },
+  {
+   "lang": "hi",
+   "q": "फाइनल में कौन सी टीम खेल रही है?",
+   "split": "tune"
+  },
+  {
+   "lang": "te",
+   "q": "ఫైనల్స్‌లో ఏ జట్టు తలపడుతోంది?",
+   "split": "tune"
+  },
+  {
+   "lang": "ta",
+   "q": "இறுதிப் போட்டியில் எந்த அணி விளையாடுகிறது?",
+   "split": "tune"
+  },
+  {
+   "lang": "bn",
+   "q": "ফাইনালে কোন দল খেলছে?",
+   "split": "tune"
+  },
+  {
+   "lang": "ur",
+   "q": "فائنل میں کون سی ٹیم کھیل رہی ہے؟",
+   "split": "tune"
+  },
+  {
+   "lang": "en",
+   "q": "What temperature should the oven be set to?",
+   "split": "test"
+  },
+  {
+   "lang": "hi",
+   "q": "ओवन का तापमान कितना होना चाहिए?",
+   "split": "test"
+  },
+  {
+   "lang": "te",
+   "q": "ఓవెన్ ఉష్ణోగ్రత ఎంత సెట్ చేయాలి?",
+   "split": "test"
+  },
+  {
+   "lang": "ta",
+   "q": "அடுப்பின் வெப்பநிலையை என்னவாக அமைக்க வேண்டும்?",
+   "split": "test"
+  },
+  {
+   "lang": "bn",
+   "q": "ওভেনের তাপমাত্রা কত হওয়া উচিত?",
+   "split": "test"
+  },
+  {
+   "lang": "ur",
+   "q": "اوون کا درجہ حرارت کیا ہونا چاہیے؟",
+   "split": "test"
+  },
+  {
+   "lang": "en",
+   "q": "How many states are there in the United States?",
+   "split": "tune"
+  },
+  {
+   "lang": "hi",
+   "q": "संयुक्त राज्य अमेरिका में कितने राज्य हैं?",
+   "split": "tune"
+  },
+  {
+   "lang": "te",
+   "q": "అమెరికా సంయుక్త రాష్ట్రాలలో ఎన్ని రాష్ట్రాలు ఉన్నాయి?",
+   "split": "tune"
+  },
+  {
+   "lang": "ta",
+   "q": "அமெரிக்காவில் எத்தனை மாநிலங்கள் உள்ளன?",
+   "split": "tune"
+  },
+  {
+   "lang": "bn",
+   "q": "যুক্তরাষ্ট্রে কয়টি রাজ্য আছে?",
+   "split": "tune"
+  },
+  {
+   "lang": "ur",
+   "q": "ریاستہائے متحدہ امریکہ میں کتنی ریاستیں ہیں؟",
+   "split": "tune"
+  },
+  {
+   "lang": "en",
+   "q": "How do I update my laptop software?",
+   "split": "test"
+  },
+  {
+   "lang": "hi",
+   "q": "मैं अपने लैपटॉप का सॉफ्टवेयर कैसे अपडेट करूं?",
+   "split": "test"
+  },
+  {
+   "lang": "te",
+   "q": "నా ల్యాప్‌టాప్ సాఫ్ట్‌వేర్‌ను ఎలా అప్‌డేట్ చేయాలి?",
+   "split": "test"
+  },
+  {
+   "lang": "ta",
+   "q": "எனது லேப்டாப் மென்பொருளை எவ்வாறு புதுப்பிப்பது?",
+   "split": "test"
+  },
+  {
+   "lang": "bn",
+   "q": "আমি কীভাবে আমার ল্যাপটপের সফটওয়্যার আপডেট করব?",
+   "split": "test"
+  },
+  {
+   "lang": "ur",
+   "q": "میں اپنے لیپ ٹاپ کا سافٹ ویئر کیسے اپ ڈیٹ کروں؟",
+   "split": "test"
+  }
+ ]
+}

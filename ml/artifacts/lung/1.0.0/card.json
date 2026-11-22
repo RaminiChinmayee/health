@@ -1,0 +1,365 @@
+{
+  "key": "lung",
+  "version": "1.0.0",
+  "title": "Lung cancer symptom screening",
+  "task": "binary_classification",
+  "positive_label": "Answers resemble the lung-cancer group",
+  "trained_at": "2026-11-21T17:23:25+00:00",
+  "algorithm": "logistic_regression",
+  "calibration": "None — class-balanced model; outputs assume equal numbers of positive and negative cases",
+  "display": "similarity",
+  "features": [
+    {
+      "name": "age",
+      "kind": "number",
+      "required": true,
+      "min": 18,
+      "max": 100,
+      "step": 1,
+      "unit": "years",
+      "profile_source": "age"
+    },
+    {
+      "name": "sex",
+      "kind": "choice",
+      "required": true,
+      "options": [
+        0,
+        1
+      ],
+      "profile_source": "sex"
+    },
+    {
+      "name": "smoking",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "yellow_fingers",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "anxiety",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "chronic_disease",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "fatigue",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "allergy",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "wheezing",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "alcohol",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "coughing",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "shortness_of_breath",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "swallowing_difficulty",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "chest_pain",
+      "kind": "boolean",
+      "required": true,
+      "options": [
+        0,
+        1
+      ]
+    }
+  ],
+  "reference_values": {
+    "age": 63.0,
+    "sex": 1.0,
+    "smoking": 1.0,
+    "yellow_fingers": 1.0,
+    "anxiety": 0.0,
+    "chronic_disease": 1.0,
+    "fatigue": 1.0,
+    "allergy": 1.0,
+    "wheezing": 1.0,
+    "alcohol": 1.0,
+    "coughing": 1.0,
+    "shortness_of_breath": 1.0,
+    "swallowing_difficulty": 0.0,
+    "chest_pain": 1.0
+  },
+  "dataset": {
+    "name": "Lung Cancer (survey) dataset",
+    "source": "https://www.kaggle.com/datasets/nancyalaswad90/lung-cancer (copy: https://huggingface.co/datasets/nateraw/lung-cancer)",
+    "citation": "Alaswad N. Lung Cancer [Dataset]. Kaggle.",
+    "license": "CC BY-NC-SA 4.0 (non-commercial use only)",
+    "population": "309 survey respondents; country, setting and how diagnoses were confirmed are not documented; 87% had lung cancer",
+    "files": {
+      "survey_lung_cancer.csv": "4ae438a5cfac3742491552749fedea29fb0a92680609d1c51dcfd9abcc9bea7a"
+    },
+    "rows_after_dedup": 276,
+    "duplicates_removed": 33
+  },
+  "evaluation": {
+    "protocol": "stratified random 75/25 split",
+    "dev_rows": 207,
+    "test_rows": 69,
+    "model_selection_cv": {
+      "logistic_regression": {
+        "cv_roc_auc": 0.9234,
+        "best_params": {
+          "clf__C": 0.1
+        }
+      },
+      "random_forest": {
+        "cv_roc_auc": 0.8831,
+        "best_params": {
+          "clf__max_depth": 5,
+          "clf__min_samples_leaf": 5
+        }
+      },
+      "gradient_boosting": {
+        "cv_roc_auc": 0.8604,
+        "best_params": {
+          "clf__learning_rate": 0.03,
+          "clf__max_depth": 2,
+          "clf__max_iter": 100
+        }
+      }
+    },
+    "test": {
+      "n": 69,
+      "positives": 59,
+      "accuracy": 0.913,
+      "precision": 1.0,
+      "recall_sensitivity": 0.8983,
+      "specificity": 1.0,
+      "f1": 0.9464,
+      "roc_auc": 0.9695,
+      "pr_auc": 0.9953,
+      "brier": 0.0891,
+      "confusion_matrix": {
+        "tn": 10,
+        "fp": 0,
+        "fn": 6,
+        "tp": 53
+      },
+      "threshold": 0.5,
+      "ci95": {
+        "accuracy": [
+          0.8406,
+          0.971
+        ],
+        "roc_auc": [
+          0.9242,
+          1.0
+        ],
+        "recall_sensitivity": [
+          0.8166,
+          0.9672
+        ],
+        "specificity": [
+          1.0,
+          1.0
+        ]
+      },
+      "calibration": [
+        {
+          "mean_predicted": 0.1633,
+          "observed_rate": 0.2857
+        },
+        {
+          "mean_predicted": 0.6024,
+          "observed_rate": 1.0
+        },
+        {
+          "mean_predicted": 0.8119,
+          "observed_rate": 1.0
+        },
+        {
+          "mean_predicted": 0.8935,
+          "observed_rate": 1.0
+        },
+        {
+          "mean_predicted": 0.9668,
+          "observed_rate": 1.0
+        }
+      ]
+    },
+    "cross_validation_all_data": {
+      "accuracy": {
+        "mean": 0.866,
+        "std": 0.0444
+      },
+      "roc_auc": {
+        "mean": 0.9334,
+        "std": 0.0453
+      },
+      "recall_sensitivity": {
+        "mean": 0.8668,
+        "std": 0.0434
+      },
+      "specificity": {
+        "mean": 0.8607,
+        "std": 0.1497
+      },
+      "f1": {
+        "mean": 0.9173,
+        "std": 0.0282
+      }
+    },
+    "external_validation": {},
+    "permutation_importance_test": [
+      {
+        "feature": "alcohol",
+        "importance": 0.0299,
+        "std": 0.012
+      },
+      {
+        "feature": "swallowing_difficulty",
+        "importance": 0.0239,
+        "std": 0.0115
+      },
+      {
+        "feature": "coughing",
+        "importance": 0.0223,
+        "std": 0.0079
+      },
+      {
+        "feature": "yellow_fingers",
+        "importance": 0.0211,
+        "std": 0.013
+      },
+      {
+        "feature": "allergy",
+        "importance": 0.0198,
+        "std": 0.0171
+      },
+      {
+        "feature": "fatigue",
+        "importance": 0.0147,
+        "std": 0.0189
+      },
+      {
+        "feature": "wheezing",
+        "importance": 0.0081,
+        "std": 0.0055
+      },
+      {
+        "feature": "anxiety",
+        "importance": 0.0053,
+        "std": 0.0109
+      },
+      {
+        "feature": "age",
+        "importance": 0.0036,
+        "std": 0.0051
+      },
+      {
+        "feature": "chest_pain",
+        "importance": 0.0021,
+        "std": 0.0068
+      },
+      {
+        "feature": "smoking",
+        "importance": 0.002,
+        "std": 0.0045
+      },
+      {
+        "feature": "sex",
+        "importance": 0.0,
+        "std": 0.0025
+      },
+      {
+        "feature": "shortness_of_breath",
+        "importance": -0.0031,
+        "std": 0.0028
+      },
+      {
+        "feature": "chronic_disease",
+        "importance": -0.0051,
+        "std": 0.0107
+      }
+    ]
+  },
+  "limitations": [
+    "Small, weakly documented survey (309 people, 39 without lung cancer); where and how it was collected and how diagnoses were confirmed is not stated. Treat results as a rough indication only.",
+    "Symptoms such as cough, breathlessness, wheezing and chest pain are common in many lung conditions (asthma, COPD, TB, infections), not only cancer; a 'resembles' result does not mean cancer.",
+    "Many people with early lung cancer have no symptoms. A low similarity does not rule it out — especially for long-term smokers.",
+    "Not a diagnosis. Lung problems are diagnosed with a doctor's examination, chest X-ray or CT scan, and other tests."
+  ],
+  "notes": [
+    "Class-balanced training without calibration: outputs assume equal numbers of people with and without lung cancer, so the app shows how closely the answers resemble each group, not a probability.",
+    "The 'peer pressure' question in the source survey was not used."
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "sklearn": "1.9.1"
+  }
+}

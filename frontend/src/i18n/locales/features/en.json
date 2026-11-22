@@ -1,0 +1,2027 @@
+{
+  "nav2": {
+    "assessments": "Health Assessments"
+  },
+  "symptoms": {
+    "itching": "Itching",
+    "skin_rash": "Skin rash",
+    "nodal_skin_eruptions": "Bumpy skin eruptions",
+    "continuous_sneezing": "Continuous sneezing",
+    "shivering": "Shivering",
+    "chills": "Chills",
+    "joint_pain": "Joint pain",
+    "stomach_pain": "Stomach pain",
+    "acidity": "Acidity",
+    "ulcers_on_tongue": "Ulcers on the tongue",
+    "muscle_wasting": "Muscle wasting",
+    "vomiting": "Vomiting",
+    "burning_micturition": "Burning while urinating",
+    "spotting_urination": "Spotting during urination",
+    "fatigue": "Fatigue",
+    "weight_gain": "Weight gain",
+    "anxiety": "Anxiety",
+    "cold_hands_and_feets": "Cold hands and feet",
+    "mood_swings": "Mood swings",
+    "weight_loss": "Weight loss",
+    "restlessness": "Restlessness",
+    "lethargy": "Lethargy",
+    "patches_in_throat": "Patches in the throat",
+    "irregular_sugar_level": "Irregular blood sugar",
+    "cough": "Cough",
+    "high_fever": "High fever",
+    "sunken_eyes": "Sunken eyes",
+    "breathlessness": "Breathlessness",
+    "sweating": "Sweating",
+    "dehydration": "Dehydration",
+    "indigestion": "Indigestion",
+    "headache": "Headache",
+    "yellowish_skin": "Yellowish skin",
+    "dark_urine": "Dark urine",
+    "nausea": "Nausea",
+    "loss_of_appetite": "Loss of appetite",
+    "pain_behind_the_eyes": "Pain behind the eyes",
+    "back_pain": "Back pain",
+    "constipation": "Constipation",
+    "abdominal_pain": "Abdominal pain",
+    "diarrhoea": "Diarrhoea",
+    "mild_fever": "Mild fever",
+    "yellow_urine": "Yellow urine",
+    "yellowing_of_eyes": "Yellowing of the eyes",
+    "acute_liver_failure": "Liver failure (told by a doctor)",
+    "swelling_of_stomach": "Swelling of the stomach",
+    "swelled_lymph_nodes": "Swollen lymph nodes",
+    "malaise": "General feeling of being unwell",
+    "blurred_and_distorted_vision": "Blurred or distorted vision",
+    "phlegm": "Phlegm",
+    "throat_irritation": "Throat irritation",
+    "redness_of_eyes": "Redness of eyes",
+    "sinus_pressure": "Sinus pressure",
+    "runny_nose": "Runny nose",
+    "congestion": "Nasal congestion",
+    "chest_pain": "Chest pain",
+    "weakness_in_limbs": "Weakness in arms or legs",
+    "fast_heart_rate": "Fast heart rate",
+    "pain_during_bowel_movements": "Pain during bowel movements",
+    "pain_in_anal_region": "Pain around the anus",
+    "bloody_stool": "Blood in stool",
+    "irritation_in_anus": "Anal irritation",
+    "neck_pain": "Neck pain",
+    "dizziness": "Dizziness",
+    "cramps": "Cramps",
+    "bruising": "Bruising",
+    "obesity": "Obesity",
+    "swollen_legs": "Swollen legs",
+    "swollen_blood_vessels": "Swollen blood vessels",
+    "puffy_face_and_eyes": "Puffy face and eyes",
+    "enlarged_thyroid": "Enlarged thyroid (neck swelling)",
+    "brittle_nails": "Brittle nails",
+    "swollen_extremeties": "Swollen hands or feet",
+    "excessive_hunger": "Excessive hunger",
+    "extra_marital_contacts": "Sexual contact with new or multiple partners",
+    "drying_and_tingling_lips": "Dry, tingling lips",
+    "slurred_speech": "Slurred speech",
+    "knee_pain": "Knee pain",
+    "hip_joint_pain": "Hip joint pain",
+    "muscle_weakness": "Muscle weakness",
+    "stiff_neck": "Stiff neck",
+    "swelling_joints": "Swelling joints",
+    "movement_stiffness": "Stiffness when moving",
+    "spinning_movements": "Spinning sensation (vertigo)",
+    "loss_of_balance": "Loss of balance",
+    "unsteadiness": "Unsteadiness",
+    "weakness_of_one_body_side": "Weakness on one side of the body",
+    "loss_of_smell": "Loss of smell",
+    "bladder_discomfort": "Bladder discomfort",
+    "foul_smell_of_urine": "Foul-smelling urine",
+    "continuous_feel_of_urine": "Constant urge to urinate",
+    "passage_of_gases": "Passing gas",
+    "internal_itching": "Internal itching",
+    "toxic_look_typhos": "Looking severely unwell",
+    "depression": "Depression",
+    "irritability": "Irritability",
+    "muscle_pain": "Muscle pain",
+    "altered_sensorium": "Confusion or reduced alertness",
+    "red_spots_over_body": "Red spots on the body",
+    "belly_pain": "Belly pain",
+    "abnormal_menstruation": "Irregular periods",
+    "dischromic_patches": "Discoloured skin patches",
+    "watering_from_eyes": "Watery eyes",
+    "increased_appetite": "Increased appetite",
+    "polyuria": "Frequent urination",
+    "family_history": "Family history of similar illness",
+    "mucoid_sputum": "Mucus in sputum",
+    "rusty_sputum": "Rust-coloured sputum",
+    "lack_of_concentration": "Difficulty concentrating",
+    "visual_disturbances": "Visual disturbances",
+    "receiving_blood_transfusion": "Recent blood transfusion",
+    "receiving_unsterile_injections": "Injections with possibly unsterile needles",
+    "coma": "Unconsciousness",
+    "stomach_bleeding": "Stomach bleeding (vomiting blood or black stools)",
+    "distention_of_abdomen": "Swollen abdomen",
+    "history_of_alcohol_consumption": "Regular alcohol use",
+    "fluid_overload": "Fluid retention (swelling)",
+    "blood_in_sputum": "Blood in sputum",
+    "prominent_veins_on_calf": "Prominent veins on the calf",
+    "palpitations": "Palpitations",
+    "painful_walking": "Painful walking",
+    "pus_filled_pimples": "Pus-filled pimples",
+    "blackheads": "Blackheads",
+    "scurring": "Scarring",
+    "skin_peeling": "Peeling skin",
+    "silver_like_dusting": "Silvery scales on skin",
+    "small_dents_in_nails": "Small dents in nails",
+    "inflammatory_nails": "Inflamed nails",
+    "blister": "Blisters",
+    "red_sore_around_nose": "Red sore around the nose",
+    "yellow_crust_ooze": "Oozing yellow crusts on skin"
+  },
+  "diseases": {
+    "bppv": "Benign paroxysmal positional vertigo",
+    "aids": "HIV/AIDS",
+    "acne": "Acne",
+    "alcoholic_hepatitis": "Alcoholic hepatitis",
+    "allergy": "Allergy",
+    "arthritis": "Arthritis",
+    "asthma": "Bronchial asthma",
+    "cervical_spondylosis": "Cervical spondylosis",
+    "chicken_pox": "Chickenpox",
+    "chronic_cholestasis": "Chronic cholestasis",
+    "common_cold": "Common cold",
+    "dengue": "Dengue",
+    "diabetes": "Diabetes",
+    "hemorrhoids": "Haemorrhoids (piles)",
+    "drug_reaction": "Drug reaction",
+    "fungal_infection": "Fungal infection",
+    "gerd": "Gastro-oesophageal reflux disease (GERD)",
+    "gastroenteritis": "Gastroenteritis",
+    "heart_attack": "Heart attack",
+    "hepatitis_b": "Hepatitis B",
+    "hepatitis_c": "Hepatitis C",
+    "hepatitis_d": "Hepatitis D",
+    "hepatitis_e": "Hepatitis E",
+    "hypertension": "Hypertension",
+    "hyperthyroidism": "Hyperthyroidism",
+    "hypoglycemia": "Hypoglycaemia",
+    "hypothyroidism": "Hypothyroidism",
+    "impetigo": "Impetigo",
+    "jaundice": "Jaundice",
+    "malaria": "Malaria",
+    "migraine": "Migraine",
+    "osteoarthritis": "Osteoarthritis",
+    "brain_hemorrhage": "Paralysis (brain haemorrhage)",
+    "peptic_ulcer": "Peptic ulcer disease",
+    "pneumonia": "Pneumonia",
+    "psoriasis": "Psoriasis",
+    "tuberculosis": "Tuberculosis",
+    "typhoid": "Typhoid",
+    "uti": "Urinary tract infection",
+    "varicose_veins": "Varicose veins",
+    "hepatitis_a": "Hepatitis A"
+  },
+  "dishes": {
+    "poha": "Poha",
+    "upma": "Upma",
+    "idli_sambar": "Idli with sambar",
+    "masala_dosa": "Masala dosa",
+    "oats_porridge": "Oats porridge with banana",
+    "besan_chilla": "Besan chilla with curd",
+    "moong_chilla": "Moong dal chilla",
+    "aloo_paratha_curd": "Aloo paratha with curd",
+    "egg_bhurji_toast": "Egg bhurji with toast",
+    "boiled_eggs_fruit": "Boiled eggs with fruit",
+    "sprouts_salad": "Sprouts salad",
+    "millet_porridge": "Millet porridge",
+    "tofu_scramble_toast": "Tofu scramble with toast",
+    "peanut_butter_toast": "Peanut butter toast with banana",
+    "dal_rice": "Dal and rice",
+    "rajma_rice": "Rajma and rice",
+    "chole_roti": "Chole with roti",
+    "palak_paneer_roti": "Palak paneer with roti",
+    "veg_pulao_raita": "Vegetable pulao with raita",
+    "mixed_veg_dal_roti": "Mixed vegetable dal with roti",
+    "sambar_rice": "Sambar rice",
+    "curd_rice": "Curd rice",
+    "moong_khichdi": "Moong dal khichdi",
+    "bhindi_dal_roti": "Bhindi, dal and roti",
+    "aloo_gobi_roti": "Aloo gobi with roti and curd",
+    "baingan_bharta_roti": "Baingan bharta, dal and roti",
+    "chicken_curry_rice": "Chicken curry and rice",
+    "fish_curry_rice": "Fish curry and rice",
+    "egg_curry_roti": "Egg curry with roti",
+    "tofu_peas_curry_rice": "Tofu and peas curry with rice",
+    "grilled_chicken_salad": "Grilled chicken salad",
+    "rajma_brown_rice": "Rajma with brown rice",
+    "millet_khichdi": "Millet khichdi",
+    "veg_soup_toast": "Vegetable and moong soup with toast",
+    "paneer_bhurji_roti": "Paneer bhurji with roti",
+    "mushroom_matar_roti": "Mushroom matar with roti",
+    "lauki_chana_dal_rice": "Lauki chana dal with rice",
+    "fruit_bowl": "Fruit bowl",
+    "banana": "Banana",
+    "guava": "Guava",
+    "orange": "Orange",
+    "roasted_peanuts": "Roasted peanuts",
+    "almonds": "Almonds",
+    "buttermilk": "Buttermilk (chaas)",
+    "boiled_corn": "Boiled corn",
+    "sweet_potato_chaat": "Sweet potato chaat",
+    "yogurt_fruit": "Curd with banana",
+    "mango": "Mango",
+    "sesame_peanut_mix": "Sesame and peanut mix"
+  },
+  "ingredients": {
+    "rice": "cooked rice",
+    "rice_raw": "rice (raw)",
+    "poha": "flattened rice (poha)",
+    "brown_rice": "cooked brown rice",
+    "roti": "roti / chapati",
+    "wheat_flour": "whole-wheat flour (atta)",
+    "bread": "whole-wheat bread",
+    "semolina": "semolina (rava)",
+    "oats": "oats",
+    "millet": "millet (cooked)",
+    "lentil": "masoor dal (cooked)",
+    "toor_dal": "toor dal (cooked)",
+    "chickpea": "chickpeas / chana (cooked)",
+    "rajma": "kidney beans / rajma (cooked)",
+    "mung_sprout": "sprouted moong",
+    "mung": "moong dal (cooked)",
+    "urad_raw": "urad dal (raw)",
+    "besan": "gram flour (besan)",
+    "paneer": "paneer",
+    "yogurt": "curd (yogurt)",
+    "milk": "milk",
+    "ghee": "ghee",
+    "egg": "egg",
+    "chicken": "chicken",
+    "fish": "fish",
+    "tofu": "tofu",
+    "potato": "potato",
+    "onion": "onion",
+    "garlic": "garlic",
+    "ginger": "ginger",
+    "tomato": "tomato",
+    "spinach": "spinach",
+    "cauliflower": "cauliflower",
+    "cabbage": "cabbage",
+    "carrot": "carrot",
+    "peas": "green peas",
+    "okra": "okra (bhindi)",
+    "eggplant": "brinjal",
+    "gourd": "bottle gourd (lauki)",
+    "cucumber": "cucumber",
+    "beans": "green beans",
+    "mushroom": "mushroom",
+    "beetroot": "beetroot",
+    "sweet_potato": "sweet potato",
+    "corn": "sweet corn",
+    "banana": "banana",
+    "apple": "apple",
+    "papaya": "papaya",
+    "guava": "guava",
+    "orange": "orange",
+    "mango": "mango",
+    "pomegranate": "pomegranate",
+    "peanut": "peanuts",
+    "peanut_butter": "peanut butter",
+    "almond": "almonds",
+    "sesame": "sesame seeds",
+    "coconut": "coconut",
+    "oil": "cooking oil",
+    "sugar": "sugar",
+    "honey": "honey",
+    "lemon": "lemon juice",
+    "chili": "green chilli",
+    "coriander": "coriander leaves",
+    "spices": "spice mix (e.g. sambar powder)"
+  },
+  "fields": {
+    "heart": {
+      "age": {
+        "label": "Age",
+        "help": "In years."
+      },
+      "sex": {
+        "label": "Sex",
+        "help": "The study recorded sex as female or male.",
+        "options": {
+          "0": "Female",
+          "1": "Male"
+        }
+      },
+      "cp": {
+        "label": "Chest pain type",
+        "options": {
+          "1": "Typical angina: chest pain on exertion, relieved by rest",
+          "2": "Atypical angina",
+          "3": "Chest pain not related to the heart",
+          "4": "No chest pain"
+        }
+      },
+      "trestbps": {
+        "label": "Resting blood pressure (systolic)",
+        "help": "The top number of a resting blood pressure reading."
+      },
+      "chol": {
+        "label": "Total cholesterol",
+        "help": "From a lipid profile blood test."
+      },
+      "fbs": {
+        "label": "Fasting blood sugar above 120 mg/dL",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "restecg": {
+        "label": "Resting ECG result",
+        "help": "From an ECG report.",
+        "options": {
+          "0": "Normal",
+          "1": "ST-T wave abnormality",
+          "2": "Left ventricular hypertrophy"
+        }
+      },
+      "thalach": {
+        "label": "Maximum heart rate on an exercise (treadmill) test",
+        "help": "From a treadmill test (TMT) report."
+      },
+      "exang": {
+        "label": "Chest pain during exercise",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "oldpeak": {
+        "label": "ST depression on exercise ECG",
+        "help": "From a treadmill test report. Enter 0 if none."
+      },
+      "slope": {
+        "label": "Slope of the peak exercise ST segment",
+        "help": "From a treadmill test report.",
+        "options": {
+          "1": "Upsloping",
+          "2": "Flat",
+          "3": "Downsloping"
+        }
+      },
+      "ca": {
+        "label": "Major blood vessels seen on fluoroscopy",
+        "help": "Number from 0 to 3, from an angiography report.",
+        "options": {
+          "0": "0",
+          "1": "1",
+          "2": "2",
+          "3": "3"
+        }
+      },
+      "thal": {
+        "label": "Thallium stress test result",
+        "options": {
+          "3": "Normal",
+          "6": "Fixed defect",
+          "7": "Reversible defect"
+        }
+      }
+    },
+    "diabetes": {
+      "preg": {
+        "label": "Number of pregnancies",
+        "help": "Enter 0 if never pregnant or not applicable."
+      },
+      "plas": {
+        "label": "Glucose 2 hours after a glucose tolerance test",
+        "help": "From an oral glucose tolerance test (OGTT). Not a fasting or random reading."
+      },
+      "pres": {
+        "label": "Diastolic blood pressure",
+        "help": "The bottom number of a blood pressure reading."
+      },
+      "skin": {
+        "label": "Triceps skinfold thickness",
+        "help": "Measured with callipers at the back of the upper arm."
+      },
+      "insu": {
+        "label": "Insulin 2 hours after a glucose tolerance test"
+      },
+      "mass": {
+        "label": "Body mass index (BMI)"
+      },
+      "pedi": {
+        "label": "Diabetes pedigree function",
+        "help": "A score used in the study to summarise family history of diabetes. Leave blank if you don't know it."
+      },
+      "age": {
+        "label": "Age",
+        "help": "In years."
+      }
+    },
+    "diabetes_symptoms": {
+      "age": {
+        "label": "Age",
+        "help": "In years."
+      },
+      "sex": {
+        "label": "Sex",
+        "help": "The study recorded sex as female or male.",
+        "options": {
+          "0": "Female",
+          "1": "Male"
+        }
+      },
+      "polyuria": {
+        "label": "Urinating much more often than usual",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "polydipsia": {
+        "label": "Excessive thirst",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "sudden_weight_loss": {
+        "label": "Sudden unexplained weight loss",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "weakness": {
+        "label": "Weakness",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "polyphagia": {
+        "label": "Excessive hunger",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "genital_thrush": {
+        "label": "Genital yeast infection (thrush)",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "visual_blurring": {
+        "label": "Blurred vision",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "itching": {
+        "label": "Itching",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "irritability": {
+        "label": "Irritability",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "delayed_healing": {
+        "label": "Wounds healing slowly",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "partial_paresis": {
+        "label": "Partial loss of muscle strength",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "muscle_stiffness": {
+        "label": "Muscle stiffness",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "alopecia": {
+        "label": "Hair loss",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "obesity": {
+        "label": "Obesity",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "parkinsons": {
+      "jitter_local": {
+        "label": "Jitter (local)"
+      },
+      "jitter_local_abs": {
+        "label": "Jitter (local, absolute)"
+      },
+      "jitter_rap": {
+        "label": "Jitter (RAP)"
+      },
+      "jitter_ppq5": {
+        "label": "Jitter (PPQ5)"
+      },
+      "jitter_ddp": {
+        "label": "Jitter (DDP)"
+      },
+      "shimmer_local": {
+        "label": "Shimmer (local)"
+      },
+      "shimmer_local_db": {
+        "label": "Shimmer (local, dB)"
+      },
+      "shimmer_apq3": {
+        "label": "Shimmer (APQ3)"
+      },
+      "shimmer_apq5": {
+        "label": "Shimmer (APQ5)"
+      },
+      "shimmer_apq11": {
+        "label": "Shimmer (APQ11)"
+      },
+      "shimmer_dda": {
+        "label": "Shimmer (DDA)"
+      },
+      "nhr": {
+        "label": "Noise-to-harmonics ratio"
+      },
+      "hnr": {
+        "label": "Harmonics-to-noise ratio"
+      },
+      "period_mean": {
+        "label": "Mean pitch period"
+      },
+      "period_sd": {
+        "label": "Pitch period standard deviation"
+      }
+    },
+    "kidney": {
+      "age": {
+        "label": "Age",
+        "help": "In years."
+      },
+      "bp": {
+        "label": "Blood pressure (lower number)",
+        "help": "The bottom (diastolic) number of a blood pressure reading, e.g. 80 in 120/80."
+      },
+      "sc": {
+        "label": "Serum creatinine",
+        "help": "From a kidney function (KFT/RFT) blood test."
+      },
+      "hemo": {
+        "label": "Haemoglobin",
+        "help": "From a complete blood count (CBC)."
+      },
+      "al": {
+        "label": "Urine albumin (protein)",
+        "help": "From a urine routine test; dipstick result 0 to 5 (often written as nil, trace, +, ++…).",
+        "options": {
+          "0": "0 (negative)",
+          "1": "1 (trace / +)",
+          "2": "2 (++)",
+          "3": "3 (+++)",
+          "4": "4 (++++)",
+          "5": "5 (+++++)"
+        }
+      },
+      "htn": {
+        "label": "Do you have high blood pressure (hypertension)?",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "dm": {
+        "label": "Do you have diabetes?",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "appet": {
+        "label": "Appetite",
+        "options": {
+          "0": "Good",
+          "1": "Poor"
+        }
+      },
+      "pe": {
+        "label": "Swelling of the feet or ankles",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "ane": {
+        "label": "Have you been told you have anaemia?",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      }
+    },
+    "lung": {
+      "age": {
+        "label": "Age",
+        "help": "In years."
+      },
+      "sex": {
+        "label": "Sex",
+        "help": "The survey recorded sex as female or male.",
+        "options": {
+          "0": "Female",
+          "1": "Male"
+        }
+      },
+      "smoking": {
+        "label": "Do you smoke (cigarettes, beedi or other tobacco smoke)?",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "yellow_fingers": {
+        "label": "Yellow staining of the fingers",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "anxiety": {
+        "label": "Frequent anxiety",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "chronic_disease": {
+        "label": "A long-term illness (e.g. diabetes, heart or kidney disease)",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "fatigue": {
+        "label": "Unusual tiredness",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "allergy": {
+        "label": "Allergies",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "wheezing": {
+        "label": "Wheezing (whistling sound when breathing)",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "alcohol": {
+        "label": "Regular alcohol use",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "coughing": {
+        "label": "A persistent cough",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "shortness_of_breath": {
+        "label": "Shortness of breath",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "swallowing_difficulty": {
+        "label": "Difficulty swallowing",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "chest_pain": {
+        "label": "Chest pain",
+        "options": {
+          "0": "No",
+          "1": "Yes"
+        }
+      }
+    }
+  },
+  "checker": {
+    "title": "Symptom Checker",
+    "subtitle": "Select the symptoms you have. The checker compares them with 41 conditions and shows the closest matches.",
+    "search": "Search symptoms…",
+    "selected": "Selected symptoms ({{count}})",
+    "none": "No symptoms selected yet.",
+    "common": "Common symptoms",
+    "all": "All symptoms",
+    "noResults": "No symptoms match your search.",
+    "clear": "Clear all",
+    "submit": "Check symptoms",
+    "submitting": "Checking…",
+    "minHint": "Select at least 3 symptoms for more useful results.",
+    "remove": "Remove {{item}}",
+    "resultsTitle": "Closest matches",
+    "match": "Match",
+    "matchExplain": "How closely your symptoms match each condition compared with the other 40. This is not the chance that you have it.",
+    "whyTitle": "Symptoms that most influenced the top match",
+    "notReported": "Other symptoms typical of {{disease}} that you didn't select",
+    "newCheck": "Start a new check",
+    "saved": "Saved to your prediction history.",
+    "otherChecks": "More health assessments"
+  },
+  "emergency": {
+    "title": "Seek medical care urgently",
+    "redFlags": "Some symptoms you selected ({{symptoms}}) can be signs of a serious problem.",
+    "urgent": "A top match ({{diseases}}) needs prompt medical attention.",
+    "call": "In an emergency, call 112 or go to the nearest hospital.",
+    "findHospital": "Find a hospital"
+  },
+  "assess": {
+    "hubTitle": "Health Risk Assessments",
+    "hubSubtitle": "Estimate your risk with machine-learning models trained on published medical datasets. Each one shows how it was tested and what its limits are.",
+    "types": {
+      "symptoms": {
+        "title": "Symptom checker",
+        "desc": "Compare your symptoms with 41 common conditions."
+      },
+      "diabetes": {
+        "title": "Diabetes risk: lab values",
+        "desc": "Uses glucose tolerance test, blood pressure, BMI and age."
+      },
+      "diabetes_symptoms": {
+        "title": "Diabetes risk: symptoms",
+        "desc": "A yes/no symptom questionnaire. No lab tests needed."
+      },
+      "heart": {
+        "title": "Heart disease risk",
+        "desc": "Uses blood pressure, cholesterol and heart test results."
+      },
+      "parkinsons": {
+        "title": "Parkinson's voice screening",
+        "desc": "Uses measurements from a voice analysis report."
+      },
+      "kidney": {
+        "title": "Chronic kidney disease risk",
+        "desc": "Uses creatinine, haemoglobin, urine albumin and blood pressure from routine tests."
+      },
+      "lung": {
+        "title": "Lung cancer symptom screening",
+        "desc": "A yes/no questionnaire about smoking and breathing symptoms. No tests needed."
+      }
+    },
+    "start": "Start",
+    "optionalSection": "Optional: leave blank if you don't know",
+    "fromProfile": "From your profile",
+    "submit": "Get estimate",
+    "submitting": "Calculating…",
+    "choose": "Choose…",
+    "parkinsonsIntro": "Enter values from a Praat voice analysis of a sustained “aaa” sound, as found in some clinical voice reports. Use fractions as Praat reports them (for example 0.0021 for 0.21% jitter).",
+    "resultTitle": "Your result",
+    "probability": "Estimated probability",
+    "bands": {
+      "lower": "Lower estimated risk",
+      "moderate": "Moderate estimated risk",
+      "higher": "Higher estimated risk",
+      "resembles_healthy": "Voice measures resemble the healthy group",
+      "inconclusive": "Inconclusive: between the two groups",
+      "resembles_condition": "Voice measures resemble the Parkinson's group"
+    },
+    "probabilityExplain": "Among people in the study population with similar values, about {{n}} in 100 had the condition.",
+    "similarityExplain": "This is not a risk percentage. It compares your voice measures with people with and without Parkinson's in one study.",
+    "factorsTitle": "What influenced this result",
+    "raised": "Raised the estimate by {{pts}} points",
+    "lowered": "Lowered the estimate by {{pts}} points",
+    "typical": "Your value {{value}} vs typical {{typical}}",
+    "factorsExplain": "Each line shows how much the estimate changes if that value is replaced with a typical value from the study.",
+    "warnings": {
+      "missing_optional_inputs": "Some optional values were left blank and filled with typical values, which makes the result less reliable.",
+      "consult_doctor": "Please discuss this result with a doctor, who can arrange proper tests.",
+      "not_a_risk_estimate": "This screening result is not a diagnosis or a risk estimate.",
+      "few_symptoms": "You selected only a few symptoms, so the matches are less reliable.",
+      "recording_based_experimental": "These values were measured from your own recording. Recording conditions differ from the study's, so treat this result as experimental.",
+      "equal_matches": "These conditions match your symptoms about equally well, so their order does not mean one is more likely. Add more symptoms to narrow it down."
+    },
+    "disclaimer": "This is an estimate from a statistical model, not a diagnosis.",
+    "again": "New assessment",
+    "viewHistory": "View history",
+    "similarity": {
+      "lung": {
+        "explain": "This is not a risk percentage. It compares your answers with people with and without lung cancer in one small survey. Cough, breathlessness and chest pain have many causes, such as asthma, COPD, TB or infections.",
+        "resembles_healthy": "Answers resemble the group without lung cancer",
+        "inconclusive": "Inconclusive: between the two groups",
+        "resembles_condition": "Answers resemble the lung-cancer group"
+      }
+    }
+  },
+  "card": {
+    "title": "About this model",
+    "dataset": "Dataset",
+    "population": "Population",
+    "license": "Licence",
+    "source": "Source",
+    "citation": "Citation",
+    "method": "How it was tested",
+    "algorithm": "Algorithm",
+    "version": "Model version {{version}}, trained {{date}}",
+    "accuracy": "Accuracy",
+    "sensitivity": "Sensitivity (finds people who have it)",
+    "specificity": "Specificity (clears people who don't)",
+    "auc": "ROC-AUC (ranking quality)",
+    "ci": "95% CI {{lo}}–{{hi}}",
+    "testSize": "Tested on {{n}} records not used for training",
+    "cv": "Cross-validated ROC-AUC: {{mean}} ± {{sd}}",
+    "external": "External validation ({{name}}): accuracy {{acc}}, ROC-AUC {{auc}}",
+    "limitations": "Limitations",
+    "notes": "Notes",
+    "symTop1": "Top match correct with half the symptoms",
+    "symTop3": "Correct condition in top 3 with half the symptoms",
+    "symFull": "Top match correct with all symptoms",
+    "rows": "{{n}} records after removing duplicates",
+    "patterns": "{{n}} unique symptom patterns"
+  },
+  "history": {
+    "title": "My Prediction History",
+    "subtitle": "Past estimates are kept as a record. They reflect the inputs and model at that time and are not current diagnoses.",
+    "type": "Type",
+    "allTypes": "All types",
+    "from": "From",
+    "to": "To",
+    "empty": "No predictions yet.",
+    "emptyFiltered": "No predictions match these filters.",
+    "open": "View",
+    "delete": "Delete",
+    "confirmDelete": "Delete this record? This cannot be undone.",
+    "deleted": "Record deleted.",
+    "compare": "Compare",
+    "compareHint": "Select two results of the same type to compare them.",
+    "compareTitle": "Comparison",
+    "selectForCompare": "Select to compare",
+    "clearSelection": "Clear selection",
+    "page": "{{from}}–{{to}} of {{total}}",
+    "prev": "Previous",
+    "next": "Next",
+    "detailTitle": "Prediction details",
+    "pastBanner": "This is a past estimate from {{date}}. It is not a current diagnosis.",
+    "superseded": "The model has been updated since this result was produced.",
+    "inputs": "Inputs",
+    "result": "Result",
+    "date": "Date",
+    "notProvided": "Left blank"
+  },
+  "dietHistory": {
+    "title": "My Saved Diet Plans",
+    "empty": "No saved plans yet.",
+    "favorite": "Add to favourites",
+    "unfavorite": "Remove from favourites",
+    "favoritesOnly": "Favourites only",
+    "open": "Open",
+    "created": "Created {{date}}",
+    "days": "{{count}} days",
+    "kcal": "{{kcal}} kcal per day",
+    "create": "Create a plan"
+  },
+  "records": {
+    "title": "My Health Records",
+    "subtitle": "Everything you've saved, in one private place.",
+    "predictions": "Prediction history",
+    "predictionsCount": "{{count}} saved results",
+    "diets": "Saved diet plans",
+    "dietsCount": "{{count}} saved plans",
+    "healthProfile": "Health profile",
+    "healthProfileDesc": "Height, weight, diet and conditions you've shared",
+    "export": "Download all my data",
+    "exportDesc": "A JSON file with everything stored about you",
+    "chats": "Chat history",
+    "images": "Image analyses",
+    "notYet": "Not available yet",
+    "chatsDesc": "Saved conversations with the assistant"
+  },
+  "hospitals": {
+    "title": "Nearby Hospital Finder",
+    "subtitle": "Find hospitals, clinics and pharmacies near you.",
+    "useLocation": "Use my location",
+    "locating": "Finding your location…",
+    "searchPlace": "Or search for a place",
+    "searchPlaceholder": "Area, city or PIN code",
+    "search": "Search",
+    "chooseLocation": "Choose a location",
+    "radius": "Within",
+    "km": "{{n}} km",
+    "kinds": {
+      "hospital": "Hospitals",
+      "clinic": "Clinics",
+      "pharmacy": "Pharmacies"
+    },
+    "results": "{{count}} places found",
+    "none": "No facilities found here. Try a larger distance.",
+    "distance": "{{km}} km away",
+    "call": "Call",
+    "directions": "Directions",
+    "website": "Website",
+    "emergency": "Emergency services",
+    "hours": "Hours",
+    "unnamed": "Unnamed facility",
+    "youAreHere": "Search centre",
+    "errors": {
+      "denied": "Location permission was denied. Search for a place instead.",
+      "unavailable": "Your location couldn't be found. Search for a place instead.",
+      "unsupported": "This browser can't share location. Search for a place instead.",
+      "service": "The map data service is busy. Please try again in a moment.",
+      "noPlace": "No matching places found."
+    },
+    "privacy": "Your location is used only for this search and is not saved. An approximate location (within about 100 m) is sent to OpenStreetMap to find nearby places.",
+    "dataNote": "Facility data comes from OpenStreetMap volunteers and may be incomplete or out of date. Call ahead to confirm.",
+    "emergencyBanner": "In an emergency, call 112.",
+    "start": "Share your location or search for a place to see nearby facilities.",
+    "fallback": "Search for hospitals near this location in Google Maps"
+  },
+  "diet": {
+    "title": "Personalized Diet Planner",
+    "subtitle": "Balanced Indian meal plans based on your health profile.",
+    "tabs": {
+      "plan": "Meal plan",
+      "tracker": "Tracker"
+    },
+    "profileTitle": "Based on your profile",
+    "missing": "Complete these in your health profile first: {{fields}}",
+    "missingFields": {
+      "date_of_birth": "date of birth",
+      "height_cm": "height",
+      "weight_kg": "weight",
+      "activity_level": "activity level"
+    },
+    "editProfile": "Edit health profile",
+    "goal": "Goal",
+    "goals": {
+      "lose": "Lose weight gradually",
+      "maintain": "Maintain weight",
+      "gain": "Gain weight"
+    },
+    "days": "Plan length",
+    "daysN": "{{count}} days",
+    "generate": "Generate plan",
+    "generating": "Creating plan…",
+    "saved": "Saved to My Saved Diet Plans.",
+    "targets": "Daily targets",
+    "kcal": "Energy",
+    "protein": "Protein",
+    "carbs": "Carbohydrates",
+    "fat": "Fat",
+    "fiber": "Fibre",
+    "bmr": "Resting energy (BMR)",
+    "tdee": "Daily energy needs",
+    "method": "How targets are calculated",
+    "methodBody": "Energy uses the Mifflin–St Jeor equation and your activity level, with a gradual deficit or surplus for your goal. Protein is at least 0.83 g per kg of body weight (WHO/FAO/UNU). Fat provides about 25% of energy.",
+    "day": "Day {{n}}",
+    "slots": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "snack": "Snack",
+      "dinner": "Dinner"
+    },
+    "servings": "{{n}} × serving",
+    "omit": "Prepare without: {{items}}",
+    "extra": "Extra",
+    "dayTotal": "Day total",
+    "target": "Target {{kcal}} kcal",
+    "like": "Like",
+    "dislike": "Don't show again",
+    "favorite": "Favourite",
+    "eaten": "Mark as eaten",
+    "logged": "Logged",
+    "notes": {
+      "kcal_floor_applied": "Your calculated target was below a safe minimum, so it was raised.",
+      "sex_assumed_average": "Your profile doesn't say female or male, so an average formula was used.",
+      "allergies_unmapped": "We couldn't match these allergies to our ingredient list: {{items}}. Please check ingredients yourself.",
+      "check_with_professional": "You've listed health conditions in your profile. Please check this plan with a doctor or dietitian.",
+      "days_off_target": "On some days ({{days}}) the plan is more than 10% away from your energy target.",
+      "excluded_foods": "Excluded from your plan because of your food allergies / foods to avoid: {{items}}."
+    },
+    "errors": {
+      "diet_minor_not_supported": "Diet plans are available for adults (18+) only. Please consult a doctor or dietitian.",
+      "weight_loss_not_advised": "Weight loss isn't recommended because your BMI is below 18.5. Choose another goal and consider talking to a doctor.",
+      "not_enough_dishes": "Your dietary preference and allergies leave too few dishes to build a plan.",
+      "health_profile_incomplete": "Please complete your health profile first."
+    },
+    "source": "Nutrition values are estimates from USDA FoodData Central ingredient data and typical home recipes. Sodium excludes added salt. Actual values vary.",
+    "disclaimer": "General guidance for healthy adults. Not a substitute for advice from a doctor or dietitian.",
+    "tracker": {
+      "title": "Nutrition tracker",
+      "today": "Today",
+      "week": "This week",
+      "logEmpty": "Nothing logged for this day.",
+      "avg": "Average per logged day",
+      "daysLogged": "{{count}} days logged",
+      "remove": "Remove",
+      "noPlan": "Generate a plan to set daily targets."
+    },
+    "howTo": "How to prepare",
+    "ingredientsTitle": "Ingredients for {{n}} × serving",
+    "stepsTitle": "Steps",
+    "saltNote": "Add salt and spices to taste (not included in the nutrition values)."
+  },
+  "units": {
+    "kcal": "kcal",
+    "g": "g"
+  },
+  "limits": {
+    "symptoms": {
+      "0": "The training data is synthetic, generated from a fixed table of diseases and symptoms. Scores show how well the model reproduces that table, not how accurately it identifies illness in real people.",
+      "1": "Only 41 conditions are covered. Your illness may be something not on the list, and the closest match will still be shown.",
+      "2": "Match scores are relative to these 41 conditions and are not the probability that you have a disease.",
+      "3": "Not a diagnosis. Many conditions share symptoms; a doctor's examination and tests are needed."
+    },
+    "diabetes": {
+      "0": "Trained only on women of Pima heritage aged 21 or older, a population with very high diabetes prevalence. Results for men, younger people, and Indian populations are extrapolations and may be inaccurate.",
+      "1": "The glucose input is the 2-hour value from an oral glucose tolerance test, not a fasting or random reading.",
+      "2": "Many insulin and skin-fold values are missing in the source data; when you leave optional inputs blank they are filled with typical values.",
+      "3": "Not a diagnosis. Diabetes is diagnosed with laboratory tests such as HbA1c or fasting glucose, interpreted by a clinician."
+    },
+    "diabetes_symptoms": {
+      "0": "Collected from people attending a diabetes hospital, so about 62% had diabetes. Real-world prevalence is far lower, so estimates for the general public will tend to be too high.",
+      "1": "Many rows in the source data are exact duplicates; they were removed before evaluation, leaving a smaller dataset than its nominal 520 rows.",
+      "2": "Symptoms are self-reported yes/no answers; diabetes often has no symptoms in its early stages, so a low estimate does not rule it out.",
+      "3": "Not a diagnosis. Diabetes is diagnosed with laboratory tests such as HbA1c or fasting glucose."
+    },
+    "heart": {
+      "0": "Trained on 303 patients from one US hospital in the 1980s who had already been referred for angiography — a population with a much higher rate of heart disease than the general public. Estimates for people without symptoms will tend to be too high.",
+      "1": "Several inputs (maximum heart rate on exercise test, ST depression, fluoroscopy vessel count, thallium scan) come from clinical tests. Missing optional inputs are filled with typical values, which lowers reliability.",
+      "2": "Sex was recorded as binary in the source data.",
+      "3": "Not validated on Indian populations. Not a diagnosis."
+    },
+    "parkinsons": {
+      "0": "Voice measures are a weak indicator on their own: when tested on people the model had never seen, it missed many people with Parkinson's and wrongly flagged many healthy people (see the measured sensitivity and specificity).",
+      "1": "The result is not a risk percentage. It shows whether the voice measures look more like the Parkinson's group or the healthy group in one study. Parkinson's is uncommon in the general population, so most people whose voice 'resembles the Parkinson's group' do not have it.",
+      "2": "Measures depend on the microphone, room and software. Values from a different setup than the study's may be unreliable.",
+      "3": "Colds, laryngitis, smoking, ageing, and other voice or neurological conditions also change these measures.",
+      "4": "Cannot diagnose Parkinson's disease, which requires examination by a neurologist."
+    }
+  },
+  "assess_extra": {
+    "outOfRange": "Enter a value between {{min}} and {{max}}."
+  },
+  "checker_extra": {
+    "strength": {
+      "strong": "Strong match",
+      "possible": "Possible match",
+      "weak": "Weak match"
+    },
+    "noOthers": "No other condition matched your symptoms closely.",
+    "strengthExplain": "Match strength compares your symptoms with each condition's typical symptoms in the dataset. It is not a percentage chance of having the condition.",
+    "careTitle": "Precautions and which doctor to see",
+    "consult": "Doctor to consult",
+    "precautions": "Precautions",
+    "urgentIf": "Get urgent medical help if:",
+    "careNote": "General guidance only — a doctor can tell you what applies to you."
+  },
+  "chat": {
+    "placeholder": "Ask a health question…",
+    "replyIn": "Reply in",
+    "enterHint": "Enter to send · Shift+Enter for a new line",
+    "send": "Send",
+    "history": "Conversations",
+    "newChat": "New chat",
+    "search": "Search conversations",
+    "noSearchResults": "No conversations match your search.",
+    "noChats": "No conversations yet.",
+    "rename": "Rename",
+    "delete": "Delete conversation",
+    "confirmDelete": "Delete this conversation? This cannot be undone.",
+    "untitled": "New conversation",
+    "memoryLink": "Chatbot memory",
+    "clearAll": "Clear all conversations",
+    "confirmClearAll": "Delete all your conversations? This cannot be undone.",
+    "settings": "Chat settings",
+    "welcomeTitle": "How can I help with your health today?",
+    "welcomeBody": "Ask in any of 11 languages. Type or use the microphone. Answers use trusted MedlinePlus sources where possible, and are not a diagnosis.",
+    "suggestions": {
+      "s1": "I have had a headache and fever since yesterday. What should I do?",
+      "s2": "What are the early signs of diabetes?",
+      "s3": "Suggest a healthy vegetarian breakfast.",
+      "s4": "When should I see a doctor for a cough?"
+    },
+    "emergency": "This may be an emergency. Call 112 or go to the nearest hospital now.",
+    "selfHarm": "You don't have to face this alone. Please talk to someone now: call Tele-MANAS on 14416, or 112 if you are in immediate danger.",
+    "viaVoice": "Voice",
+    "sources": "Sources",
+    "disclaimer": "HealthAssist AI can make mistakes and does not provide medical diagnosis. Check important information with a doctor.",
+    "historySubtitle": "Your saved conversations with the health assistant.",
+    "messages_one": "{{count}} message",
+    "messages_other": "{{count}} messages",
+    "errors": {
+      "llm_not_configured": "The health assistant isn't available on this server yet.",
+      "llm_rate_limited": "The assistant is handling too many requests. Please try again in about {{seconds}} seconds.",
+      "llm_unavailable": "The assistant couldn't respond just now. Please try again.",
+      "llm_blocked": "The assistant couldn't answer this message. Please rephrase it.",
+      "network": "Can't reach the server. Check your connection.",
+      "not_found": "This conversation could not be found.",
+      "unknown": "Something went wrong. Please try again."
+    },
+    "tts": {
+      "listen": "Listen",
+      "play": "Read aloud",
+      "pause": "Pause",
+      "resume": "Resume",
+      "stop": "Stop",
+      "loading": "Preparing audio…",
+      "voice": "Voice",
+      "device": "device voice",
+      "browserNote": "Using your device's built-in voice because the server voice is unavailable.",
+      "tts_unsupported": "This browser can't read text aloud.",
+      "tts_no_browser_voice": "Your device has no voice for this language, so the reading may sound wrong."
+    },
+    "voice": {
+      "start": "Speak your question",
+      "stop": "Stop recording",
+      "recording": "Recording…",
+      "transcribing": "Converting speech to text…",
+      "listening": "Listening…",
+      "preview": "Your recording:",
+      "editHint": "Check the text and edit it before sending.",
+      "useBrowser": "Use this browser's speech recognition instead",
+      "errors": {
+        "permission_denied": "Microphone access was blocked. Allow it in your browser settings to use voice.",
+        "no_microphone": "No microphone was found.",
+        "unsupported": "This browser doesn't support voice recording.",
+        "unknown": "Something went wrong. Please try again.",
+        "audio_too_short": "The recording was too short. Please try again.",
+        "audio_too_long": "The recording was too long. Please keep it under 2 minutes.",
+        "no_speech_detected": "No speech was detected. Please try again, a little closer to the microphone.",
+        "stt_failed": "Speech recognition failed. Please try again or type your question.",
+        "unsupported_audio_type": "This audio format isn't supported.",
+        "file_too_large": "The recording is too large.",
+        "llm_not_configured": "The health assistant isn't available on this server yet.",
+        "llm_rate_limited": "The assistant is handling too many requests. Please try again in about {{seconds}} seconds.",
+        "llm_unavailable": "The assistant couldn't respond just now. Please try again.",
+        "llm_blocked": "The assistant couldn't answer this message. Please rephrase it.",
+        "network": "Can't reach the server. Check your connection.",
+        "not_found": "This conversation could not be found."
+      }
+    },
+    "memory": {
+      "title": "Chatbot memory",
+      "subtitle": "Control what the assistant remembers about you between conversations.",
+      "enableTitle": "Remember useful details",
+      "enableBody": "With your permission, the assistant can remember preferences you share (such as language, diet or allergies) and summaries of past chats, to give more relevant answers. Health details are only saved after you confirm them, and expire after {{days}} days. You can review, edit or delete everything here.",
+      "enable": "Allow the assistant to remember details",
+      "consentGiven": "Allowed on {{date}}",
+      "profileTitle": "Use my health profile",
+      "profileBody": "Let the assistant see your health profile (age, BMI, diet, allergies, conditions you shared) and your last few saved assessment results. Assessment results are always treated as estimates, never diagnoses.",
+      "useProfile": "Use my health profile and saved results",
+      "style": "Answer length",
+      "styles": {
+        "brief": "Brief",
+        "balanced": "Balanced",
+        "detailed": "Detailed"
+      },
+      "pendingTitle": "Waiting for your confirmation",
+      "pendingBody": "The assistant noticed these health details in your messages. They are only remembered if you confirm.",
+      "remember": "Remember",
+      "dontRemember": "Don't remember",
+      "itemsTitle": "What the assistant remembers",
+      "offNote": "Memory is off. Saved items are not used until you turn it on.",
+      "empty": "Nothing saved yet.",
+      "useThis": "Use this",
+      "edit": "Edit",
+      "delete": "Delete",
+      "expires": "expires {{date}}",
+      "source": {
+        "user_added": "Added by you",
+        "extracted": "From your messages"
+      },
+      "categories": {
+        "language": "Language",
+        "diet": "Diet",
+        "allergy": "Allergy",
+        "meal_preference": "Meals",
+        "health_context": "Health",
+        "response_style": "Answer style",
+        "other": "Other"
+      },
+      "category": "Category",
+      "addPlaceholder": "Add something to remember, e.g. \"I prefer simple explanations\"",
+      "add": "Add",
+      "summariesTitle": "Conversation summaries",
+      "summariesBody": "Summaries are generated automatically for long conversations and may not be perfect.",
+      "noSummaries": "No summaries yet.",
+      "openChat": "Open conversation",
+      "clearTitle": "Clear all memory",
+      "clearBody": "Delete everything the assistant remembers, including summaries. Your conversations stay unless you delete them separately.",
+      "clearConfirm": "Delete all chatbot memory? This cannot be undone.",
+      "clear": "Clear memory"
+    }
+  },
+  "voiceTest": {
+    "title": "Record your voice",
+    "experimental": "Experimental",
+    "intro": "Instead of typing values from a report, you can record your voice. The app measures the same voice features with Praat software.",
+    "step1": "Sit in a quiet room, about 20 cm from the microphone.",
+    "step2": "Take a breath and say a steady “aaa” for {{seconds}} seconds at a comfortable pitch and loudness.",
+    "step3": "Listen back, then choose Analyse.",
+    "sayAaa": "Say “aaa” steadily…",
+    "preview": "Your recording",
+    "record": "Start recording",
+    "again": "Record again",
+    "analyse": "Analyse recording",
+    "privacy": "Your recording is analysed and then discarded. Only the measured values are saved to your history.",
+    "resultNote": "Measured from your own recording. Microphones and rooms differ from the study's, so this result is less reliable than values from a clinical voice report.",
+    "errors": {
+      "recording_too_short": "The recording was too short. Hold the sound for the full time.",
+      "recording_too_long": "The recording was too long.",
+      "recording_too_quiet": "The recording was too quiet. Move closer to the microphone.",
+      "not_a_sustained_vowel": "This didn't sound like one steady “aaa”. Please try again without pausing or speaking words.",
+      "measurements_out_of_range": "Some measured values are outside the range seen in the study, so the model can't give a reliable result. Try again in a quieter room.",
+      "unsupported_audio_type": "The recording format wasn't recognised.",
+      "file_too_large": "The recording is too large.",
+      "permission_denied": "Microphone access was blocked. Allow it in your browser settings.",
+      "no_microphone": "No microphone was found.",
+      "unsupported": "This browser doesn't support voice recording.",
+      "unknown": "Something went wrong. Please try again.",
+      "model_unavailable": "The voice screening model is unavailable."
+    }
+  },
+  "dash": {
+    "greeting": {
+      "morning": "Good morning, {{name}}",
+      "afternoon": "Good afternoon, {{name}}",
+      "evening": "Good evening, {{name}}"
+    },
+    "subtitle": "Here's your health at a glance.",
+    "askAssistant": "Ask the health assistant",
+    "startCheck": "Start a health check",
+    "profileComplete": "Health profile {{pct}}% complete",
+    "profileDone": "Your health profile is complete",
+    "completeIt": "Complete profile",
+    "missing": {
+      "date_of_birth": "date of birth",
+      "height": "height",
+      "weight": "weight",
+      "activity": "activity level",
+      "diet": "diet"
+    },
+    "bmi": "Body mass index",
+    "bmiNone": "Add height and weight",
+    "today": "Today's nutrition",
+    "kcalOf": "of {{target}} kcal",
+    "noTarget": "No target yet",
+    "meals_one": "{{count}} meal",
+    "meals_other": "{{count}} meals",
+    "assessments": "Health checks",
+    "conversations": "Conversations",
+    "images": "Skin checks",
+    "quick": "Quick actions",
+    "skinCheck": "Skin check",
+    "week": "Calories this week",
+    "latest": "Latest health checks",
+    "noChecks": "No health checks yet.",
+    "recentChats": "Recent conversations",
+    "viewAll": "View all",
+    "activity": "Recent activity",
+    "noActivity": "Your activity will appear here.",
+    "activityKinds": {
+      "prediction": "Completed: {{what}}",
+      "chat": "Chatted: {{what}}",
+      "image": "Uploaded a skin photo for analysis",
+      "diet_plan": "Created a diet plan ({{kcal}} kcal/day)"
+    },
+    "emergencyTitle": "In an emergency",
+    "emergencyBody": "For chest pain, trouble breathing, severe bleeding or sudden weakness, call 112 or go to the nearest hospital.",
+    "weekEmpty": "Mark meals as eaten in the Diet Planner to see your week here."
+  },
+  "skin": {
+    "attach": "Add a photo of a skin spot",
+    "attachTitle": "Skin spot photo",
+    "attachHint": "Use a clear, well-lit close-up of one spot or mole. You can add a question.",
+    "consent": "I agree that this photo is stored privately in my account and analysed by an AI model. I understand the result is not a diagnosis.",
+    "preview": "Selected photo",
+    "remove": "Remove photo",
+    "yourPhoto": "Your photo",
+    "analysing": "Analysing the photo…",
+    "cardTitle": "Image analysis (AI estimate)",
+    "probabilityLabel": "Model probability {{p}}",
+    "reviewAdvised": "see a dermatologist soon",
+    "seeDermatologistSoon": "The model suggests a type of lesion that should be checked by a dermatologist soon. Please book an appointment.",
+    "notDiagnosis": "This is an estimate from an AI model, not a diagnosis. Only a doctor (often with a biopsy) can diagnose skin cancer.",
+    "seeDoctor": "See a doctor about any spot that is new, changing, bleeding, itchy or irregular, whatever this result says.",
+    "aboutModel": "About the image model",
+    "retryHint": "Try a clear, well-lit close-up of a single skin spot, or describe your concern in words.",
+    "status": {
+      "rejected_not_skin": "This photo doesn't appear to show a close-up of a skin spot, so it wasn't analysed.",
+      "rejected_out_of_distribution": "This photo is too different from the images the model was trained on, so it wasn't analysed.",
+      "failed": "The image could not be analysed. Please try again."
+    },
+    "classes": {
+      "mel": "Melanoma",
+      "bcc": "Basal cell carcinoma",
+      "akiec": "Actinic keratosis / Bowen's disease",
+      "bkl": "Benign keratosis",
+      "nv": "Mole (melanocytic naevus)",
+      "df": "Dermatofibroma",
+      "vasc": "Vascular lesion"
+    },
+    "errors": {
+      "unsupported_image_type": "Please choose a JPG, PNG or WEBP image.",
+      "file_too_large": "The photo is too large (maximum 8 MB).",
+      "image_too_small": "The photo is too small. Please use a larger, clearer image.",
+      "image_consent_required": "Please tick the consent box to analyse the photo.",
+      "image_model_unavailable": "Skin image analysis isn't available yet on this server."
+    },
+    "historyTitle": "My skin checks",
+    "historySubtitle": "Photos you analysed and their results. Only you can see them.",
+    "historyEmpty": "No skin photos analysed yet.",
+    "newCheck": "New skin check",
+    "openChat": "Open chat",
+    "confirmDelete": "Delete this photo and its result? This cannot be undone.",
+    "metrics": {
+      "accuracy": "Accuracy",
+      "balanced": "Balanced accuracy",
+      "macroF1": "Macro F1",
+      "auc": "ROC-AUC",
+      "category": "Category",
+      "sensitivity": "Sensitivity",
+      "specificity": "Specificity",
+      "n": "Test images"
+    },
+    "limits": {
+      "0": "Trained on dermatoscopic images (taken with a skin-surface microscope), mostly of lighter skin types from Europe and Australia. Ordinary phone photos and darker skin tones are different from the training data, so results on them are much less reliable.",
+      "1": "Covers only 7 kinds of pigmented skin lesions. Rashes, infections, wounds and other skin conditions are outside what the model knows; it will still pick one of the 7 categories.",
+      "2": "It is not a cancer diagnosis. Only a doctor's examination, often with a biopsy, can diagnose skin cancer. Any changing, bleeding or unusual spot should be checked by a dermatologist regardless of this result.",
+      "3": "The dataset contains far more ordinary moles than other lesion types; the rarer categories are recognised less reliably (see per-category results).",
+      "4": "Licence is non-commercial (CC BY-NC 4.0)."
+    }
+  },
+  "recipes": {
+    "poha": {
+      "0": "Rinse the flattened rice (poha) in a sieve until soft, then drain.",
+      "1": "Heat the oil, roast the peanuts, then add chopped onion and green chilli and cook until soft.",
+      "2": "Add the peas and a pinch of turmeric and cook for 2–3 minutes.",
+      "3": "Stir in the poha, cover and steam for 2 minutes on low heat.",
+      "4": "Finish with lemon juice and chopped coriander."
+    },
+    "upma": {
+      "0": "Dry-roast the semolina (rava) until it smells nutty, then set aside.",
+      "1": "Heat the oil, cook the chopped onion, green chilli, carrot and peas until soft.",
+      "2": "Add about 2½ times as much water as semolina and bring to a boil.",
+      "3": "Pour in the semolina slowly while stirring, cover and cook on low heat for 3 minutes."
+    },
+    "idli_sambar": {
+      "0": "Soak the rice and urad dal separately for 4–6 hours, grind to a batter and ferment overnight.",
+      "1": "Steam the batter in greased idli moulds for 10–12 minutes.",
+      "2": "For sambar, cook the toor dal until soft and mash it.",
+      "3": "Cook the bottle gourd, onion and tomato in a little oil with sambar powder, add the dal and water, and simmer for 10 minutes."
+    },
+    "masala_dosa": {
+      "0": "Make a fermented rice and urad dal batter (soak 4–6 hours, grind, ferment overnight).",
+      "1": "Boil and mash the potato; cook it briefly with onion, turmeric and a little oil.",
+      "2": "Spread a ladle of batter thinly on a hot pan and drizzle a few drops of oil.",
+      "3": "When crisp, place the potato filling in the centre and fold."
+    },
+    "oats_porridge": {
+      "0": "Bring the milk to a simmer.",
+      "1": "Add the oats and cook for 4–5 minutes, stirring, until creamy.",
+      "2": "Top with sliced banana and chopped almonds."
+    },
+    "besan_chilla": {
+      "0": "Mix the gram flour (besan) with water into a smooth, pourable batter.",
+      "1": "Stir in finely chopped onion, tomato and coriander.",
+      "2": "Spread the batter on a hot greased pan and cook both sides until golden.",
+      "3": "Serve with the curd."
+    },
+    "moong_chilla": {
+      "0": "Soak the moong dal for 3–4 hours and grind to a smooth batter.",
+      "1": "Mix in chopped onion, green chilli and coriander.",
+      "2": "Spread thin on a hot greased pan and cook both sides until golden."
+    },
+    "aloo_paratha_curd": {
+      "0": "Knead the wheat flour with water into a soft dough.",
+      "1": "Mash the boiled potato with spices for the filling.",
+      "2": "Fill a ball of dough with the potato, roll out gently and cook on a hot pan with a little oil on both sides.",
+      "3": "Serve with the curd."
+    },
+    "egg_bhurji_toast": {
+      "0": "Heat the oil and cook the chopped onion and tomato until soft.",
+      "1": "Add the beaten eggs and stir gently until just set.",
+      "2": "Serve with toasted bread."
+    },
+    "boiled_eggs_fruit": {
+      "0": "Boil the eggs for 9–10 minutes, cool in water and peel.",
+      "1": "Serve with the apple, sliced, and the toast."
+    },
+    "sprouts_salad": {
+      "0": "Steam the sprouted moong for 3–4 minutes (or use raw if you prefer).",
+      "1": "Mix with chopped onion, tomato and cucumber.",
+      "2": "Add lemon juice and a pinch of salt and chaat masala."
+    },
+    "millet_porridge": {
+      "0": "Cook the millet (or ragi flour) in water until soft, stirring often.",
+      "1": "Add the milk and simmer for 2–3 minutes.",
+      "2": "Sweeten lightly with the sugar and top with chopped almonds."
+    },
+    "tofu_scramble_toast": {
+      "0": "Crumble the tofu.",
+      "1": "Heat the oil, cook the chopped onion and tomato, then add the tofu with turmeric.",
+      "2": "Cook for 3–4 minutes and serve with toast."
+    },
+    "peanut_butter_toast": {
+      "0": "Toast the bread.",
+      "1": "Spread the peanut butter and top with sliced banana."
+    },
+    "dal_rice": {
+      "0": "Pressure-cook the toor dal with water and turmeric until soft, then mash.",
+      "1": "Heat the oil, add cumin and mustard seeds, then the chopped onion and tomato.",
+      "2": "Add the cooked dal and simmer for 5 minutes.",
+      "3": "Serve with the cooked rice."
+    },
+    "rajma_rice": {
+      "0": "Soak the kidney beans overnight and pressure-cook until very soft.",
+      "1": "Cook the chopped onion and tomato in the oil with spices to a thick gravy.",
+      "2": "Add the beans with some cooking water and simmer for 10 minutes.",
+      "3": "Serve with the rice."
+    },
+    "chole_roti": {
+      "0": "Soak the chickpeas overnight and pressure-cook until soft.",
+      "1": "Cook the onion and tomato in the oil with chole masala.",
+      "2": "Add the chickpeas and simmer until the gravy thickens.",
+      "3": "Serve with roti."
+    },
+    "palak_paneer_roti": {
+      "0": "Blanch the spinach for 2 minutes, cool and blend to a purée.",
+      "1": "Cook the onion and tomato in the oil with spices.",
+      "2": "Add the spinach purée and simmer for 5 minutes, then add the paneer cubes.",
+      "3": "Serve with roti."
+    },
+    "veg_pulao_raita": {
+      "0": "Rinse the rice. Heat the oil, add whole spices and the vegetables and sauté for 2 minutes.",
+      "1": "Add the rice and water (about 1:2), cover and cook until done.",
+      "2": "For the raita, mix the curd with grated cucumber and a pinch of roasted cumin."
+    },
+    "mixed_veg_dal_roti": {
+      "0": "Cook the masoor dal with turmeric until soft.",
+      "1": "Add the chopped cauliflower, carrot and peas and cook until tender.",
+      "2": "Temper with cumin in the oil and pour over the dal.",
+      "3": "Serve with roti."
+    },
+    "sambar_rice": {
+      "0": "Cook the toor dal until soft and mash.",
+      "1": "Cook the bottle gourd, okra and tomato in a little water with sambar powder and tamarind.",
+      "2": "Add the dal, simmer for 10 minutes and temper with mustard seeds in the oil.",
+      "3": "Serve with the rice."
+    },
+    "curd_rice": {
+      "0": "Cook the rice until soft and let it cool slightly.",
+      "1": "Mix in the curd and chopped cucumber.",
+      "2": "Temper mustard seeds and curry leaves in the oil and stir in."
+    },
+    "moong_khichdi": {
+      "0": "Rinse the rice and moong dal together.",
+      "1": "Pressure-cook with the carrot, peas, turmeric and about 4 times as much water until soft.",
+      "2": "Stir in the ghee before serving."
+    },
+    "bhindi_dal_roti": {
+      "0": "Cook the masoor dal with turmeric until soft and season.",
+      "1": "Slice the okra and stir-fry in the oil with the onion until tender and not sticky.",
+      "2": "Serve both with roti."
+    },
+    "aloo_gobi_roti": {
+      "0": "Cut the potato and cauliflower into small pieces.",
+      "1": "Cook the onion and tomato in the oil with turmeric and spices, then add the vegetables.",
+      "2": "Cover and cook on low heat until tender.",
+      "3": "Serve with roti and curd."
+    },
+    "baingan_bharta_roti": {
+      "0": "Roast the brinjal over a flame or in the oven until soft, then peel and mash.",
+      "1": "Cook the onion and tomato in the oil, add the mashed brinjal and cook for 5 minutes.",
+      "2": "Serve with roti and the cooked dal."
+    },
+    "chicken_curry_rice": {
+      "0": "Marinate the chicken in the curd and spices for 30 minutes.",
+      "1": "Cook the onion and tomato in the oil until soft.",
+      "2": "Add the chicken and cook covered for 20–25 minutes until fully cooked.",
+      "3": "Serve with the rice."
+    },
+    "fish_curry_rice": {
+      "0": "Cook the onion and tomato in the oil with turmeric and chilli.",
+      "1": "Add the coconut (ground or as milk) and a little water and bring to a simmer.",
+      "2": "Add the fish pieces and cook gently for 8–10 minutes until cooked through.",
+      "3": "Serve with the rice."
+    },
+    "egg_curry_roti": {
+      "0": "Boil and peel the eggs.",
+      "1": "Cook the onion and tomato in the oil with spices to make a gravy.",
+      "2": "Add the eggs, simmer for 5 minutes and serve with roti."
+    },
+    "tofu_peas_curry_rice": {
+      "0": "Cube the tofu.",
+      "1": "Cook the onion and tomato in the oil with spices, then add the peas and a little water.",
+      "2": "Add the tofu and simmer for 5 minutes. Serve with the rice."
+    },
+    "grilled_chicken_salad": {
+      "0": "Season the chicken and grill or pan-cook with a little oil until fully cooked.",
+      "1": "Slice and toss with the cucumber, tomato and cabbage.",
+      "2": "Dress with lemon juice and serve with the bread."
+    },
+    "rajma_brown_rice": {
+      "0": "Soak the kidney beans overnight and pressure-cook until very soft.",
+      "1": "Cook the onion and tomato in the oil with spices, add the beans and simmer.",
+      "2": "Serve with the brown rice."
+    },
+    "millet_khichdi": {
+      "0": "Rinse the millet and moong dal.",
+      "1": "Pressure-cook with the carrot, beans, turmeric and water until soft.",
+      "2": "Stir in the ghee before serving."
+    },
+    "veg_soup_toast": {
+      "0": "Chop the carrot, cabbage, beans and tomato.",
+      "1": "Simmer with the moong dal in water for 15–20 minutes, then season (blend if you like).",
+      "2": "Serve with toast."
+    },
+    "paneer_bhurji_roti": {
+      "0": "Crumble the paneer.",
+      "1": "Cook the onion, tomato and peas in the oil, then add the paneer with turmeric.",
+      "2": "Cook for 2–3 minutes and serve with roti."
+    },
+    "mushroom_matar_roti": {
+      "0": "Slice the mushrooms.",
+      "1": "Cook the onion and tomato in the oil with spices, then add the mushrooms and peas.",
+      "2": "Cook until the mushrooms are tender and serve with roti."
+    },
+    "lauki_chana_dal_rice": {
+      "0": "Soak the chana dal for 1 hour.",
+      "1": "Pressure-cook with the chopped bottle gourd, tomato and turmeric until soft.",
+      "2": "Temper with cumin in the oil and serve with the rice."
+    },
+    "fruit_bowl": {
+      "0": "Wash and cut the papaya and apple; add the pomegranate seeds."
+    },
+    "banana": {
+      "0": "Eat as it is."
+    },
+    "guava": {
+      "0": "Wash and cut into pieces."
+    },
+    "orange": {
+      "0": "Peel and eat the segments."
+    },
+    "roasted_peanuts": {
+      "0": "Dry-roast the peanuts in a pan for 5–6 minutes, stirring, or buy unsalted roasted peanuts."
+    },
+    "almonds": {
+      "0": "Eat as they are, or soak overnight and peel."
+    },
+    "buttermilk": {
+      "0": "Whisk the curd with about twice as much cold water.",
+      "1": "Add a pinch of roasted cumin and salt."
+    },
+    "boiled_corn": {
+      "0": "Boil or steam the corn for 8–10 minutes.",
+      "1": "Add lemon juice and a pinch of salt."
+    },
+    "sweet_potato_chaat": {
+      "0": "Boil or roast the sweet potato until soft, then peel and cube.",
+      "1": "Add lemon juice and chaat masala."
+    },
+    "yogurt_fruit": {
+      "0": "Mix the curd with the sliced banana."
+    },
+    "mango": {
+      "0": "Wash, peel and slice."
+    },
+    "sesame_peanut_mix": {
+      "0": "Dry-roast the sesame seeds and peanuts separately and mix."
+    }
+  },
+  "health_extra": {
+    "allergiesHint": "Include allergies and any foods you don't eat (e.g. curd, dal, brinjal), separated by commas. Diet plans will leave them out."
+  },
+  "doctors": {
+    "gp": "General physician",
+    "emergency": "Emergency department (call 112)",
+    "derm": "Dermatologist",
+    "gastro": "Gastroenterologist",
+    "hepato": "Hepatologist (liver specialist) or gastroenterologist",
+    "cardio": "Cardiologist",
+    "neuro": "Neurologist",
+    "pulmo": "Pulmonologist (chest specialist)",
+    "endo": "Endocrinologist",
+    "ortho": "Orthopaedic doctor",
+    "rheum": "Rheumatologist",
+    "ent": "ENT specialist",
+    "uro": "Urologist",
+    "gensurg": "General surgeon or proctologist",
+    "vascular": "Vascular surgeon",
+    "id": "Infectious-disease specialist or government ART centre",
+    "allergist": "Allergist or immunologist",
+    "paed": "Paediatrician (for children)",
+    "gyn": "Gynaecologist (during pregnancy)"
+  },
+  "disease_info": {
+    "acne": {
+      "precautions": {
+        "0": "Wash your face twice a day with a mild cleanser; don't scrub hard.",
+        "1": "Don't squeeze or pick pimples — it causes scars and infection.",
+        "2": "Use oil-free, non-comedogenic skin and hair products.",
+        "3": "Change pillow covers often and keep hair off the face."
+      },
+      "urgent": "Painful deep lumps, scarring, or acne that is affecting your mood."
+    },
+    "aids": {
+      "precautions": {
+        "0": "Get an HIV test — testing and treatment (ART) are free at government ART centres.",
+        "1": "Use condoms and never share needles, razors or syringes.",
+        "2": "If you've had a recent possible exposure, see a doctor within 72 hours about preventive medicine (PEP).",
+        "3": "If diagnosed, take treatment every day exactly as prescribed — it allows a long, healthy life."
+      },
+      "urgent": "High fever, breathlessness, severe weight loss or confusion."
+    },
+    "alcoholic_hepatitis": {
+      "precautions": {
+        "0": "Stop drinking alcohol completely — this is the most important step; ask your doctor for help with withdrawal.",
+        "1": "Eat regular, nutritious meals.",
+        "2": "Don't take painkillers or herbal remedies without a doctor's advice.",
+        "3": "Get liver tests done as your doctor advises."
+      },
+      "urgent": "Vomiting blood, black stools, confusion or extreme sleepiness, or a swollen belly."
+    },
+    "allergy": {
+      "precautions": {
+        "0": "Notice and avoid your triggers (dust, pollen, certain foods, pets).",
+        "1": "Keep your home dust-free; wash bedding in hot water weekly.",
+        "2": "Keep windows closed on high-pollen or dusty days.",
+        "3": "Carry your prescribed medicine if you have had severe reactions before."
+      },
+      "urgent": "Swelling of the lips, tongue or throat, difficulty breathing, or fainting — call 112."
+    },
+    "arthritis": {
+      "precautions": {
+        "0": "Stay active with gentle exercise like walking, swimming or yoga.",
+        "1": "Keep a healthy weight to reduce load on joints.",
+        "2": "Use warm compresses for stiffness.",
+        "3": "Don't take painkillers regularly without a doctor's advice."
+      },
+      "urgent": "A hot, red, very swollen joint with fever."
+    },
+    "asthma": {
+      "precautions": {
+        "0": "Always carry your inhaler and learn the correct technique.",
+        "1": "Avoid smoke, dust, strong smells and cold air; don't smoke.",
+        "2": "Take preventer medicine regularly if prescribed, even when you feel well.",
+        "3": "Get the yearly flu vaccine if your doctor advises."
+      },
+      "urgent": "Breathlessness that makes speaking hard, blue lips, or no relief from the inhaler — call 112."
+    },
+    "bppv": {
+      "precautions": {
+        "0": "Get up slowly from bed — sit for a minute before standing.",
+        "1": "Avoid sudden head movements and looking up for long.",
+        "2": "Sleep with your head slightly raised.",
+        "3": "Ask a doctor about repositioning exercises (for example, the Epley manoeuvre)."
+      },
+      "urgent": "Dizziness with severe headache, weakness, slurred speech, double vision or trouble walking — call 112."
+    },
+    "brain_hemorrhage": {
+      "precautions": {
+        "0": "This is an emergency: call 112 or go to the nearest hospital immediately.",
+        "1": "Note the time the symptoms started — it matters for treatment.",
+        "2": "Don't give food, drink or medicine by mouth.",
+        "3": "Keep the person lying on their side if they are drowsy or vomiting."
+      },
+      "urgent": "Any sudden weakness of one side, slurred speech, severe headache or loss of consciousness."
+    },
+    "cervical_spondylosis": {
+      "precautions": {
+        "0": "Keep a good posture; raise screens to eye level.",
+        "1": "Take breaks from phones and computers to stretch the neck.",
+        "2": "Use a firm, low pillow.",
+        "3": "Do neck exercises shown by a physiotherapist."
+      },
+      "urgent": "Weakness or numbness in the arms or legs, or loss of bladder or bowel control."
+    },
+    "chicken_pox": {
+      "precautions": {
+        "0": "Stay home until all the blisters have crusted (usually 5–7 days) to avoid infecting others.",
+        "1": "Don't scratch; keep nails short and use calamine lotion for itching.",
+        "2": "Drink plenty of fluids.",
+        "3": "Don't give aspirin to children. Keep away from pregnant women and newborns."
+      },
+      "urgent": "Breathlessness, a very high fever, drowsiness, or infected (red, painful, pus-filled) blisters."
+    },
+    "chronic_cholestasis": {
+      "precautions": {
+        "0": "See a liver specialist for tests to find the cause.",
+        "1": "Avoid alcohol.",
+        "2": "Eat a low-fat, balanced diet.",
+        "3": "Don't take herbal or over-the-counter medicines without a doctor's advice."
+      },
+      "urgent": "Fever with chills, severe belly pain, or confusion."
+    },
+    "common_cold": {
+      "precautions": {
+        "0": "Rest and drink plenty of warm fluids.",
+        "1": "Steam inhalation and salt-water gargles can ease symptoms.",
+        "2": "Wash hands often and cover coughs and sneezes.",
+        "3": "Antibiotics do not help a cold — don't take them without a prescription."
+      },
+      "urgent": "Breathlessness, fever above 3 days, or symptoms lasting more than 10 days."
+    },
+    "dengue": {
+      "precautions": {
+        "0": "Get a blood test (NS1 / platelet count) as advised by a doctor.",
+        "1": "Rest and drink plenty of fluids (ORS, coconut water, soups).",
+        "2": "Take only paracetamol for fever — avoid ibuprofen, aspirin and other painkillers.",
+        "3": "Prevent mosquito bites: nets, repellent, and no stagnant water near home."
+      },
+      "urgent": "Severe belly pain, repeated vomiting, bleeding gums or nose, black stools, or feeling very weak or drowsy — go to hospital."
+    },
+    "diabetes": {
+      "precautions": {
+        "0": "Check your blood sugar as your doctor advises.",
+        "1": "Eat regular, balanced meals; limit sugar, sweets and refined flour.",
+        "2": "Walk or exercise at least 30 minutes most days.",
+        "3": "Check your feet daily and get eyes and kidneys tested yearly."
+      },
+      "urgent": "Very high or very low sugar with confusion, vomiting or fast breathing."
+    },
+    "drug_reaction": {
+      "precautions": {
+        "0": "Stop the suspected medicine only after speaking to a doctor.",
+        "1": "Note the medicine's name and tell every doctor about it in future.",
+        "2": "Don't take any new medicine without a prescription.",
+        "3": "Use cool compresses for itching."
+      },
+      "urgent": "Swelling of the face or throat, breathing difficulty, or a rash with blisters or peeling skin — call 112."
+    },
+    "fungal_infection": {
+      "precautions": {
+        "0": "Keep the affected area clean and fully dry.",
+        "1": "Wear loose cotton clothes and change socks and innerwear daily.",
+        "2": "Don't share towels, combs or clothes.",
+        "3": "Don't use steroid creams without a doctor's advice — they make fungal infections worse."
+      },
+      "urgent": "Spreading infection, fever, or no improvement after 2 weeks."
+    },
+    "gastroenteritis": {
+      "precautions": {
+        "0": "Drink ORS frequently in small sips to prevent dehydration.",
+        "1": "Eat light food like rice, banana, curd or khichdi once you can.",
+        "2": "Wash hands with soap after using the toilet and before eating.",
+        "3": "Drink safe (boiled or filtered) water."
+      },
+      "urgent": "Blood in stools, no urine for 8 hours, severe weakness, or a child who is very drowsy."
+    },
+    "gerd": {
+      "precautions": {
+        "0": "Eat smaller meals and don't lie down within 2–3 hours of eating.",
+        "1": "Raise the head end of your bed.",
+        "2": "Limit spicy, oily food, tea/coffee and alcohol; stop smoking.",
+        "3": "Keep a healthy weight."
+      },
+      "urgent": "Chest pain (rule out a heart problem), difficulty swallowing, vomiting blood or black stools."
+    },
+    "heart_attack": {
+      "precautions": {
+        "0": "This is an emergency: call 112 or go to the nearest hospital immediately.",
+        "1": "Stop all activity and sit or lie down.",
+        "2": "Don't drive yourself to the hospital.",
+        "3": "If you're not allergic, chewing one regular aspirin may help — ask the emergency operator."
+      },
+      "urgent": "Chest pain or pressure, pain in the arm or jaw, sweating or breathlessness."
+    },
+    "hemorrhoids": {
+      "precautions": {
+        "0": "Eat high-fibre food (vegetables, fruits, whole grains) and drink plenty of water.",
+        "1": "Don't strain or sit on the toilet for long.",
+        "2": "Warm water sitz baths can ease pain.",
+        "3": "Stay active."
+      },
+      "urgent": "Heavy bleeding, or bleeding with dizziness or weakness."
+    },
+    "hepatitis_a": {
+      "precautions": {
+        "0": "Rest and eat light, nutritious food.",
+        "1": "Avoid alcohol and don't take painkillers without a doctor's advice.",
+        "2": "Drink only boiled or filtered water and wash hands well.",
+        "3": "Keep separate utensils and towels until recovery."
+      },
+      "urgent": "Confusion, extreme sleepiness, bleeding, or yellowing that keeps getting worse."
+    },
+    "hepatitis_b": {
+      "precautions": {
+        "0": "See a liver specialist for tests and follow-up — it can be managed with treatment.",
+        "1": "Avoid alcohol completely.",
+        "2": "Don't share razors, toothbrushes or needles; use condoms.",
+        "3": "Family members should get tested and vaccinated."
+      },
+      "urgent": "Confusion, vomiting blood, black stools, or a swollen belly."
+    },
+    "hepatitis_c": {
+      "precautions": {
+        "0": "See a liver specialist — hepatitis C can usually be cured with medicine.",
+        "1": "Avoid alcohol completely.",
+        "2": "Don't share needles, razors or toothbrushes.",
+        "3": "Get liver tests done as advised."
+      },
+      "urgent": "Confusion, vomiting blood, black stools, or a swollen belly."
+    },
+    "hepatitis_d": {
+      "precautions": {
+        "0": "See a liver specialist for tests and treatment.",
+        "1": "Avoid alcohol completely.",
+        "2": "Don't share needles, razors or toothbrushes; use condoms.",
+        "3": "Hepatitis B vaccination protects family members from hepatitis D too."
+      },
+      "urgent": "Confusion, vomiting blood, black stools, or a swollen belly."
+    },
+    "hepatitis_e": {
+      "precautions": {
+        "0": "Rest and drink plenty of safe fluids.",
+        "1": "Drink only boiled or filtered water; avoid street food during recovery.",
+        "2": "Avoid alcohol and painkillers without a doctor's advice.",
+        "3": "Pregnant women need urgent medical care — hepatitis E can be serious in pregnancy."
+      },
+      "urgent": "Confusion, bleeding, or any symptoms during pregnancy."
+    },
+    "hypertension": {
+      "precautions": {
+        "0": "Check your blood pressure regularly.",
+        "1": "Reduce salt, pickles, papad and packaged foods.",
+        "2": "Exercise at least 30 minutes most days and keep a healthy weight.",
+        "3": "Don't stop prescribed medicine on your own, even if you feel fine."
+      },
+      "urgent": "Severe headache, chest pain, breathlessness, blurred vision or weakness on one side — call 112."
+    },
+    "hyperthyroidism": {
+      "precautions": {
+        "0": "Get thyroid blood tests and see an endocrinologist.",
+        "1": "Limit tea, coffee and other stimulants.",
+        "2": "Take medicine regularly as prescribed and get follow-up tests.",
+        "3": "Eat enough to keep your weight stable."
+      },
+      "urgent": "Very fast or irregular heartbeat, high fever, confusion or fainting."
+    },
+    "hypoglycemia": {
+      "precautions": {
+        "0": "If conscious, immediately take 15 g of fast sugar (3 teaspoons of sugar or glucose in water, or a glass of fruit juice), then recheck in 15 minutes.",
+        "1": "Then eat a proper snack or meal.",
+        "2": "If you take diabetes medicine, carry sugar or glucose with you at all times.",
+        "3": "Don't skip meals or exercise heavily on an empty stomach."
+      },
+      "urgent": "Unconsciousness, seizures, or inability to swallow — call 112; don't give food by mouth."
+    },
+    "hypothyroidism": {
+      "precautions": {
+        "0": "Get thyroid blood tests and see an endocrinologist.",
+        "1": "Take thyroid medicine on an empty stomach every morning, as prescribed.",
+        "2": "Get thyroid levels checked as advised.",
+        "3": "Stay active and eat a balanced diet."
+      },
+      "urgent": "Extreme sleepiness, confusion or very slow heartbeat."
+    },
+    "impetigo": {
+      "precautions": {
+        "0": "Gently wash the sores with soap and water and keep them covered.",
+        "1": "Don't scratch; keep nails short.",
+        "2": "Don't share towels or clothes; wash them in hot water.",
+        "3": "Keep children home until a doctor says they're no longer contagious."
+      },
+      "urgent": "Fever, spreading redness, or sores that don't improve with treatment."
+    },
+    "jaundice": {
+      "precautions": {
+        "0": "Get blood tests to find the cause — jaundice is a sign, not a disease.",
+        "1": "Rest, drink plenty of safe water and eat light food.",
+        "2": "Avoid alcohol and don't take herbal or local remedies without a doctor.",
+        "3": "Don't take painkillers without a doctor's advice."
+      },
+      "urgent": "Confusion, extreme sleepiness, bleeding, severe belly pain, or in a newborn baby."
+    },
+    "malaria": {
+      "precautions": {
+        "0": "Get a blood test for malaria the same day — treatment works best when started early.",
+        "1": "Complete the full course of medicine prescribed.",
+        "2": "Prevent mosquito bites: nets, repellent, full-sleeve clothes.",
+        "3": "Remove stagnant water near your home."
+      },
+      "urgent": "Confusion, fits, very high fever, breathing difficulty, or dark urine — go to hospital."
+    },
+    "migraine": {
+      "precautions": {
+        "0": "Keep a headache diary to find your triggers (lack of sleep, skipped meals, stress, bright light).",
+        "1": "Sleep and eat at regular times; drink enough water.",
+        "2": "Rest in a dark, quiet room during an attack.",
+        "3": "Don't use painkillers more than 2–3 days a week without a doctor's advice."
+      },
+      "urgent": "The worst headache of your life, sudden headache with weakness, confusion or fever — call 112."
+    },
+    "osteoarthritis": {
+      "precautions": {
+        "0": "Do regular low-impact exercise like walking or cycling.",
+        "1": "Keep a healthy weight.",
+        "2": "Use supportive footwear and a walking stick if needed.",
+        "3": "Physiotherapy exercises help strengthen muscles around the joint."
+      },
+      "urgent": "A suddenly swollen, hot joint or inability to bear weight."
+    },
+    "peptic_ulcer": {
+      "precautions": {
+        "0": "Eat regular meals; avoid spicy food, alcohol and smoking.",
+        "1": "Avoid painkillers like ibuprofen or aspirin unless a doctor says so.",
+        "2": "Get tested for H. pylori infection as advised.",
+        "3": "Complete the full course of medicine prescribed."
+      },
+      "urgent": "Vomiting blood, black stools, or sudden severe belly pain — go to hospital."
+    },
+    "pneumonia": {
+      "precautions": {
+        "0": "See a doctor soon — pneumonia often needs prescribed antibiotics and a chest X-ray.",
+        "1": "Rest and drink plenty of fluids.",
+        "2": "Complete the full course of medicine.",
+        "3": "Older adults and those with long-term illness can ask about pneumonia and flu vaccines."
+      },
+      "urgent": "Breathlessness, chest pain, confusion, or blue lips — go to hospital."
+    },
+    "psoriasis": {
+      "precautions": {
+        "0": "Moisturise your skin daily.",
+        "1": "Avoid skin injuries, very hot water and harsh soaps.",
+        "2": "Manage stress; avoid smoking and alcohol.",
+        "3": "Use medicines only as prescribed by a dermatologist."
+      },
+      "urgent": "Widespread redness of the skin, fever, or painful swollen joints."
+    },
+    "tuberculosis": {
+      "precautions": {
+        "0": "Get a sputum test — testing and treatment are free under the national TB programme.",
+        "1": "Take the full course of medicine (at least 6 months) without missing doses.",
+        "2": "Cover your mouth when coughing and keep rooms well ventilated.",
+        "3": "Eat nutritious food; avoid smoking and alcohol."
+      },
+      "urgent": "Coughing up blood, breathlessness or chest pain."
+    },
+    "typhoid": {
+      "precautions": {
+        "0": "See a doctor for a blood test and the right antibiotics.",
+        "1": "Complete the full course of medicine, even if you feel better.",
+        "2": "Drink only boiled or filtered water; eat freshly cooked food.",
+        "3": "Wash hands with soap before eating and after the toilet."
+      },
+      "urgent": "Severe belly pain, blood in stools, confusion, or fever lasting more than a week."
+    },
+    "uti": {
+      "precautions": {
+        "0": "Drink plenty of water.",
+        "1": "Don't hold urine for long.",
+        "2": "Keep the genital area clean; wipe front to back.",
+        "3": "See a doctor for a urine test — UTIs usually need prescribed antibiotics."
+      },
+      "urgent": "Fever with back pain, vomiting, or blood in urine; any UTI during pregnancy."
+    },
+    "varicose_veins": {
+      "precautions": {
+        "0": "Avoid standing or sitting for long periods; take short walks.",
+        "1": "Raise your legs when resting.",
+        "2": "Compression stockings can help — ask a doctor which kind.",
+        "3": "Exercise regularly and keep a healthy weight."
+      },
+      "urgent": "A painful, swollen, red or warm leg (possible clot), or bleeding from a vein."
+    }
+  },
+  "shell": {
+    "tools": "Health tools",
+    "records": "My records",
+    "emergency": "Emergency"
+  }
+}

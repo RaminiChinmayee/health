@@ -1,0 +1,383 @@
+{
+  "key": "parkinsons",
+  "version": "1.0.0",
+  "title": "Parkinson's disease voice screening",
+  "task": "binary_classification",
+  "positive_label": "Parkinson's disease (clinically diagnosed)",
+  "trained_at": "2026-11-21T06:42:26+00:00",
+  "algorithm": "logistic_regression",
+  "calibration": "Platt scaling (sigmoid), 5-fold, fit on development data",
+  "features": [
+    {
+      "name": "fo_mean",
+      "kind": "number",
+      "required": true,
+      "min": 60,
+      "max": 300,
+      "step": 0.01,
+      "unit": "Hz"
+    },
+    {
+      "name": "fo_max",
+      "kind": "number",
+      "required": true,
+      "min": 80,
+      "max": 600,
+      "step": 0.01,
+      "unit": "Hz"
+    },
+    {
+      "name": "fo_min",
+      "kind": "number",
+      "required": true,
+      "min": 50,
+      "max": 250,
+      "step": 0.01,
+      "unit": "Hz"
+    },
+    {
+      "name": "jitter_pct",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.05,
+      "step": 0.0
+    },
+    {
+      "name": "jitter_abs",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.0005,
+      "step": 0.0,
+      "unit": "s"
+    },
+    {
+      "name": "jitter_rap",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.03,
+      "step": 0.0
+    },
+    {
+      "name": "jitter_ppq5",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.03,
+      "step": 0.0
+    },
+    {
+      "name": "jitter_ddp",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.08,
+      "step": 0.0
+    },
+    {
+      "name": "shimmer",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.15,
+      "step": 0.0
+    },
+    {
+      "name": "shimmer_db",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 1.5,
+      "step": 0.001,
+      "unit": "dB"
+    },
+    {
+      "name": "shimmer_apq3",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.08,
+      "step": 0.0
+    },
+    {
+      "name": "shimmer_apq5",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.1,
+      "step": 0.0
+    },
+    {
+      "name": "shimmer_apq11",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.15,
+      "step": 0.0
+    },
+    {
+      "name": "shimmer_dda",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.2,
+      "step": 0.0
+    },
+    {
+      "name": "nhr",
+      "kind": "number",
+      "required": true,
+      "min": 0,
+      "max": 0.4,
+      "step": 0.0
+    },
+    {
+      "name": "hnr",
+      "kind": "number",
+      "required": true,
+      "min": 5,
+      "max": 40,
+      "step": 0.001,
+      "unit": "dB"
+    }
+  ],
+  "reference_values": {
+    "fo_mean": 153.447,
+    "fo_max": 197.481,
+    "fo_min": 98.0955,
+    "jitter_pct": 0.005,
+    "jitter_abs": 0.0,
+    "jitter_rap": 0.0026,
+    "jitter_ppq5": 0.0028,
+    "jitter_ddp": 0.0077,
+    "shimmer": 0.0229,
+    "shimmer_db": 0.216,
+    "shimmer_apq3": 0.0128,
+    "shimmer_apq5": 0.0135,
+    "shimmer_apq11": 0.0178,
+    "shimmer_dda": 0.0383,
+    "nhr": 0.0131,
+    "hnr": 21.837
+  },
+  "dataset": {
+    "name": "UCI Parkinsons (Oxford Parkinson's Disease Detection Dataset)",
+    "source": "https://archive.ics.uci.edu/dataset/174/parkinsons",
+    "citation": "Little MA, McSharry PE, Roberts SJ, Costello DAE, Moroz IM. Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. BioMedical Engineering OnLine 2007;6:23. doi:10.24432/C59C74",
+    "license": "CC BY 4.0",
+    "population": "195 sustained-vowel recordings from 32 people (23 with Parkinson's, 8 without), UK",
+    "files": {
+      "parkinsons.zip": "9baccfbcdac15d6d9347b37c2a352fb31d65c52e367df5a47d7543a55c75b0ab"
+    },
+    "rows_after_dedup": 195,
+    "duplicates_removed": 0
+  },
+  "evaluation": {
+    "protocol": "subject-level split: 24 subjects for development, 8 different subjects for testing",
+    "dev_rows": 146,
+    "test_rows": 49,
+    "model_selection_cv": {
+      "logistic_regression": {
+        "cv_roc_auc": 0.9018,
+        "best_params": {
+          "clf__C": 0.01
+        }
+      },
+      "random_forest": {
+        "cv_roc_auc": 0.7552,
+        "best_params": {
+          "clf__max_depth": 3,
+          "clf__min_samples_leaf": 5
+        }
+      },
+      "gradient_boosting": {
+        "cv_roc_auc": 0.82,
+        "best_params": {
+          "clf__learning_rate": 0.03,
+          "clf__max_depth": 3,
+          "clf__max_iter": 100
+        }
+      }
+    },
+    "test": {
+      "n": 49,
+      "positives": 37,
+      "accuracy": 0.6939,
+      "precision": 0.7391,
+      "recall_sensitivity": 0.9189,
+      "specificity": 0.0,
+      "f1": 0.8193,
+      "roc_auc": 0.6937,
+      "pr_auc": 0.911,
+      "brier": 0.1885,
+      "confusion_matrix": {
+        "tn": 0,
+        "fp": 12,
+        "fn": 3,
+        "tp": 34
+      },
+      "threshold": 0.5,
+      "ci95": {
+        "accuracy": [
+          0.551,
+          0.8163
+        ],
+        "roc_auc": [
+          0.543,
+          0.8417
+        ],
+        "recall_sensitivity": [
+          0.8286,
+          1.0
+        ],
+        "specificity": [
+          0.0,
+          0.0
+        ]
+      },
+      "calibration": [
+        {
+          "mean_predicted": 0.5452,
+          "observed_rate": 0.9
+        },
+        {
+          "mean_predicted": 0.7411,
+          "observed_rate": 0.3
+        },
+        {
+          "mean_predicted": 0.8436,
+          "observed_rate": 0.5556
+        },
+        {
+          "mean_predicted": 0.9316,
+          "observed_rate": 1.0
+        },
+        {
+          "mean_predicted": 0.9761,
+          "observed_rate": 1.0
+        }
+      ]
+    },
+    "cross_validation_all_data": {
+      "accuracy": {
+        "mean": 0.7142,
+        "std": 0.2069
+      },
+      "roc_auc": {
+        "mean": 0.7875,
+        "std": 0.2641
+      },
+      "recall_sensitivity": {
+        "mean": 0.902,
+        "std": 0.1407
+      },
+      "specificity": {
+        "mean": 0.2333,
+        "std": 0.3887
+      },
+      "f1": {
+        "mean": 0.8154,
+        "std": 0.1449
+      }
+    },
+    "external_validation": {},
+    "permutation_importance_test": [
+      {
+        "feature": "shimmer_apq11",
+        "importance": 0.0191,
+        "std": 0.0337
+      },
+      {
+        "feature": "fo_max",
+        "importance": 0.0157,
+        "std": 0.0103
+      },
+      {
+        "feature": "shimmer_apq5",
+        "importance": 0.0135,
+        "std": 0.014
+      },
+      {
+        "feature": "shimmer",
+        "importance": 0.0119,
+        "std": 0.0155
+      },
+      {
+        "feature": "shimmer_db",
+        "importance": 0.0102,
+        "std": 0.018
+      },
+      {
+        "feature": "shimmer_apq3",
+        "importance": 0.0089,
+        "std": 0.0111
+      },
+      {
+        "feature": "shimmer_dda",
+        "importance": 0.0089,
+        "std": 0.0111
+      },
+      {
+        "feature": "hnr",
+        "importance": 0.0054,
+        "std": 0.0113
+      },
+      {
+        "feature": "jitter_rap",
+        "importance": 0.0025,
+        "std": 0.0087
+      },
+      {
+        "feature": "jitter_ddp",
+        "importance": 0.0025,
+        "std": 0.0087
+      },
+      {
+        "feature": "jitter_ppq5",
+        "importance": 0.0019,
+        "std": 0.0168
+      },
+      {
+        "feature": "jitter_pct",
+        "importance": -0.0005,
+        "std": 0.0129
+      },
+      {
+        "feature": "nhr",
+        "importance": -0.0009,
+        "std": 0.0013
+      },
+      {
+        "feature": "jitter_abs",
+        "importance": -0.0083,
+        "std": 0.0147
+      },
+      {
+        "feature": "fo_min",
+        "importance": -0.0389,
+        "std": 0.0112
+      },
+      {
+        "feature": "fo_mean",
+        "importance": -0.0542,
+        "std": 0.0135
+      }
+    ]
+  },
+  "limitations": [
+    "Very small study: 31 people in total, only 8 without Parkinson's. Test results come from a handful of people and have wide uncertainty.",
+    "Voice measures depend strongly on the microphone, room, and recording software. Values measured differently from the original study (high-quality microphone in a sound-treated booth) may give unreliable results.",
+    "Other conditions (colds, laryngitis, other neurological or voice disorders, smoking) also change these measures; the model was not trained to tell them apart.",
+    "This is a research-grade screening model and cannot diagnose Parkinson's disease, which requires clinical examination by a neurologist."
+  ],
+  "notes": [
+    "Only the 16 Praat-derived measures were used; the nonlinear measures in the original dataset (RPDE, DFA, PPE, spread1/2, D2) were excluded because users can't obtain them from standard voice reports."
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "sklearn": "1.9.1"
+  },
+  "deployable": false,
+  "rejection_reason": "Subject-level evaluation: 0% specificity on held-out healthy subjects (31-person dataset). Superseded by v2.0.0."
+}
